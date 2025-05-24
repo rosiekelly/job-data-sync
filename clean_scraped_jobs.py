@@ -2,7 +2,8 @@ import requests
 import json
 
 # CONFIG
-API_KEY = "YOUR_API_KEY_HERE"
+import os
+API_KEY = os.environ["WS_API_KEY"]
 SITEMAP_ID = "YOUR_SITEMAP_ID_HERE"
 
 headers = {"Authorization": f"Token {API_KEY}"}
