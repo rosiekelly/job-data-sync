@@ -48,3 +48,15 @@ with open("cleaned_jobs.json", "w", encoding="utf-8") as f:
     json.dump(cleaned_jobs, f, indent=2)
 
 print(f"✅ Cleaned and saved {len(cleaned_jobs)} jobs to cleaned_jobs.json")
+# Convert JSON to DataFrame and save as CSV
+import pandas as pd
+
+df = pd.DataFrame(cleaned_jobs)
+
+# Optional: Clean column names if needed
+df.columns = [col.lower().strip().replace(" ", "_") for col in df.columns]
+
+# Save as CSV
+df.to_csv("cleaned_jobs.csv", index=False)
+print(f"✅ Also saved cleaned jobs to cleaned_jobs.csv")
+
