@@ -1,1 +1,5 @@
 requests
+gspread
+oauth2client
+pandas
+
