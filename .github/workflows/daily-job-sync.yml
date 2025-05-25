@@ -19,15 +19,10 @@ jobs:
       - name: Install requirements
         run: pip install -r requirements.txt
 
+      - name: Write GSheets credentials
+        run: echo '${{ secrets.GSHEETS_CREDS_JSON }}' > creds.json
+
       - name: Run script
         env:
           WS_API_KEY: ${{ secrets.WS_API_KEY }}
         run: python clean_scraped_jobs.py
-            - name: Write GSheets credentials
-      run: echo '${{ secrets.GSHEETS_CREDS_JSON }}' > creds.json
-
-    - name: Run script
-      env:
-        WS_API_KEY: ${{ secrets.WS_API_KEY }}
-      run: python clean_scraped_jobs.py
-
