@@ -59,4 +59,20 @@ df.columns = [col.lower().strip().replace(" ", "_") for col in df.columns]
 # Save as CSV
 df.to_csv("cleaned_jobs.csv", index=False)
 print(f"✅ Also saved cleaned jobs to cleaned_jobs.csv")
+import gspread
+from oauth2client.service_account import ServiceAccountCredentials
+import json
+
+# Step 1: Authenticate to Google Sheets
+scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
+creds = json.loads(open("creds.json").read())  # creds.json will be created by GitHub Action
+credentials = ServiceAccountCredentials.from_json_keyfile_dict(creds, scope)
+client = gspread.authorize(credentials)
+
+# Step 2: Open your spreadsheet and upload the cleaned data
+sheet = client.open("Job Sync Output").sheet1
+sheet.clear()  # remove old rows
+sheet.update([df.columns.tolist()] + df.values.tolist())  # upload the new data
+
+print("✅ Cleaned jobs uploaded to Google Sheets")
 
