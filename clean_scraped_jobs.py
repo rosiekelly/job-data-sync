@@ -1,4 +1,3 @@
-
 import requests
 import json
 import os
@@ -18,10 +17,10 @@ SITEMAPS = {
     "30886695": "capgemini-grads",
     "30886692": "DEUTSCHE-BANK-GRADS",
     "30886694": "deloitte-grads"
-    # add more as needed
+    # Add more sitemap_id: tab_name pairs as needed
 }
 
-GSHEET_NAME = "Job Sync Output"  # Make sure this matches your Google Sheet name
+GSHEET_NAME = "Job Sync Output"  # Make sure this matches your actual Google Sheet title
 
 # Authenticate Google Sheets
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
@@ -33,20 +32,18 @@ sheet = client.open(GSHEET_NAME)
 def clean_job_data(raw_jobs, company_name):
     cleaned = []
     for job in raw_jobs:
-        title = job.get("job_title", "").strip() or "No Title"
-        location = job.get("job_location", "").strip() or "Unknown"
-        job_url = job.get("apply_link", "").strip()
+        title = job.get("role-title", "").strip() or "No Title"
+        location = job.get("role-location", "").strip() or "Unknown"
+        job_url = job.get("apply-button-href", "").strip()
         salary = job.get("salary", "").strip() or "Undisclosed"
-        status_text = job.get("status", "").strip().lower()
-        closed = any(kw in status_text for kw in ["closed", "applications closed", "roles opening", "opening in"])
-        status = "Closed" if closed else "Open"
+        status = "Open"  # No field provided — default to Open
         cleaned.append({
             "title": title,
             "location": location,
             "url": job_url,
             "salary": salary,
-            "status": status,
-            "company": company_name
+            "company": company_name,
+            "status": status
         })
     return cleaned
 
@@ -82,5 +79,3 @@ with open("cleaned_jobs.json", "w", encoding="utf-8") as f:
     json.dump(all_cleaned, f, indent=2)
 pd.DataFrame(all_cleaned).to_csv("cleaned_jobs.csv", index=False)
 print(f"📁 Done! Total jobs across all sitemaps: {len(all_cleaned)}")
-
-
