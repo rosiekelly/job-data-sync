@@ -1,78 +1,86 @@
+
 import requests
 import json
-
-# CONFIG
 import os
-API_KEY = os.environ["WS_API_KEY"]
-SITEMAP_ID = "YOUR_SITEMAP_ID_HERE"
-
-headers = {"Authorization": f"Token {API_KEY}"}
-url = f"https://api.webscraper.io/api/v1/sitemap/{SITEMAP_ID}/data"
-
-response = requests.get(url, headers=headers)
-raw_jobs = response.json().get('data', [])
-
-cleaned_jobs = []
-
-for job in raw_jobs:
-    title = job.get('job_title', '').strip() or 'No Title'
-    location = job.get('job_location', '').strip() or 'Unknown'
-    job_url = job.get('apply_link', '').strip()
-    salary = job.get('salary', '').strip() or 'Undisclosed'
-
-    # Company name from URL
-    if "ey.com" in job_url:
-        company = "EY"
-    elif "amazon.jobs" in job_url:
-        company = "Amazon"
-    elif "brightnetwork" in job_url:
-        company = "Bright Network"
-    else:
-        company = "Unknown"
-
-    # Status logic
-    status_text = job.get('status', '').strip().lower()
-    closed_indicators = ["closed", "applications closed", "roles opening", "opens", "opening in", "applications open in"]
-    status = "Closed" if any(phrase in status_text for phrase in closed_indicators) else "Open"
-
-    cleaned_jobs.append({
-        "title": title,
-        "location": location,
-        "url": job_url,
-        "salary": salary,
-        "company": company,
-        "status": status
-    })
-
-with open("cleaned_jobs.json", "w", encoding="utf-8") as f:
-    json.dump(cleaned_jobs, f, indent=2)
-
-print(f"✅ Cleaned and saved {len(cleaned_jobs)} jobs to cleaned_jobs.json")
-# Convert JSON to DataFrame and save as CSV
-import pandas as pd
-
-df = pd.DataFrame(cleaned_jobs)
-
-# Optional: Clean column names if needed
-df.columns = [col.lower().strip().replace(" ", "_") for col in df.columns]
-
-# Save as CSV
-df.to_csv("cleaned_jobs.csv", index=False)
-print(f"✅ Also saved cleaned jobs to cleaned_jobs.csv")
 import gspread
+import pandas as pd
 from oauth2client.service_account import ServiceAccountCredentials
-import json
 
-# Step 1: Authenticate to Google Sheets
+# ----------------- CONFIG -------------------
+API_KEY = os.environ["WS_API_KEY"]
+
+# Add your sitemap IDs and corresponding sheet tab names here
+SITEMAPS = {
+    "30886869": "aldi-grads",
+    "30886890": "amazon-grads",
+    "30886700": "BAE-systems",
+    "30804873": "Barclays-grads",
+    "30886695": "capgemini-grads",
+    "30886692": "DEUTSCHE-BANK-GRADS",
+    "30886694": "deloitte-grads"
+    # add more as needed
+}
+
+GSHEET_NAME = "Job Sync Output"  # Make sure this matches your Google Sheet name
+
+# Authenticate Google Sheets
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-creds = json.loads(open("creds.json").read())  # creds.json will be created by GitHub Action
-credentials = ServiceAccountCredentials.from_json_keyfile_dict(creds, scope)
-client = gspread.authorize(credentials)
+creds = ServiceAccountCredentials.from_json_keyfile_name("creds.json", scope)
+client = gspread.authorize(creds)
+sheet = client.open(GSHEET_NAME)
 
-# Step 2: Open your spreadsheet and upload the cleaned data
-sheet = client.open("Job Sync Output").sheet1
-sheet.clear()  # remove old rows
-sheet.update([df.columns.tolist()] + df.values.tolist())  # upload the new data
+# ----------------- HELPER FUNCTION -------------------
+def clean_job_data(raw_jobs, company_name):
+    cleaned = []
+    for job in raw_jobs:
+        title = job.get("job_title", "").strip() or "No Title"
+        location = job.get("job_location", "").strip() or "Unknown"
+        job_url = job.get("apply_link", "").strip()
+        salary = job.get("salary", "").strip() or "Undisclosed"
+        status_text = job.get("status", "").strip().lower()
+        closed = any(kw in status_text for kw in ["closed", "applications closed", "roles opening", "opening in"])
+        status = "Closed" if closed else "Open"
+        cleaned.append({
+            "title": title,
+            "location": location,
+            "url": job_url,
+            "salary": salary,
+            "status": status,
+            "company": company_name
+        })
+    return cleaned
 
-print("✅ Cleaned jobs uploaded to Google Sheets")
+# ----------------- MAIN LOOP -------------------
+all_cleaned = []
+
+for sitemap_id, sheet_name in SITEMAPS.items():
+    print(f"📡 Fetching sitemap: {sheet_name} ({sitemap_id})")
+    url = f"https://api.webscraper.io/api/v1/sitemap/{sitemap_id}/data"
+    headers = {"Authorization": f"Token {API_KEY}"}
+    response = requests.get(url, headers=headers)
+    raw_jobs = response.json().get("data", [])
+    print(f"   ↳ Pulled {len(raw_jobs)} jobs")
+
+    cleaned_jobs = clean_job_data(raw_jobs, sheet_name.replace("-grads", "").upper())
+    all_cleaned.extend(cleaned_jobs)
+
+    # Write to individual tab
+    if cleaned_jobs:
+        df = pd.DataFrame(cleaned_jobs)
+        try:
+            worksheet = sheet.worksheet(sheet_name)
+            worksheet.clear()
+        except gspread.exceptions.WorksheetNotFound:
+            worksheet = sheet.add_worksheet(title=sheet_name, rows="100", cols="10")
+        worksheet.update([df.columns.values.tolist()] + df.values.tolist())
+        print(f"   ✅ Uploaded {len(df)} jobs to tab: {sheet_name}")
+    else:
+        print(f"   ⚠️ No jobs to upload for {sheet_name}")
+
+# Optionally write everything to local file
+with open("cleaned_jobs.json", "w", encoding="utf-8") as f:
+    json.dump(all_cleaned, f, indent=2)
+pd.DataFrame(all_cleaned).to_csv("cleaned_jobs.csv", index=False)
+print(f"📁 Done! Total jobs across all sitemaps: {len(all_cleaned)}")
+
 
