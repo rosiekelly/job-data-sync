@@ -5,21 +5,22 @@ import gspread
 import pandas as pd
 from oauth2client.service_account import ServiceAccountCredentials
 
-# ----------------- CONFIG -------------------
+# ============== CONFIG ==============
 API_KEY = os.environ["WS_API_KEY"]
 
-# Add your sitemap IDs and corresponding sheet tab names here
+# Add your Web Scraper JOB IDs (not sitemap IDs!) and the corresponding tab names:
 SITEMAPS = {
     "30912566": "aldi-grads",
     "30912567": "amazon-grads",
     "30912574": "BAE-systems",
-    # Add more as needed...
-}
-
-    # Add more sitemap_id: tab_name pairs as needed
+    "30804873": "Barclays-grads",
+    "30886695": "capgemini-grads",
+    "30886692": "DEUTSCHE-BANK-GRADS",
+    "30886694": "deloitte-grads"
 }
 
 GSHEET_NAME = "Job Sync Output"  # Make sure this matches your actual Google Sheet title
+
 
 # Authenticate Google Sheets
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
