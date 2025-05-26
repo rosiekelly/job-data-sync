@@ -10,13 +10,12 @@ API_KEY = os.environ["WS_API_KEY"]
 
 # Add your sitemap IDs and corresponding sheet tab names here
 SITEMAPS = {
-    "30886869": "aldi-grads",
-    "30886890": "amazon-grads",
-    "30886700": "BAE-systems",
-    "30804873": "Barclays-grads",
-    "30886695": "capgemini-grads",
-    "30886692": "DEUTSCHE-BANK-GRADS",
-    "30886694": "deloitte-grads"
+    "30912566": "aldi-grads",
+    "30912567": "amazon-grads",
+    "30912574": "BAE-systems",
+    # Add more as needed...
+}
+
     # Add more sitemap_id: tab_name pairs as needed
 }
 
