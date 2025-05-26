@@ -35,8 +35,9 @@ def clean_job_data(raw_jobs, company_name):
         title = job.get("role-title", "").strip() or "No Title"
         location = job.get("role-location", "").strip() or "Unknown"
         job_url = job.get("apply-button-href", "").strip()
-        salary = job.get("salary", "").strip() or "Undisclosed"
-        status = "Open"  # No field provided — default to Open
+        salary = job.get("role-salary", "").strip() or "Undisclosed"
+        status = job.get("role-status", "").strip() or "Open"
+
         cleaned.append({
             "title": title,
             "location": location,
