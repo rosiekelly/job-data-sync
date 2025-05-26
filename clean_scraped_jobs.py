@@ -52,7 +52,7 @@ all_cleaned = []
 
 for sitemap_id, sheet_name in SITEMAPS.items():
     print(f"📡 Fetching sitemap: {sheet_name} ({sitemap_id})")
-    url = f"https://api.webscraper.io/api/v1/sitemap/{sitemap_id}/data"
+    url = f"https://api.webscraper.io/api/v1/job/{sitemap_id}/data"
     headers = {"Authorization": f"Token {API_KEY}"}
     response = requests.get(url, headers=headers)
     raw_jobs = response.json().get("data", [])
