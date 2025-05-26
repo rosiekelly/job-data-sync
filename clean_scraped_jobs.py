@@ -63,6 +63,7 @@ for sitemap_id, sheet_name in SITEMAPS.items():
     all_cleaned.extend(cleaned_jobs)
 
     # Write to individual tab
+    print(f"🔍 Cleaned jobs for {sheet_name}: {cleaned_jobs}")
     if cleaned_jobs:
         df = pd.DataFrame(cleaned_jobs)
         try:
