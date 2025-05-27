@@ -10,10 +10,11 @@ API_KEY = os.environ["WS_API_KEY"]
 
 # Add your Web Scraper JOB IDs (not sitemap IDs!) and the corresponding tab names:
 SITEMAPS = {
-    "1315385": "aldi-grads",
-    "1315387": "BAE-systems",
-    "1315378": "Barclays-grads",
-    "1315393": "deloitte-grads"
+    "30912574": "BAE-systems",
+    "30912567": "amazon-grads",
+    "30912566": "aldi-grads",
+    "30886695": "capgemini-grads",
+    "30886694": "deloitte-grads"
 }
 
 GSHEET_NAME = "Job Sync Output"  # Make sure this matches your actual Google Sheet title
