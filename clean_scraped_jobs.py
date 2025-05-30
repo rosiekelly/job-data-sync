@@ -52,7 +52,20 @@ all_cleaned = []
 
 for sitemap_id, sheet_name in SITEMAPS.items():
     print(f"📡 Fetching sitemap: {sheet_name} ({sitemap_id})")
-    url = f"https://api.webscraper.io/api/v1/job/{sitemap_id}/data"
+    # Get latest job ID from sitemap
+jobs_url = f"https://api.webscraper.io/api/v1/sitemap/{sitemap_id}/jobs"
+jobs_resp = requests.get(jobs_url, headers=headers).json()
+
+if jobs_resp.get("jobs"):
+    latest_job_id = jobs_resp["jobs"][0]["id"]
+    print(f"✅ Latest job ID for {sheet_name}: {latest_job_id}")
+    data_url = f"https://api.webscraper.io/api/v1/job/{latest_job_id}/data"
+    data_resp = requests.get(data_url, headers=headers)
+    raw_jobs = data_resp.json().get("data", [])
+else:
+    print(f"⚠️ No jobs found for sitemap: {sheet_name}")
+    raw_jobs = []
+
     headers = {"Authorization": f"Token {API_KEY}"}
     response = requests.get(url, headers=headers)
     raw_jobs = response.json().get("data", [])
