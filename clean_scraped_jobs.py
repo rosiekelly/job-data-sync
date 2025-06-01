@@ -6,7 +6,7 @@ import pandas as pd
 from oauth2client.service_account import ServiceAccountCredentials
 
 # ============ CONFIG =============
-API_KEY = os.environ["WS_API_KEY"]
+API_KEY = os.environ["WS_API_KEY"].strip()
 
 SITEMAPS = {
     "1315385": "aldi-grads",
