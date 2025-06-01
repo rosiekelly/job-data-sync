@@ -1,12 +1,12 @@
 import requests
 import json
 import os
+import time
 import gspread
 import pandas as pd
 from oauth2client.service_account import ServiceAccountCredentials
 
-# ============ CONFIG ============
-
+# ============ CONFIG =============
 API_KEY = os.environ["WS_API_KEY"]
 
 SITEMAPS = {
@@ -21,17 +21,13 @@ SITEMAPS = {
 
 GSHEET_NAME = "Job Sync Output"
 
-# Authenticate Google Sheets
-scope = [
-    "https://spreadsheets.google.com/feeds",
-    "https://www.googleapis.com/auth/drive"
-]
+# ============ Google Sheets Auth ============
+scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
 creds = ServiceAccountCredentials.from_json_keyfile_name("creds.json", scope)
 client = gspread.authorize(creds)
 sheet = client.open(GSHEET_NAME)
 
-# ============ HELPER FUNCTION ============
-
+# ============ Helper Function ============
 def clean_job_data(raw_jobs, company_name):
     cleaned = []
     for job in raw_jobs:
@@ -40,7 +36,6 @@ def clean_job_data(raw_jobs, company_name):
         job_url = job.get("apply-button-href", "").strip()
         salary = job.get("role-salary", "").strip() or "Undisclosed"
         status = job.get("role-status", "Open").strip() or "Open"
-
         cleaned.append({
             "title": title,
             "location": location,
@@ -51,39 +46,46 @@ def clean_job_data(raw_jobs, company_name):
         })
     return cleaned
 
-# ============ MAIN LOOP ============
-
+# ============ Main Loop ============
 all_cleaned = []
 
-headers = {"Authorization": f"Token {API_KEY}"}
-
 for sitemap_id, sheet_name in SITEMAPS.items():
-    print(f"🛰️ Fetching sitemap: {sheet_name} ({sitemap_id})")
+    print(f"🚀 Starting scrape for {sheet_name} ({sitemap_id})")
 
-    # Get latest job ID for the sitemap
+    # Start scrape job
+    start_url = f"https://api.webscraper.io/api/v1/sitemap/{sitemap_id}/start"
+    headers = {"Authorization": f"Token {API_KEY}"}
+    start_resp = requests.post(start_url, headers=headers)
+
+    if start_resp.status_code != 200:
+        print(f"❌ Failed to start scrape for {sheet_name}: {start_resp.text}")
+        continue
+
+    print("⏳ Waiting 30 seconds for scrape to complete...")
+    time.sleep(30)
+
+    # Get latest job ID
     jobs_url = f"https://api.webscraper.io/api/v1/sitemap/{sitemap_id}/jobs"
     jobs_resp = requests.get(jobs_url, headers=headers).json()
-
-    if jobs_resp.get("jobs"):
-        latest_job_id = jobs_resp["jobs"][0]["id"]
-        print(f"✅ Latest job ID for {sheet_name}: {latest_job_id}")
-
-        # Fetch scraped data
-        data_url = f"https://api.webscraper.io/api/v1/job/{latest_job_id}/data"
-        data_resp = requests.get(data_url, headers=headers)
-        raw_jobs = data_resp.json().get("data", [])
-    else:
+    if not jobs_resp.get("jobs"):
         print(f"⚠️ No jobs found for sitemap: {sheet_name}")
-        raw_jobs = []
+        continue
 
-    print(f"  ↳ Pulled {len(raw_jobs)} jobs")
+    latest_job_id = jobs_resp["jobs"][0]["id"]
+    print(f"✅ Latest job ID: {latest_job_id}")
 
-    # Clean and prepare data
+    # Get job data
+    data_url = f"https://api.webscraper.io/api/v1/job/{latest_job_id}/data"
+    data_resp = requests.get(data_url, headers=headers).json()
+    raw_jobs = data_resp.get("data", [])
+    print(f"📥 Pulled {len(raw_jobs)} jobs")
+
+    # Clean and append
     cleaned_jobs = clean_job_data(raw_jobs, sheet_name.replace("-grads", "").upper())
     all_cleaned.extend(cleaned_jobs)
 
-    # Write to individual tab
-    print(f"📋 Cleaned jobs for {sheet_name}: {len(cleaned_jobs)}")
+    # Push to Google Sheet
+    print(f"📤 Uploading to sheet tab: {sheet_name}")
     if cleaned_jobs:
         df = pd.DataFrame(cleaned_jobs)
         try:
@@ -92,13 +94,12 @@ for sitemap_id, sheet_name in SITEMAPS.items():
         except gspread.exceptions.WorksheetNotFound:
             worksheet = sheet.add_worksheet(title=sheet_name, rows="100", cols="10")
         worksheet.update([df.columns.values.tolist()] + df.values.tolist())
-        print(f"✅ Uploaded {len(df)} jobs to tab: {sheet_name}")
+        print(f"✅ Uploaded {len(df)} jobs to: {sheet_name}")
     else:
         print(f"⚠️ No jobs to upload for {sheet_name}")
 
-# Optionally write everything to local file (for debugging/logging)
+# Optionally write locally
 with open("cleaned_jobs.json", "w", encoding="utf-8") as f:
     json.dump(all_cleaned, f, indent=2)
-
 pd.DataFrame(all_cleaned).to_csv("cleaned_jobs.csv", index=False)
-print(f"🎉 Done! Total jobs across all sitemaps: {len(all_cleaned)}")
+print(f"🎉 Done! Total jobs: {len(all_cleaned)}")
