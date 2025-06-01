@@ -1,7 +1,6 @@
 import requests
 import json
 import os
-import time
 import gspread
 import pandas as pd
 from oauth2client.service_account import ServiceAccountCredentials
@@ -48,27 +47,17 @@ def clean_job_data(raw_jobs, company_name):
 
 # ============ Main Loop ============
 all_cleaned = []
+headers = {"Authorization": f"Token {API_KEY}"}
 
 for sitemap_id, sheet_name in SITEMAPS.items():
-    print(f"🚀 Starting scrape for {sheet_name} ({sitemap_id})")
-
-    # Start scrape job
-    start_url = f"https://api.webscraper.io/api/v1/sitemap/{sitemap_id}/start"
-    headers = {"Authorization": f"Token {API_KEY}"}
-    start_resp = requests.post(start_url, headers=headers)
-
-    if start_resp.status_code != 200:
-        print(f"❌ Failed to start scrape for {sheet_name}: {start_resp.text}")
-        continue
-
-    print("⏳ Waiting 30 seconds for scrape to complete...")
-    time.sleep(30)
+    print(f"📡 Fetching latest job for {sheet_name} (Sitemap ID: {sitemap_id})")
 
     # Get latest job ID
     jobs_url = f"https://api.webscraper.io/api/v1/sitemap/{sitemap_id}/jobs"
     jobs_resp = requests.get(jobs_url, headers=headers).json()
+
     if not jobs_resp.get("jobs"):
-        print(f"⚠️ No jobs found for sitemap: {sheet_name}")
+        print(f"⚠️ No jobs found for {sheet_name}")
         continue
 
     latest_job_id = jobs_resp["jobs"][0]["id"]
@@ -80,12 +69,11 @@ for sitemap_id, sheet_name in SITEMAPS.items():
     raw_jobs = data_resp.get("data", [])
     print(f"📥 Pulled {len(raw_jobs)} jobs")
 
-    # Clean and append
+    # Clean and collect
     cleaned_jobs = clean_job_data(raw_jobs, sheet_name.replace("-grads", "").upper())
     all_cleaned.extend(cleaned_jobs)
 
-    # Push to Google Sheet
-    print(f"📤 Uploading to sheet tab: {sheet_name}")
+    # Write to Google Sheet tab
     if cleaned_jobs:
         df = pd.DataFrame(cleaned_jobs)
         try:
@@ -94,12 +82,12 @@ for sitemap_id, sheet_name in SITEMAPS.items():
         except gspread.exceptions.WorksheetNotFound:
             worksheet = sheet.add_worksheet(title=sheet_name, rows="100", cols="10")
         worksheet.update([df.columns.values.tolist()] + df.values.tolist())
-        print(f"✅ Uploaded {len(df)} jobs to: {sheet_name}")
+        print(f"✅ Uploaded {len(df)} jobs to tab: {sheet_name}")
     else:
         print(f"⚠️ No jobs to upload for {sheet_name}")
 
-# Optionally write locally
+# Optionally write to local file
 with open("cleaned_jobs.json", "w", encoding="utf-8") as f:
     json.dump(all_cleaned, f, indent=2)
 pd.DataFrame(all_cleaned).to_csv("cleaned_jobs.csv", index=False)
-print(f"🎉 Done! Total jobs: {len(all_cleaned)}")
+print(f"🎉 Done! Total jobs across all sitemaps: {len(all_cleaned)}")
