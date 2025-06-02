@@ -8,6 +8,9 @@ on:
 jobs:
   fetch:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # ✅ Required for GITHUB_TOKEN to push
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -53,7 +56,6 @@ jobs:
             for (const file of filesRes.data.files) {
               console.log(`Fetching: ${file.name}`);
               try {
-                // Get first sheet/tab name
                 const meta = await sheets.spreadsheets.get({ spreadsheetId: file.id });
                 const firstSheetName = meta.data.sheets[0].properties.title;
                 const range = `${firstSheetName}!A1:Z1000`;
@@ -98,9 +100,11 @@ jobs:
           EOF
 
       - name: Commit job data
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "you@example.com"
           git add all-jobs.json
           git commit -m "Updated all job listings" || echo "No changes"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
+          git push origin HEAD
