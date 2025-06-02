@@ -17,13 +17,13 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install dependencies
+      - name: Install Google APIs client
         run: npm install googleapis
 
       - name: Write service account key
         run: echo '${{ secrets.GOOGLE_SERVICE_ACCOUNT }}' > key.json
 
-      - name: Run fetch script
+      - name: Fetch job data from all sheets
         run: |
           node <<'EOF'
           const { google } = require('googleapis');
@@ -33,8 +33,8 @@ jobs:
             keyFile: 'key.json',
             scopes: [
               'https://www.googleapis.com/auth/drive.readonly',
-              'https://www.googleapis.com/auth/spreadsheets.readonly'
-            ]
+              'https://www.googleapis.com/auth/spreadsheets.readonly',
+            ],
           });
 
           async function fetchSheets() {
@@ -53,25 +53,35 @@ jobs:
             for (const file of filesRes.data.files) {
               console.log(`Fetching: ${file.name}`);
               try {
+                // Get first sheet/tab name
+                const meta = await sheets.spreadsheets.get({ spreadsheetId: file.id });
+                const firstSheetName = meta.data.sheets[0].properties.title;
+                const range = `${firstSheetName}!A1:Z1000`;
+
                 const res = await sheets.spreadsheets.values.get({
                   spreadsheetId: file.id,
-                  range: 'Sheet1!A1:Z1000'
+                  range,
                 });
 
                 const rows = res.data.values;
-                if (!rows || rows.length < 2) continue;
+                if (!rows || rows.length < 2) {
+                  console.log(`No data found in ${file.name}`);
+                  continue;
+                }
 
                 const headers = rows[0];
-                const records = rows.slice(1).map(r => {
+                const jobRows = rows.slice(1);
+
+                const jobs = jobRows.map(row => {
                   const job = {};
                   headers.forEach((h, i) => {
-                    job[h.trim()] = r[i] || '';
+                    job[h.trim()] = row[i] || '';
                   });
                   job.source = file.name;
                   return job;
                 });
 
-                allJobs.push(...records);
+                allJobs.push(...jobs);
               } catch (err) {
                 console.error(`Error reading ${file.name}:`, err.message);
               }
@@ -93,4 +103,4 @@ jobs:
           git config --global user.email "you@example.com"
           git add all-jobs.json
           git commit -m "Updated all job listings" || echo "No changes"
-          git push
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
