@@ -1,0 +1,96 @@
+name: Fetch All Job Data from Google Sheets
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Runs every hour
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install googleapis
+
+      - name: Write service account key
+        run: echo '${{ secrets.GOOGLE_SERVICE_ACCOUNT }}' > key.json
+
+      - name: Run fetch script
+        run: |
+          node <<'EOF'
+          const { google } = require('googleapis');
+          const fs = require('fs');
+
+          const auth = new google.auth.GoogleAuth({
+            keyFile: 'key.json',
+            scopes: [
+              'https://www.googleapis.com/auth/drive.readonly',
+              'https://www.googleapis.com/auth/spreadsheets.readonly'
+            ]
+          });
+
+          async function fetchSheets() {
+            const authClient = await auth.getClient();
+            const drive = google.drive({ version: 'v3', auth: authClient });
+            const sheets = google.sheets({ version: 'v4', auth: authClient });
+
+            const filesRes = await drive.files.list({
+              q: "mimeType='application/vnd.google-apps.spreadsheet' and name contains '-grads'",
+              fields: 'files(id, name)',
+              pageSize: 1000
+            });
+
+            const allJobs = [];
+
+            for (const file of filesRes.data.files) {
+              console.log(`Fetching: ${file.name}`);
+              try {
+                const res = await sheets.spreadsheets.values.get({
+                  spreadsheetId: file.id,
+                  range: 'Sheet1!A1:Z1000'
+                });
+
+                const rows = res.data.values;
+                if (!rows || rows.length < 2) continue;
+
+                const headers = rows[0];
+                const records = rows.slice(1).map(r => {
+                  const job = {};
+                  headers.forEach((h, i) => {
+                    job[h.trim()] = r[i] || '';
+                  });
+                  job.source = file.name;
+                  return job;
+                });
+
+                allJobs.push(...records);
+              } catch (err) {
+                console.error(`Error reading ${file.name}:`, err.message);
+              }
+            }
+
+            fs.writeFileSync('all-jobs.json', JSON.stringify(allJobs, null, 2));
+            console.log(`✅ Fetched ${allJobs.length} jobs from ${filesRes.data.files.length} sheets`);
+          }
+
+          fetchSheets().catch(err => {
+            console.error(err);
+            process.exit(1);
+          });
+          EOF
+
+      - name: Commit job data
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "you@example.com"
+          git add all-jobs.json
+          git commit -m "Updated all job listings" || echo "No changes"
+          git push
