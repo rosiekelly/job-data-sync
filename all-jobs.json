@@ -1,5 +1,51 @@
 [
   {
+    "web-scraper-order": "1752050329-1",
+    "web-scraper-start-url": "https://www.amazon.jobs/en/search?offset=0&result_limit=10&sort=relevant&country%5B%5D=GBR&distanceType=Mi&radius=24km&industry_experience=less_than_1_year&latitude=&longitude=&loc_group_id=&loc_query=&base_query=graduate&city=&country=&region=&county=&query_options=&",
+    "programme-page": "Graduate Devops Engineer, AWS",
+    "programme-page-href": "https://www.amazon.jobs/en/jobs/2709979/graduate-devops-engineer-aws",
+    "role-title": "Graduate Devops Engineer, AWS",
+    "role-location": "GBR, POST-BER, Thames Valley",
+    "role-description": "Graduate Devops Engineer, AWSJob ID: 2709979 | AWS EMEA SARL (UK Branch)",
+    "apply-button": "Apply now",
+    "apply-button-href": "https://www.amazon.jobs/applicant/jobs/2709979/apply",
+    "source": "amazon-grads"
+  },
+  {
+    "web-scraper-order": "1752050331-2",
+    "web-scraper-start-url": "https://www.amazon.jobs/en/search?offset=0&result_limit=10&sort=relevant&country%5B%5D=GBR&distanceType=Mi&radius=24km&industry_experience=less_than_1_year&latitude=&longitude=&loc_group_id=&loc_query=&base_query=graduate&city=&country=&region=&county=&query_options=&",
+    "programme-page": "Graduate Cloud Support Associate, Support Engineering",
+    "programme-page-href": "https://www.amazon.jobs/en/jobs/3029359/graduate-cloud-support-associate-support-engineering",
+    "role-title": "Graduate Cloud Support Associate, Support Engineering",
+    "role-location": "GBR, POST-BER, Thames Valley",
+    "role-description": "Graduate Cloud Support Associate, Support EngineeringJob ID: 3029359 | AWS EMEA SARL (UK Branch)",
+    "apply-button": "Apply now",
+    "apply-button-href": "https://www.amazon.jobs/applicant/jobs/3029359/apply",
+    "source": "amazon-grads"
+  },
+  {
+    "web-scraper-order": "1752050337-3",
+    "web-scraper-start-url": "https://www.amazon.jobs/en/search?offset=0&result_limit=10&sort=relevant&country%5B%5D=GBR&distanceType=Mi&radius=24km&industry_experience=less_than_1_year&latitude=&longitude=&loc_group_id=&loc_query=&base_query=graduate&city=&country=&region=&county=&query_options=&",
+    "programme-page": "2025 Graduate Software Dev Engineer",
+    "programme-page-href": "https://www.amazon.jobs/en/jobs/2804113/2025-graduate-software-dev-engineer",
+    "role-title": "2025 Graduate Software Dev Engineer",
+    "role-location": "GBR, BST, Bristol",
+    "role-description": "2025 Graduate Software Dev Engineer Job ID: 2804113 | Amazon UK Services Ltd.",
+    "apply-button": "Apply now",
+    "apply-button-href": "https://www.amazon.jobs/applicant/jobs/2804113/apply",
+    "source": "amazon-grads"
+  },
+  {
+    "web-scraper-order": "1752050325-1",
+    "web-scraper-start-url": "https://www.aldirecruitment.co.uk/early-careers/graduate-programme",
+    "role-title": "Aldi Area Manager Graduate Programme",
+    "role-requirements": "96 UCAS POINTS OR 63 SCOTTISH HIGHERS (OR EQUIVALENT ON THE OLD TARIFF) FROM YOUR TOP 3 A-LEVELS/SCOTTISH HIGHERS (OR THE EQUIVALENT FROM OTHER RELEVANT QUALIFICATIONS)\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\nA 2:1 DEGREE IN ANY DISCIPLINE\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\nA DRIVING LICENCE\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\nTHE RIGHT TO WORK IN THE UK",
+    "roledescription": "You’ve probably heard a lot about the Aldi Area Manager Graduate Programme by now - and if you’ve not then you’ve come to the right place. We want our graduates to bring the best version of themselves and in return we’ll reward them with a fantastic package - and the rumours are true, it includes a fully expensed car!\n\nIt requires dedication and determination but the results are so rewarding - whether that’s through your professional development, your growth as an individual or seeing your store teams thrive (and it’ll be your responsibility to inspire them!).\n\nThroughout the year, you’ll learn the ins and outs of store life, before discovering what it takes to lead a group of £multi-million businesses. Afterwards? Well, it could be just the start of an exciting career full of amazing opportunities.",
+    "role-salary": "£50,750 starting salary",
+    "role-status": "CLOSED",
+    "source": "aldi-grads"
+  },
+  {
     "web-scraper-order": "1752045041-1",
     "web-scraper-start-url": "https://www.capgemini.com/gb-en/careers/join-us/?page=1&size=11&experience_level=Students%2FGraduates%E2%80%8B&country_code=gb-en",
     "programme-link": "Flight AnalystAbingdonProducts & Systems EngineeringPermanentStudents/Graduates​",
@@ -405,40 +451,6 @@
     "apply-button": "Browse all open positions",
     "apply-button-href": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus",
     "source": "airbus-grads"
-  },
-  {
-    "web-scraper-order": "1751963905-1",
-    "web-scraper-start-url": "https://www.amazon.jobs/en/search?offset=0&result_limit=10&sort=relevant&country%5B%5D=GBR&distanceType=Mi&radius=24km&industry_experience=less_than_1_year&latitude=&longitude=&loc_group_id=&loc_query=&base_query=graduate&city=&country=&region=&county=&query_options=&",
-    "programme-page": "Graduate Devops Engineer, AWS",
-    "programme-page-href": "https://www.amazon.jobs/en/jobs/2709979/graduate-devops-engineer-aws",
-    "role-title": "Graduate Devops Engineer, AWS",
-    "role-location": "GBR, POST-BER, Thames Valley",
-    "role-description": "Graduate Devops Engineer, AWSJob ID: 2709979 | AWS EMEA SARL (UK Branch)",
-    "apply-button": "Apply now",
-    "apply-button-href": "https://www.amazon.jobs/applicant/jobs/2709979/apply",
-    "source": "amazon-grads"
-  },
-  {
-    "web-scraper-order": "1751963908-2",
-    "web-scraper-start-url": "https://www.amazon.jobs/en/search?offset=0&result_limit=10&sort=relevant&country%5B%5D=GBR&distanceType=Mi&radius=24km&industry_experience=less_than_1_year&latitude=&longitude=&loc_group_id=&loc_query=&base_query=graduate&city=&country=&region=&county=&query_options=&",
-    "programme-page": "2025 Graduate Software Dev Engineer",
-    "programme-page-href": "https://www.amazon.jobs/en/jobs/2804113/2025-graduate-software-dev-engineer",
-    "role-title": "2025 Graduate Software Dev Engineer",
-    "role-location": "GBR, BST, Bristol",
-    "role-description": "2025 Graduate Software Dev Engineer Job ID: 2804113 | Amazon UK Services Ltd.",
-    "apply-button": "Apply now",
-    "apply-button-href": "https://www.amazon.jobs/applicant/jobs/2804113/apply",
-    "source": "amazon-grads"
-  },
-  {
-    "web-scraper-order": "1751963904-1",
-    "web-scraper-start-url": "https://www.aldirecruitment.co.uk/early-careers/graduate-programme",
-    "role-title": "Aldi Area Manager Graduate Programme",
-    "role-requirements": "96 UCAS POINTS OR 63 SCOTTISH HIGHERS (OR EQUIVALENT ON THE OLD TARIFF) FROM YOUR TOP 3 A-LEVELS/SCOTTISH HIGHERS (OR THE EQUIVALENT FROM OTHER RELEVANT QUALIFICATIONS)\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\nA 2:1 DEGREE IN ANY DISCIPLINE\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\nA DRIVING LICENCE\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\nTHE RIGHT TO WORK IN THE UK",
-    "roledescription": "You’ve probably heard a lot about the Aldi Area Manager Graduate Programme by now - and if you’ve not then you’ve come to the right place. We want our graduates to bring the best version of themselves and in return we’ll reward them with a fantastic package - and the rumours are true, it includes a fully expensed car!\n\nIt requires dedication and determination but the results are so rewarding - whether that’s through your professional development, your growth as an individual or seeing your store teams thrive (and it’ll be your responsibility to inspire them!).\n\nThroughout the year, you’ll learn the ins and outs of store life, before discovering what it takes to lead a group of £multi-million businesses. Afterwards? Well, it could be just the start of an exciting career full of amazing opportunities.",
-    "role-salary": "£50,750 starting salary",
-    "role-status": "CLOSED",
-    "source": "aldi-grads"
   },
   {
     "web-scraper-order": "1748162392-1",
