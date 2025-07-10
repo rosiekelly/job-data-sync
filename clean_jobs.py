@@ -10,7 +10,13 @@ skipped_jobs = []
 
 # Priority fields for extracting data
 TITLE_FIELDS = ["role-title", "role-name", "title", "name"]
-LINK_FIELDS = ["link", "apply-button-href", "apply_link", "url"]
+LINK_FIELDS = [
+    "link",
+    "apply-button-href",
+    "apply_link",
+    "url",
+    "programme-link-href"  # <-- newly added
+]
 LOCATION_FIELDS = ["location", "office-location", "job-location", "city"]
 DESCRIPTION_FIELDS = ["description", "job-description", "role-description"]
 
@@ -63,7 +69,7 @@ for job in all_jobs:
 with open("cleaned_jobs.json", "w", encoding="utf-8") as f:
     json.dump(cleaned_jobs, f, ensure_ascii=False, indent=2)
 
-# Write skipped jobs to file for debugging
+# Write skipped jobs to file
 if skipped_jobs:
     with open("skipped_jobs.json", "w", encoding="utf-8") as f:
         json.dump(skipped_jobs, f, ensure_ascii=False, indent=2)
