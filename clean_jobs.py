@@ -5,6 +5,7 @@ with open("all-jobs.json") as f:
     all_jobs = json.load(f)
 
 cleaned_jobs = []
+skipped_jobs = []
 seen = set()
 
 for job in all_jobs:
@@ -12,10 +13,9 @@ for job in all_jobs:
         job.get("role-title")
         or job.get("title")
         or job.get("name")
-        or "No Title"
+        or ""
     ).strip()
 
-    # Prefer apply-button-href, fallback to programme-page-href or programme-link-href
     link = (
         job.get("apply-button-href")
         or job.get("programme-page-href")
@@ -25,6 +25,16 @@ for job in all_jobs:
     ).strip()
 
     if not title or not link:
+        reason = []
+        if not title:
+            reason.append("missing title")
+        if not link:
+            reason.append("missing link")
+
+        skipped_jobs.append({
+            "reason": ", ".join(reason),
+            "job_data": job
+        })
         continue
 
     location = (
@@ -63,8 +73,12 @@ for job in all_jobs:
         cleaned_jobs.append(cleaned)
         seen.add(uid)
 
-# Save cleaned job list
+# Save cleaned and skipped jobs
 with open("cleaned_jobs.json", "w") as f:
     json.dump(cleaned_jobs, f, indent=2)
 
+with open("skipped_jobs.json", "w") as f:
+    json.dump(skipped_jobs, f, indent=2)
+
 print(f"✅ Cleaned and normalized {len(cleaned_jobs)} job listings.")
+print(f"⚠️ Skipped {len(skipped_jobs)} jobs. See skipped_jobs.json for details.")
