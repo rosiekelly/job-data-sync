@@ -8,6 +8,7 @@ on:
 jobs:
   sync:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v3
 
@@ -22,7 +23,10 @@ jobs:
       - name: Write GSheets credentials
         run: echo '${{ secrets.GSHEETS_CREDS_JSON }}' > creds.json
 
-      - name: Run script
+      - name: Run script to fetch raw jobs
         env:
           WS_API_KEY: ${{ secrets.WS_API_KEY }}
         run: python clean_scraped_jobs.py
+
+      - name: Clean the fetched jobs
+        run: python clean_jobs.py
