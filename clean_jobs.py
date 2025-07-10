@@ -1,92 +1,80 @@
 import json
+from datetime import datetime
+from pathlib import Path
 
-# Load all scraped jobs
-with open("all-jobs.json") as f:
-    all_jobs = json.load(f)
+INPUT_FILE = "all-jobs.json"
+OUTPUT_FILE = "cleaned_jobs.json"
+SKIPPED_FILE = "skipped_jobs.json"
 
-cleaned_jobs = []
-skipped_jobs = []
-seen = set()
+# Priority order for extracting fields
+TITLE_FIELDS = ["role-title", "title", "name"]
+LINK_FIELDS = ["programme-link-href", "programme-page-href", "apply-button-href", "apply-link"]
 
-for job in all_jobs:
-    title = (
-        job.get("role-title")
-        or job.get("title")
-        or job.get("name")
-        or ""
-    ).strip()
+def get_first_nonempty_field(job, fields):
+    for field in fields:
+        val = job.get(field)
+        if val and isinstance(val, str) and val.strip():
+            return val.strip()
+    return ""
 
-    link = (
-        job.get("apply-button-href")
-        or job.get("programme-page-href")
-        or job.get("programme-link-href")
-        or job.get("apply-link")
-        or ""
-    ).strip()
+def clean_job(job):
+    title = get_first_nonempty_field(job, TITLE_FIELDS)
+    link = get_first_nonempty_field(job, LINK_FIELDS)
 
     if not title or not link:
-        reason = []
+        reason_parts = []
         if not title:
-            reason.append("missing title")
+            reason_parts.append("missing title")
         if not link:
-            reason.append("missing link")
+            reason_parts.append("missing link")
+        return None, " | ".join(reason_parts)
 
-        skipped_jobs.append({
-            "reason": ", ".join(reason),
-            "job_data": job
-        })
-        continue
-
-    location = (
-        job.get("role-location")
-        or job.get("Location")
-        or job.get("location")
-        or "Unknown"
-    ).strip()
-
-    salary = (
-        job.get("role-salary")
-        or job.get("salary")
-        or "Undisclosed"
-    ).strip()
-
-    status = (
-        job.get("role-status")
-        or job.get("status-text")
-        or job.get("status")
-        or "Open"
-    ).strip()
-
-    company = job.get("source", "Unknown")
-
-    cleaned = {
+    return {
         "title": title,
-        "location": location,
-        "url": link,
-        "salary": salary,
-        "company": company,
-        "status": status
-    }
+        "link": link,
+        "description": job.get("description", "").strip(),
+        "location": job.get("Location", "").strip(),
+        "salary": job.get("salary", "").strip(),
+        "duration": job.get("duration", "").strip(),
+        "status": job.get("status-text", "").strip(),
+        "source": job.get("source", "").strip(),
+        "scraped-from": job.get("web-scraper-start-url", "").strip(),
+        "scraped-at": datetime.utcnow().isoformat() + "Z"
+    }, None
 
-    uid = (title, link)
-    if uid not in seen:
-        cleaned_jobs.append(cleaned)
-        seen.add(uid)
+def main():
+    with open(INPUT_FILE, "r") as f:
+        raw_jobs = json.load(f)
 
-# Save cleaned and skipped jobs
-with open("cleaned_jobs.json", "w") as f:
-    json.dump(cleaned_jobs, f, indent=2)
+    cleaned_jobs = []
+    skipped_jobs = []
 
-with open("skipped_jobs.json", "w") as f:
-    json.dump(skipped_jobs, f, indent=2)
+    for job in raw_jobs:
+        cleaned, reason = clean_job(job)
+        if cleaned:
+            cleaned_jobs.append(cleaned)
+        else:
+            skipped_jobs.append({
+                "title": job.get("title") or job.get("name"),
+                "reason": reason,
+                "raw": job
+            })
 
-print(f"✅ Cleaned and normalized {len(cleaned_jobs)} job listings.")
-print(f"⚠️ Skipped {len(skipped_jobs)} jobs. See skipped_jobs.json for details.")
+    with open(OUTPUT_FILE, "w") as f:
+        json.dump(cleaned_jobs, f, indent=2)
 
-# Optionally print a few skipped job summaries
-if skipped_jobs:
-    print("\n⚠️ Skipped jobs preview:")
-    for job in skipped_jobs[:5]:
-        raw = job["job_data"]
-        title_preview = raw.get("role-title") or raw.get("title") or raw.get("name") or "No title"
-        print(f"- Reason: {job['reason']} | Title: {title_preview}")
+    if skipped_jobs:
+        with open(SKIPPED_FILE, "w") as f:
+            json.dump(skipped_jobs, f, indent=2)
+
+        print(f"⚠️ Skipped {len(skipped_jobs)} jobs. See {SKIPPED_FILE} for details.")
+        print("⚠️ Skipped jobs preview:")
+        for job in skipped_jobs[:5]:
+            print(f"  - Reason: {job['reason']} | Title: {job.get('title')}")
+    else:
+        print("✅ No skipped jobs.")
+
+    print(f"✅ Cleaned and normalized {len(cleaned_jobs)} job listings.")
+
+if __name__ == "__main__":
+    main()
