@@ -83,13 +83,10 @@ with open("skipped_jobs.json", "w") as f:
 print(f"✅ Cleaned and normalized {len(cleaned_jobs)} job listings.")
 print(f"⚠️ Skipped {len(skipped_jobs)} jobs. See skipped_jobs.json for details.")
 
-# Save skipped jobs as file
-with open("skipped_jobs.json", "w") as f:
-    json.dump(skipped_jobs, f, indent=2)
-
-# Optionally print a few example skipped jobs to logs
+# Optionally print a few skipped job summaries
 if skipped_jobs:
     print("\n⚠️ Skipped jobs preview:")
-    for job in skipped_jobs[:3]:
-        print(f"- Reason: {job['reason']} | Title: {job['job_data'].get('title') or job['job_data'].get('name')}")
-
+    for job in skipped_jobs[:5]:
+        raw = job["job_data"]
+        title_preview = raw.get("role-title") or raw.get("title") or raw.get("name") or "No title"
+        print(f"- Reason: {job['reason']} | Title: {title_preview}")
