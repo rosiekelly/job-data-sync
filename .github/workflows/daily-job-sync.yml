@@ -32,8 +32,7 @@ jobs:
         run: python clean_jobs.py
 
       - name: Upload skipped jobs as artifact
-  uses: actions/upload-artifact@v3
-  with:
-    name: skipped-jobs
-    path: skipped_jobs.json
-
+        uses: actions/upload-artifact@v3
+        with:
+          name: skipped-jobs
+          path: skipped_jobs.json
