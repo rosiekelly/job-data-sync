@@ -30,10 +30,18 @@ jobs:
         run: python clean_scraped_jobs.py
 
       - name: Clean and normalize jobs
-        run: python clean_jobs.py
+        run: |
+          python clean_jobs.py
+          if [ -f skipped_jobs.json ]; then
+            echo "🔶 Some jobs were skipped. See skipped_jobs.json"
+          else
+            echo "✅ No jobs were skipped."
+          fi
 
-      - name: Upload skipped jobs as artifact
+      - name: Upload skipped jobs (if any)
+        if: success()
         uses: actions/upload-artifact@v4
         with:
-          name: skipped-jobs
+          name: skipped_jobs
           path: skipped_jobs.json
+          if-no-files-found: ignore
