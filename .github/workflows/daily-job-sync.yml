@@ -28,5 +28,5 @@ jobs:
           WS_API_KEY: ${{ secrets.WS_API_KEY }}
         run: python clean_scraped_jobs.py
 
-      - name: Clean the fetched jobs
+      - name: Clean and normalize jobs
         run: python clean_jobs.py
