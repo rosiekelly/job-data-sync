@@ -4,6 +4,7 @@ import json
 with open("all-jobs.json", "r") as f:
     jobs = json.load(f)
 
+# Map actual field names from raw data to standard keys
 STANDARD_KEYS = {
     "title": ["role-title", "title", "job title", "name"],
     "location": ["role-location", "location", "job location"],
@@ -16,14 +17,14 @@ STANDARD_KEYS = {
 def normalize(job):
     cleaned = {}
 
-    # Map variant keys to standard keys
+    # Map variant field names to standard ones
     for std_key, variants in STANDARD_KEYS.items():
         for key in job:
             if key.strip().lower() in variants:
                 cleaned[std_key] = job[key].strip()
                 break
 
-    # Handle status logic
+    # Handle status filtering
     raw_status = cleaned.get("status", "").lower()
     if "closed" in raw_status:
         cleaned["status"] = "closed"
@@ -34,22 +35,28 @@ def normalize(job):
     else:
         cleaned["status"] = "open"
 
-    # Only return if required fields exist
+    # Only keep jobs that have title and link
     return cleaned if "title" in cleaned and "link" in cleaned else None
 
-# Deduplicate and filter jobs
+# Main clean loop
 seen = set()
 cleaned_jobs = []
 
 for job in jobs:
     norm = normalize(job)
-    if norm and norm["status"] == "open":
-        uid = (norm.get("title", ""), norm.get("link", ""))
-        if uid not in seen:
-            cleaned_jobs.append(norm)
-            seen.add(uid)
+    if not norm:
+        print("⚠️ Skipped (missing title or link):", job)
+        continue
+    if norm["status"] != "open":
+        print("🚫 Skipped (not open):", norm)
+        continue
 
-# ✅ Save final cleaned version to all-jobs.json
+    uid = (norm["title"], norm["link"])
+    if uid not in seen:
+        cleaned_jobs.append(norm)
+        seen.add(uid)
+
+# ✅ Save cleaned jobs
 with open("all-jobs.json", "w") as out:
     json.dump(cleaned_jobs, out, indent=2)
 
