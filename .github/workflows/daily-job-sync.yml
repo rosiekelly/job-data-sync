@@ -2,7 +2,7 @@ name: Daily Job Sync
 
 on:
   schedule:
-    - cron: '0 9 * * *'  # runs every day at 9am UTC
+    - cron: '0 9 * * *'  # Runs every day at 9am UTC
   workflow_dispatch:
 
 jobs:
@@ -10,7 +10,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Check out repository
+        uses: actions/checkout@v3
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -32,7 +33,7 @@ jobs:
         run: python clean_jobs.py
 
       - name: Upload skipped jobs as artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: skipped-jobs
           path: skipped_jobs.json
