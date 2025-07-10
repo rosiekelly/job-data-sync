@@ -4,14 +4,13 @@ import json
 with open("all-jobs.json", "r") as f:
     jobs = json.load(f)
 
-# Define how to normalize varying key names
 STANDARD_KEYS = {
-    "title": ["job title", "title", "role"],
-    "location": ["location", "job location"],
-    "link": ["link", "url", "job url", "apply link"],
-    "company": ["company", "source"],
-    "description": ["description", "job description", "role summary"],
-    "status": ["status", "job status", "availability"]
+    "title": ["role-title", "title", "job title", "name"],
+    "location": ["role-location", "location", "job location"],
+    "link": ["apply-button-href", "link", "url", "apply link"],
+    "company": ["source", "company"],
+    "description": ["role-description", "description", "job description", "role summary"],
+    "status": ["role-status", "status", "job status", "availability", "status-text"]
 }
 
 def normalize(job):
