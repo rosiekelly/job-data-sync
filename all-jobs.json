@@ -620,69 +620,6 @@
     "source": "DEUTSCHE-BANK-GRADS"
   },
   {
-    "web-scraper-order": "1752327084-1",
-    "web-scraper-start-url": "https://search.jobs.barclays/graduates",
-    "job-page": "Find out more",
-    "job-page-href": "https://search.jobs.barclays/graduates-aspiring-developer",
-    "source": "Barclays-grads"
-  },
-  {
-    "web-scraper-order": "1752327084-2",
-    "web-scraper-start-url": "https://search.jobs.barclays/graduates",
-    "job-page": "Find out more",
-    "job-page-href": "https://search.jobs.barclays/graduates-data-analytics",
-    "source": "Barclays-grads"
-  },
-  {
-    "web-scraper-order": "1752327084-3",
-    "web-scraper-start-url": "https://search.jobs.barclays/graduates",
-    "job-page": "Find out more",
-    "job-page-href": "https://search.jobs.barclays/graduates-investment-banking",
-    "source": "Barclays-grads"
-  },
-  {
-    "web-scraper-order": "1752327084-4",
-    "web-scraper-start-url": "https://search.jobs.barclays/graduates",
-    "job-page": "Find out more",
-    "job-page-href": "https://search.jobs.barclays/graduates-quantitative-analytics",
-    "source": "Barclays-grads"
-  },
-  {
-    "web-scraper-order": "1752327084-5",
-    "web-scraper-start-url": "https://search.jobs.barclays/graduates",
-    "job-page": "Find out more",
-    "job-page-href": "https://search.jobs.barclays/graduates-international-corporate-bank",
-    "source": "Barclays-grads"
-  },
-  {
-    "web-scraper-order": "1752327084-6",
-    "web-scraper-start-url": "https://search.jobs.barclays/graduates",
-    "job-page": "Find out more",
-    "job-page-href": "https://search.jobs.barclays/graduates-wholesale-lending",
-    "source": "Barclays-grads"
-  },
-  {
-    "web-scraper-order": "1752327084-7",
-    "web-scraper-start-url": "https://search.jobs.barclays/graduates",
-    "job-page": "Find out more",
-    "job-page-href": "https://search.jobs.barclays/graduates-internal-audit",
-    "source": "Barclays-grads"
-  },
-  {
-    "web-scraper-order": "1752327084-8",
-    "web-scraper-start-url": "https://search.jobs.barclays/graduates",
-    "job-page": "Find out more",
-    "job-page-href": "https://search.jobs.barclays/graduates-markets",
-    "source": "Barclays-grads"
-  },
-  {
-    "web-scraper-order": "1752327084-9",
-    "web-scraper-start-url": "https://search.jobs.barclays/graduates",
-    "job-page": "Find out more",
-    "job-page-href": "https://search.jobs.barclays/graduates-research",
-    "source": "Barclays-grads"
-  },
-  {
     "web-scraper-order": "1752327051-1",
     "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
     "role-title": "Summer Internships",
