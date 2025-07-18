@@ -1,5 +1,115 @@
 [
   {
+    "web-scraper-order": "1752845483-1",
+    "web-scraper-start-url": "https://www.airbus.com/en/careers/students-and-graduates/graduates",
+    "role-name": "",
+    "role-description": "The Airbus Global Graduate Programme (AGGP) seeks graduates to join teams around the world.",
+    "role-status": "Applications for AGGP are now closed, reopening in September 2025",
+    "apply-button": "Browse all open positions",
+    "apply-button-href": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus",
+    "source": "airbus-grads"
+  },
+  {
+    "web-scraper-order": "1752845459-1",
+    "web-scraper-start-url": "https://careers.db.com/students-graduates/Search-Programmes/#/graduate/results/?program=10",
+    "programme-page": "",
+    "programme-page-href": "",
+    "name": "",
+    "location": "",
+    "description": "",
+    "apply-link": "",
+    "apply-link-href": "",
+    "source": "DEUTSCHE-BANK-GRADS"
+  },
+  {
+    "web-scraper-order": "1752845460-1",
+    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
+    "role-title": "Summer Internships",
+    "role-duration": "Duration: 10-Weeks\nLocation: London Heathrow\nRequirement: First or second year student when completing the internship. Minimum predicted 2:2 degree, or equivalent in any subject.\nSalary: £24,200 Pro Rata\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
+    "role-about": "About the scheme:\nIt may only last the summer, but we’ll pack plenty in. Take on responsibility in one of a variety of placements in our head office departments and beyond. You’ll complete projects, business as usual tasks and activities that make a real difference to our business, all while working alongside knowledgeable colleagues who’ll guide and support you. You’ll have plenty of opportunities to build your network with the Graduate community and learn about other areas of the airline too. We’ve always been interested in different perspectives and viewpoints. Fresh thinking and new ideas. So we encourage applicants from any degree discipline.",
+    "source": "Bristishariways-grads"
+  },
+  {
+    "web-scraper-order": "1752845460-2",
+    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
+    "role-title": "Future Leader Business Placements",
+    "role-duration": "Duration: 11-Months\nLocation: London Heathrow and Barry, Wales\nRequirements: Second-year student for third-year Industrial Placement, sandwich degree.\nSalary: £22,400 - £24,200 Pro Rata, depending on location.\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
+    "role-about": "About the scheme:\nOver the course of this 11-month placement, you’ll develop an enviable set of skills through exposure to different business areas across the airline, in our head office and beyond, and involvement on various significant projects. We’re open to your fresh ideas and different perspectives. You’ll be asked to challenge our current thinking and look for ways to improve on existing processes – you could genuinely make us work faster, and smarter.",
+    "source": "Bristishariways-grads"
+  },
+  {
+    "web-scraper-order": "1752845460-3",
+    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
+    "role-title": "Commercial Business",
+    "role-duration": "Duration: 3 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject (either achieved or expected).\nSalary: £33,600\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
+    "role-about": "About the scheme:\nOver 3 years, you’ll complete 3 very different and unique roles across our Commercial departments with the aim of developing you to become a commercial expert and leader of the future.",
+    "source": "Bristishariways-grads"
+  },
+  {
+    "web-scraper-order": "1752845460-4",
+    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
+    "role-title": "Commercial Analytics",
+    "role-duration": "Duration: 2 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject but ideally involving numbers and analysis (either achieved or expected).\nSalary: £33,600\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
+    "role-about": "About the scheme:\nYou’ll be responsible for change that you'll be able to see in our airports, with our aircraft and to when and where we fly. Or with our marketing communications, on our customer website, in our supplier and partner relationships and in our passenger numbers. Ultimately, in the exemplary customer experience, you help us to deliver. The placements you may experience in our area include Commercial Analytics where you’ll be working hand in hand with our front-line Global Sales team, so we can improve revenue and market share and understanding how we get our products in front of our customers and how our customers pay for them, or our Network Analytics team where you’ll plan our network, schedules, fleet, airport slot portfolio and more.",
+    "source": "Bristishariways-grads"
+  },
+  {
+    "web-scraper-order": "1752845460-5",
+    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
+    "role-title": "Data Science",
+    "role-duration": "Duration: 2 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in a subject with significant Numerical / Data Science / Advanced Analytics / Applied Statistics / Computer Science content (either achieved or expected), and a minimum of grade B at A-Level Maths or equivalent.\nSalary: £35,200\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
+    "role-about": "About the scheme:\nAirlines are complex, everchanging and data rich, which means that the industry provides one of the most varied and interesting places for data and analytics professionals to work. Problems like determining the optimal mix of aircraft to buy for the next 20 years, or how to improve overbooking set up, requires a creative approach identifying and exploiting value from current and new data sources, applying advanced analytical techniques and visualisations.  You will provide the analytics, recommendations, tools and models to input into key business projects which cover all aspects of the airline. You’ll have a big impact on the profitability, sustainability and customer satisfaction of our company by increasing revenue, reducing costs, helping to manage risks and optimising our customer experience.",
+    "source": "Bristishariways-grads"
+  },
+  {
+    "web-scraper-order": "1752845460-6",
+    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
+    "role-title": "Digital",
+    "role-duration": "Duration: 2 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject (either achieved or expected).\nSalary: £35,000\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
+    "role-about": "About the scheme:\nImagine leading a team of engineers, driving the future of airline technology, or managing cutting-edge digital systems that keep our global operations seamless. How would it sound to oversee the integration of AI in baggage handling at Heathrow? Or perhaps develop innovative software solutions that improve the customer experience, opening up exciting new markets? Picture yourself influencing the technology roadmap that will shape our airline’s digital transformation over the next 20 years. Your placements and experiences will expose you to the breadth and depth of challenges only an airline our size can provide. This will give you big-picture understanding and foresight of what it takes to begin introducing innovations and leading positive change. You’ll also gain the essential and transferable skills needed to be a high performing leader.",
+    "source": "Bristishariways-grads"
+  },
+  {
+    "web-scraper-order": "1752845460-7",
+    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
+    "role-title": "Finance",
+    "role-duration": "Duration: 3 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject (either achieved or expected).\nSalary: £33,500\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
+    "role-about": "About the scheme:\nYou’ll make the most of your three years via three rotating placements, experiencing different ideas and projects across the business – all while building your network along the way and business partnering critical areas of the British Airways business. You could be influencing investment decisions on our onboard products, analysing commercial decisions on network growth opportunities, or negotiating with our vast supplier network to maintain cost competitiveness. We have influential Finance teams sitting in every department. You’ll quickly become an invaluable asset within any team, experiencing the breadth and depth of opportunities that only one of the world's biggest and best-known airlines can provide. We’ll also sponsor and support you to gain your preferred professional finance qualification – CIMA, ACCA or ACA (ICAEW).",
+    "source": "Bristishariways-grads"
+  },
+  {
+    "web-scraper-order": "1752845460-8",
+    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
+    "role-title": "Future Leaders",
+    "role-duration": "Duration: 3 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject (either achieved or expected).\nSalary: £33,000\nApplications: Opening in 2025",
+    "role-about": "About the scheme:\nThrough a series of placements, you will get stuck in to the day-to-day tasks of running our business, as well as contributing to our long-term strategic vision and success. This is a hands-on programme in which you'll step out of your comfort zone, constructively challenge others and make your ideas reality.  Imagine leading a group of 75 cabin crew, or escorting the media on overseas trips as a PR Manager. How would it sound to run the ground staff at Heathrow? How about developing sales strategies for exciting new markets, or even influencing what our fleet should look like in 20 years’ time?",
+    "source": "Bristishariways-grads"
+  },
+  {
+    "web-scraper-order": "1752845460-9",
+    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
+    "role-title": "Operations Planning",
+    "role-duration": "Duration: 2 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject (either achieved or expected).\nSalary: £33,000\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
+    "role-about": "About the scheme:\nAcross the programme you will have the opportunity to experience different aspects of the planning and resource functions for our global airline. You will work in a directorate that has a direct impact on the British Airways operation. You will learn and apply new skills in Workforce planning and deployment, Post operational analysis, Stakeholder relationship management, People and change management and Continuous improvement. These placements will develop your ability to work with a range of people from different business areas, using a variety of technologies, methods, and measures to meet changing business needs.",
+    "source": "Bristishariways-grads"
+  },
+  {
+    "web-scraper-order": "1752845460-10",
+    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
+    "role-title": "Engineering Technical",
+    "role-duration": "Duration: 2 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in a discipline involving mechanical or aeronautical engineering (either achieved or expected).\nSalary: £35,200\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
+    "role-about": "About the scheme:\nBeing part of our technical team in engineering means one thing: you’ll be at the heart of ensuring our aircraft are safe and reliable. With a fleet of over 250 aircraft, you’ll find yourself tackling a mix of new and old technology on our aircraft. You could be influencing the roll out of our new business class seats; inspecting a new aircraft after delivery; or being part of our largest cabin design for the new Boeing 777-X. You will apply your technical knowledge to make a tangible impact on the airline as your recommendations will drive key business decisions and your projects will deliver reliable aircraft that is leading edge to keep our aircraft flying for the longest timespan.",
+    "source": "Bristishariways-grads"
+  },
+  {
+    "web-scraper-order": "1752845460-11",
+    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
+    "role-title": "Engineering Planning & Supply Chain",
+    "role-duration": "Duration: 2 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject (either achieved or expected).\nSalary: £35,200\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
+    "role-about": "About the scheme:\nThrough a series of placements, you’ll get under the skin of the strategic planning that makes our engineering function tick. With a large fleet of over 250 aircraft, you’ll have a breadth of exposure to our incredible operation. A big challenge of the role is managing the huge volumes of suppliers we work with to ensure we have the right parts in the right place at the right time, anywhere in the world enabling the smooth running of our operation. You could be organising the maintenance schedules for both our short haul and long haul aircraft; developing the long term strategy of maintenance considering efficiency, cost, time and quality of how we do things; or delivering projects around which aircraft we are entering and exiting in the business.",
+    "source": "Bristishariways-grads"
+  },
+  {
     "web-scraper-order": "1752827957-1",
     "web-scraper-start-url": "https://www.amazon.jobs/en/search?offset=0&result_limit=10&sort=relevant&country%5B%5D=GBR&distanceType=Mi&radius=24km&industry_experience=less_than_1_year&latitude=&longitude=&loc_group_id=&loc_query=&base_query=graduate&city=&country=&region=&county=&query_options=&",
     "programme-page": "Graduate Devops Engineer, AWS",
@@ -840,115 +950,5 @@
     "Location": "Leeds, Edinburgh and Bristol. Mix office and home working with our hybrid working policy.",
     "status-text": "Applications for our Finance Graduate Scheme are now closed.",
     "source": "Lloyds-grads"
-  },
-  {
-    "web-scraper-order": "1752759087-1",
-    "web-scraper-start-url": "https://www.airbus.com/en/careers/students-and-graduates/graduates",
-    "role-name": "",
-    "role-description": "The Airbus Global Graduate Programme (AGGP) seeks graduates to join teams around the world.",
-    "role-status": "Applications for AGGP are now closed, reopening in September 2025",
-    "apply-button": "Browse all open positions",
-    "apply-button-href": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus",
-    "source": "airbus-grads"
-  },
-  {
-    "web-scraper-order": "1752759055-1",
-    "web-scraper-start-url": "https://careers.db.com/students-graduates/Search-Programmes/#/graduate/results/?program=10",
-    "programme-page": "",
-    "programme-page-href": "",
-    "name": "",
-    "location": "",
-    "description": "",
-    "apply-link": "",
-    "apply-link-href": "",
-    "source": "DEUTSCHE-BANK-GRADS"
-  },
-  {
-    "web-scraper-order": "1752759061-1",
-    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
-    "role-title": "Summer Internships",
-    "role-duration": "Duration: 10-Weeks\nLocation: London Heathrow\nRequirement: First or second year student when completing the internship. Minimum predicted 2:2 degree, or equivalent in any subject.\nSalary: £24,200 Pro Rata\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
-    "role-about": "About the scheme:\nIt may only last the summer, but we’ll pack plenty in. Take on responsibility in one of a variety of placements in our head office departments and beyond. You’ll complete projects, business as usual tasks and activities that make a real difference to our business, all while working alongside knowledgeable colleagues who’ll guide and support you. You’ll have plenty of opportunities to build your network with the Graduate community and learn about other areas of the airline too. We’ve always been interested in different perspectives and viewpoints. Fresh thinking and new ideas. So we encourage applicants from any degree discipline.",
-    "source": "Bristishariways-grads"
-  },
-  {
-    "web-scraper-order": "1752759061-2",
-    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
-    "role-title": "Future Leader Business Placements",
-    "role-duration": "Duration: 11-Months\nLocation: London Heathrow and Barry, Wales\nRequirements: Second-year student for third-year Industrial Placement, sandwich degree.\nSalary: £22,400 - £24,200 Pro Rata, depending on location.\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
-    "role-about": "About the scheme:\nOver the course of this 11-month placement, you’ll develop an enviable set of skills through exposure to different business areas across the airline, in our head office and beyond, and involvement on various significant projects. We’re open to your fresh ideas and different perspectives. You’ll be asked to challenge our current thinking and look for ways to improve on existing processes – you could genuinely make us work faster, and smarter.",
-    "source": "Bristishariways-grads"
-  },
-  {
-    "web-scraper-order": "1752759061-3",
-    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
-    "role-title": "Commercial Business",
-    "role-duration": "Duration: 3 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject (either achieved or expected).\nSalary: £33,600\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
-    "role-about": "About the scheme:\nOver 3 years, you’ll complete 3 very different and unique roles across our Commercial departments with the aim of developing you to become a commercial expert and leader of the future.",
-    "source": "Bristishariways-grads"
-  },
-  {
-    "web-scraper-order": "1752759061-4",
-    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
-    "role-title": "Commercial Analytics",
-    "role-duration": "Duration: 2 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject but ideally involving numbers and analysis (either achieved or expected).\nSalary: £33,600\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
-    "role-about": "About the scheme:\nYou’ll be responsible for change that you'll be able to see in our airports, with our aircraft and to when and where we fly. Or with our marketing communications, on our customer website, in our supplier and partner relationships and in our passenger numbers. Ultimately, in the exemplary customer experience, you help us to deliver. The placements you may experience in our area include Commercial Analytics where you’ll be working hand in hand with our front-line Global Sales team, so we can improve revenue and market share and understanding how we get our products in front of our customers and how our customers pay for them, or our Network Analytics team where you’ll plan our network, schedules, fleet, airport slot portfolio and more.",
-    "source": "Bristishariways-grads"
-  },
-  {
-    "web-scraper-order": "1752759061-5",
-    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
-    "role-title": "Data Science",
-    "role-duration": "Duration: 2 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in a subject with significant Numerical / Data Science / Advanced Analytics / Applied Statistics / Computer Science content (either achieved or expected), and a minimum of grade B at A-Level Maths or equivalent.\nSalary: £35,200\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
-    "role-about": "About the scheme:\nAirlines are complex, everchanging and data rich, which means that the industry provides one of the most varied and interesting places for data and analytics professionals to work. Problems like determining the optimal mix of aircraft to buy for the next 20 years, or how to improve overbooking set up, requires a creative approach identifying and exploiting value from current and new data sources, applying advanced analytical techniques and visualisations.  You will provide the analytics, recommendations, tools and models to input into key business projects which cover all aspects of the airline. You’ll have a big impact on the profitability, sustainability and customer satisfaction of our company by increasing revenue, reducing costs, helping to manage risks and optimising our customer experience.",
-    "source": "Bristishariways-grads"
-  },
-  {
-    "web-scraper-order": "1752759061-6",
-    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
-    "role-title": "Digital",
-    "role-duration": "Duration: 2 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject (either achieved or expected).\nSalary: £35,000\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
-    "role-about": "About the scheme:\nImagine leading a team of engineers, driving the future of airline technology, or managing cutting-edge digital systems that keep our global operations seamless. How would it sound to oversee the integration of AI in baggage handling at Heathrow? Or perhaps develop innovative software solutions that improve the customer experience, opening up exciting new markets? Picture yourself influencing the technology roadmap that will shape our airline’s digital transformation over the next 20 years. Your placements and experiences will expose you to the breadth and depth of challenges only an airline our size can provide. This will give you big-picture understanding and foresight of what it takes to begin introducing innovations and leading positive change. You’ll also gain the essential and transferable skills needed to be a high performing leader.",
-    "source": "Bristishariways-grads"
-  },
-  {
-    "web-scraper-order": "1752759061-7",
-    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
-    "role-title": "Finance",
-    "role-duration": "Duration: 3 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject (either achieved or expected).\nSalary: £33,500\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
-    "role-about": "About the scheme:\nYou’ll make the most of your three years via three rotating placements, experiencing different ideas and projects across the business – all while building your network along the way and business partnering critical areas of the British Airways business. You could be influencing investment decisions on our onboard products, analysing commercial decisions on network growth opportunities, or negotiating with our vast supplier network to maintain cost competitiveness. We have influential Finance teams sitting in every department. You’ll quickly become an invaluable asset within any team, experiencing the breadth and depth of opportunities that only one of the world's biggest and best-known airlines can provide. We’ll also sponsor and support you to gain your preferred professional finance qualification – CIMA, ACCA or ACA (ICAEW).",
-    "source": "Bristishariways-grads"
-  },
-  {
-    "web-scraper-order": "1752759061-8",
-    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
-    "role-title": "Future Leaders",
-    "role-duration": "Duration: 3 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject (either achieved or expected).\nSalary: £33,000\nApplications: Opening in 2025",
-    "role-about": "About the scheme:\nThrough a series of placements, you will get stuck in to the day-to-day tasks of running our business, as well as contributing to our long-term strategic vision and success. This is a hands-on programme in which you'll step out of your comfort zone, constructively challenge others and make your ideas reality.  Imagine leading a group of 75 cabin crew, or escorting the media on overseas trips as a PR Manager. How would it sound to run the ground staff at Heathrow? How about developing sales strategies for exciting new markets, or even influencing what our fleet should look like in 20 years’ time?",
-    "source": "Bristishariways-grads"
-  },
-  {
-    "web-scraper-order": "1752759061-9",
-    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
-    "role-title": "Operations Planning",
-    "role-duration": "Duration: 2 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject (either achieved or expected).\nSalary: £33,000\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
-    "role-about": "About the scheme:\nAcross the programme you will have the opportunity to experience different aspects of the planning and resource functions for our global airline. You will work in a directorate that has a direct impact on the British Airways operation. You will learn and apply new skills in Workforce planning and deployment, Post operational analysis, Stakeholder relationship management, People and change management and Continuous improvement. These placements will develop your ability to work with a range of people from different business areas, using a variety of technologies, methods, and measures to meet changing business needs.",
-    "source": "Bristishariways-grads"
-  },
-  {
-    "web-scraper-order": "1752759061-10",
-    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
-    "role-title": "Engineering Technical",
-    "role-duration": "Duration: 2 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in a discipline involving mechanical or aeronautical engineering (either achieved or expected).\nSalary: £35,200\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
-    "role-about": "About the scheme:\nBeing part of our technical team in engineering means one thing: you’ll be at the heart of ensuring our aircraft are safe and reliable. With a fleet of over 250 aircraft, you’ll find yourself tackling a mix of new and old technology on our aircraft. You could be influencing the roll out of our new business class seats; inspecting a new aircraft after delivery; or being part of our largest cabin design for the new Boeing 777-X. You will apply your technical knowledge to make a tangible impact on the airline as your recommendations will drive key business decisions and your projects will deliver reliable aircraft that is leading edge to keep our aircraft flying for the longest timespan.",
-    "source": "Bristishariways-grads"
-  },
-  {
-    "web-scraper-order": "1752759061-11",
-    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
-    "role-title": "Engineering Planning & Supply Chain",
-    "role-duration": "Duration: 2 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject (either achieved or expected).\nSalary: £35,200\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
-    "role-about": "About the scheme:\nThrough a series of placements, you’ll get under the skin of the strategic planning that makes our engineering function tick. With a large fleet of over 250 aircraft, you’ll have a breadth of exposure to our incredible operation. A big challenge of the role is managing the huge volumes of suppliers we work with to ensure we have the right parts in the right place at the right time, anywhere in the world enabling the smooth running of our operation. You could be organising the maintenance schedules for both our short haul and long haul aircraft; developing the long term strategy of maintenance considering efficiency, cost, time and quality of how we do things; or delivering projects around which aircraft we are entering and exiting in the business.",
-    "source": "Bristishariways-grads"
   }
 ]
