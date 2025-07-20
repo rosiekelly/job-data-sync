@@ -15,7 +15,8 @@ LINK_FIELDS = [
     "apply-button-href",
     "apply_link",
     "url",
-    "programme-link-href"  # <-- newly added
+    "programme-link-href",
+    "apply-link-href"  # Newly added
 ]
 LOCATION_FIELDS = ["location", "office-location", "job-location", "city"]
 DESCRIPTION_FIELDS = ["description", "job-description", "role-description"]
@@ -54,6 +55,7 @@ for job in all_jobs:
     location = get_first_existing_field(job, LOCATION_FIELDS)
     description = get_first_existing_field(job, DESCRIPTION_FIELDS)
 
+    # Assemble cleaned job
     cleaned["title"] = title.strip()
     cleaned["link"] = link.strip()
     if location:
@@ -78,7 +80,6 @@ if skipped_jobs:
 print(f"✅ Cleaned and normalized {len(cleaned_jobs)} job listings.")
 if skipped_jobs:
     print(f"⚠️ Skipped {len(skipped_jobs)} jobs. See skipped_jobs.json for details.")
-    print("🔶 Skipped jobs preview:")
+    print("🟡 Skipped preview:")
     for j in skipped_jobs[:5]:
-        print(f" - Reason: {j['reason']} | Title: {j['title']}")
-    print("🔸 Some jobs were skipped. See skipped_jobs.json")
+        print(f"• Reason: {j['reason']} | Title: {j['title']}")
