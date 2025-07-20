@@ -16,7 +16,8 @@ LINK_FIELDS = [
     "apply_link",
     "url",
     "programme-link-href",
-    "apply-link-href"  # Newly added
+    "apply-link-href",
+    "programme-page-href"  # <- added backup
 ]
 LOCATION_FIELDS = ["location", "office-location", "job-location", "city"]
 DESCRIPTION_FIELDS = ["description", "job-description", "role-description"]
