@@ -1,5 +1,271 @@
 [
   {
+    "web-scraper-order": "1753277493-1",
+    "web-scraper-start-url": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/",
+    "programme-link": "",
+    "programme-link-href": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/consumer-banking-graduate-scheme/",
+    "title": "Consumer Banking Graduate Scheme",
+    "description": "Analysing customer behaviours using cutting-edge digital and data tools to understand and improve our products and services.",
+    "duration": "2 Years",
+    "salary": "£42,000 + fantastic benefits",
+    "Location": "This role is based across UK locations including London, the\nSouth West, West Yorkshire, North West and Edinburgh. You’ll need to be flexible. Mix office and home working with our hybrid working policy.",
+    "status-text": "Applications for our Consumer Banking Graduate Scheme are currently closed.",
+    "source": "Lloyds-grads"
+  },
+  {
+    "web-scraper-order": "1753277502-2",
+    "web-scraper-start-url": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/",
+    "programme-link": "",
+    "programme-link-href": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/technology-engineering-graduate-scheme/",
+    "title": "Technology Engineering Graduate Scheme",
+    "description": "Sharpening your coding skills with languages like JavaScript, Java, C#, Python, Swift and Kotlin.",
+    "duration": "2 Years",
+    "salary": "£45,000 + fantastic benefits",
+    "Location": "Edinburgh, Northwest (Manchester/Chester/Cheadle), Southwest (Bristol/Cardiff) and West Yorkshire (Leeds/Halifax). Mix office and home working with our hybrid working policy.",
+    "status-text": "Applications for the Technology Engineering Graduate Scheme are now closed.",
+    "source": "Lloyds-grads"
+  },
+  {
+    "web-scraper-order": "1753277511-3",
+    "web-scraper-start-url": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/",
+    "programme-link": "",
+    "programme-link-href": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/data-science-and-analytics-graduate-scheme/",
+    "title": "Data Science and Analytics Graduate Scheme",
+    "description": "Design and build machine learning algorithms and cutting-edge AI solutions. Combine coding, stats, and business savvy to change the way we do things.",
+    "duration": "2 Years",
+    "salary": "£45,000 + fantastic benefits",
+    "Location": "Edinburgh, West Yorkshire (Leeds and Halifax), North West (Chester, Cheadle, Manchester), London, South West (Bristol and Cardiff).  Mix office and home working with our hybrid working policy.",
+    "status-text": "Applications for our Data Science & Analytics Graduate Scheme are currently closed.",
+    "source": "Lloyds-grads"
+  },
+  {
+    "web-scraper-order": "1753277520-4",
+    "web-scraper-start-url": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/",
+    "programme-link": "",
+    "programme-link-href": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/sustainable-financial-wellbeing-graduate-scheme/",
+    "title": "Sustainable Financial Wellbeing Graduate Scheme",
+    "description": "Get to know our customers and business inside out by collaborating across departments.",
+    "duration": "2 Years",
+    "salary": "£42,000 + fantastic benefits",
+    "Location": "Edinburgh, Bristol, Leeds. Mix office and home working with our hybrid working policy.",
+    "status-text": "Applications for our Sustainable Financial Wellbeing Graduate Scheme are now closed.",
+    "source": "Lloyds-grads"
+  },
+  {
+    "web-scraper-order": "1753277529-5",
+    "web-scraper-start-url": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/",
+    "programme-link": "",
+    "programme-link-href": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/corporate-banking-and-markets-graduate-scheme/",
+    "title": "Corporate Banking and Markets Graduate Scheme",
+    "description": "Meeting clients to understand their needs and offer tailored solutions, using data analytics for deeper insights.",
+    "duration": "2 Years",
+    "salary": "£45,000 + fantastic benefits",
+    "Location": "Rotational Programme across key business hubs of London, Birmingham, and Edinburgh.",
+    "status-text": "Applications for our Corporate Banking and Markets Graduate Scheme are currently closed.",
+    "source": "Lloyds-grads"
+  },
+  {
+    "web-scraper-order": "1753277538-6",
+    "web-scraper-start-url": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/",
+    "programme-link": "",
+    "programme-link-href": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/data-management-and-strategy-graduate-scheme/",
+    "title": "Data Management and Strategy Graduate Scheme",
+    "description": "Strategic thinking and problem-solving skills",
+    "duration": "2 Years",
+    "salary": "£42,000 + fantastic benefits",
+    "Location": "Edinburgh, South West and West Yorkshire.  Mix office and home working with our hybrid working policy.",
+    "status-text": "Applications for our Data Management & Strategy Graduate Scheme are currently closed.",
+    "source": "Lloyds-grads"
+  },
+  {
+    "web-scraper-order": "1753277547-7",
+    "web-scraper-start-url": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/",
+    "programme-link": "",
+    "programme-link-href": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/risk-graduate-scheme/",
+    "title": "Risk Graduate Scheme",
+    "description": "analyse and assess risk to forecast performance.",
+    "duration": "2 Years",
+    "salary": "£42,000 + fantastic benefits",
+    "Location": "Leeds, Edinburgh, Bristol, Birmingham.  Mix office and home working with our hybrid working policy.",
+    "status-text": "Applications for Risk Graduate Scheme are now closed.",
+    "source": "Lloyds-grads"
+  },
+  {
+    "web-scraper-order": "1753277557-8",
+    "web-scraper-start-url": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/",
+    "programme-link": "",
+    "programme-link-href": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/actuarial-graduate-scheme/",
+    "title": "Actuarial Graduate Scheme",
+    "description": "Coding complex insurance models.",
+    "duration": "4 Years",
+    "salary": "£42,000 + fantastic benefits",
+    "Location": "Edinburgh, Bristol.",
+    "status-text": "Applications for our Actuarial Graduate Scheme are currently closed.\nOur graduate schemes may close early if we receive a high number of applications, so it’s best to apply as soon as you can.",
+    "source": "Lloyds-grads"
+  },
+  {
+    "web-scraper-order": "1753277566-9",
+    "web-scraper-start-url": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/",
+    "programme-link": "",
+    "programme-link-href": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/human-resources-graduate-scheme/",
+    "title": "Human Resources Graduate Scheme",
+    "description": "Collaborate with HR and senior teams to craft data-driven people plans.",
+    "duration": "2 Years",
+    "salary": "£42,000 + fantastic benefits",
+    "Location": "Bristol, Leeds, Edinburgh.  Mix office and home working with our hybrid working policy.",
+    "status-text": "Applications for our Human Resources Graduate Scheme are currently closed.",
+    "source": "Lloyds-grads"
+  },
+  {
+    "web-scraper-order": "1753277575-10",
+    "web-scraper-start-url": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/",
+    "programme-link": "",
+    "programme-link-href": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/business-and-commercial-banking-graduate-scheme/",
+    "title": "Business and Commercial Banking Graduate Scheme",
+    "description": "Meeting clients to understand their needs and how we can support them.",
+    "duration": "2 Years",
+    "salary": "£45,000 + fantastic benefits",
+    "Location": "Rotational Programme across key business hubs of Birmingham, Bristol, Edinburgh, Glasgow, Leeds and Manchester.",
+    "status-text": "Applications for our Business & Commercial Banking Graduate Scheme are now closed.",
+    "source": "Lloyds-grads"
+  },
+  {
+    "web-scraper-order": "1753277584-11",
+    "web-scraper-start-url": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/",
+    "programme-link": "",
+    "programme-link-href": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/occupational-psychology-graduate-scheme/",
+    "title": "Occupational Psychology Graduate Scheme",
+    "description": "Leading the development of a people product, from early design to implementation.",
+    "duration": "2 Years",
+    "salary": "£42,000 + fantastic benefits",
+    "Location": "Bristol or Leeds.  Mix office and home working with our hybrid working policy.",
+    "status-text": "Applications for our Occupational Psychology Graduate Scheme are currently closed.",
+    "source": "Lloyds-grads"
+  },
+  {
+    "web-scraper-order": "1753277593-12",
+    "web-scraper-start-url": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/",
+    "programme-link": "",
+    "programme-link-href": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/finance-graduate-scheme/",
+    "title": "Finance Graduate Scheme",
+    "description": "Understand the Finance function with tasks like monthly reporting and budgeting.",
+    "duration": "3 Years",
+    "salary": "£42,000 + fantastic benefits",
+    "Location": "Leeds, Edinburgh and Bristol. Mix office and home working with our hybrid working policy.",
+    "status-text": "Applications for our Finance Graduate Scheme are now closed.",
+    "source": "Lloyds-grads"
+  },
+  {
+    "web-scraper-order": "1753277483-1",
+    "web-scraper-start-url": "https://www.airbus.com/en/careers/students-and-graduates/graduates",
+    "role-name": "",
+    "role-description": "The Airbus Global Graduate Programme (AGGP) seeks graduates to join teams around the world.",
+    "role-status": "Applications for AGGP are now closed, reopening in September 2025",
+    "apply-button": "Browse all open positions",
+    "apply-button-href": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus",
+    "source": "airbus-grads"
+  },
+  {
+    "web-scraper-order": "1753277455-1",
+    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
+    "role-title": "Summer Internships",
+    "role-duration": "Duration: 10-Weeks\nLocation: London Heathrow\nRequirement: First or second year student when completing the internship. Minimum predicted 2:2 degree, or equivalent in any subject.\nSalary: £24,200 Pro Rata\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
+    "role-about": "About the scheme:\nIt may only last the summer, but we’ll pack plenty in. Take on responsibility in one of a variety of placements in our head office departments and beyond. You’ll complete projects, business as usual tasks and activities that make a real difference to our business, all while working alongside knowledgeable colleagues who’ll guide and support you. You’ll have plenty of opportunities to build your network with the Graduate community and learn about other areas of the airline too. We’ve always been interested in different perspectives and viewpoints. Fresh thinking and new ideas. So we encourage applicants from any degree discipline.",
+    "source": "Bristishariways-grads"
+  },
+  {
+    "web-scraper-order": "1753277455-2",
+    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
+    "role-title": "Future Leader Business Placements",
+    "role-duration": "Duration: 11-Months\nLocation: London Heathrow and Barry, Wales\nRequirements: Second-year student for third-year Industrial Placement, sandwich degree.\nSalary: £22,400 - £24,200 Pro Rata, depending on location.\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
+    "role-about": "About the scheme:\nOver the course of this 11-month placement, you’ll develop an enviable set of skills through exposure to different business areas across the airline, in our head office and beyond, and involvement on various significant projects. We’re open to your fresh ideas and different perspectives. You’ll be asked to challenge our current thinking and look for ways to improve on existing processes – you could genuinely make us work faster, and smarter.",
+    "source": "Bristishariways-grads"
+  },
+  {
+    "web-scraper-order": "1753277455-3",
+    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
+    "role-title": "Commercial Business",
+    "role-duration": "Duration: 3 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject (either achieved or expected).\nSalary: £33,600\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
+    "role-about": "About the scheme:\nOver 3 years, you’ll complete 3 very different and unique roles across our Commercial departments with the aim of developing you to become a commercial expert and leader of the future.",
+    "source": "Bristishariways-grads"
+  },
+  {
+    "web-scraper-order": "1753277455-4",
+    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
+    "role-title": "Commercial Analytics",
+    "role-duration": "Duration: 2 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject but ideally involving numbers and analysis (either achieved or expected).\nSalary: £33,600\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
+    "role-about": "About the scheme:\nYou’ll be responsible for change that you'll be able to see in our airports, with our aircraft and to when and where we fly. Or with our marketing communications, on our customer website, in our supplier and partner relationships and in our passenger numbers. Ultimately, in the exemplary customer experience, you help us to deliver. The placements you may experience in our area include Commercial Analytics where you’ll be working hand in hand with our front-line Global Sales team, so we can improve revenue and market share and understanding how we get our products in front of our customers and how our customers pay for them, or our Network Analytics team where you’ll plan our network, schedules, fleet, airport slot portfolio and more.",
+    "source": "Bristishariways-grads"
+  },
+  {
+    "web-scraper-order": "1753277455-5",
+    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
+    "role-title": "Data Science",
+    "role-duration": "Duration: 2 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in a subject with significant Numerical / Data Science / Advanced Analytics / Applied Statistics / Computer Science content (either achieved or expected), and a minimum of grade B at A-Level Maths or equivalent.\nSalary: £35,200\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
+    "role-about": "About the scheme:\nAirlines are complex, everchanging and data rich, which means that the industry provides one of the most varied and interesting places for data and analytics professionals to work. Problems like determining the optimal mix of aircraft to buy for the next 20 years, or how to improve overbooking set up, requires a creative approach identifying and exploiting value from current and new data sources, applying advanced analytical techniques and visualisations.  You will provide the analytics, recommendations, tools and models to input into key business projects which cover all aspects of the airline. You’ll have a big impact on the profitability, sustainability and customer satisfaction of our company by increasing revenue, reducing costs, helping to manage risks and optimising our customer experience.",
+    "source": "Bristishariways-grads"
+  },
+  {
+    "web-scraper-order": "1753277455-6",
+    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
+    "role-title": "Digital",
+    "role-duration": "Duration: 2 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject (either achieved or expected).\nSalary: £35,000\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
+    "role-about": "About the scheme:\nImagine leading a team of engineers, driving the future of airline technology, or managing cutting-edge digital systems that keep our global operations seamless. How would it sound to oversee the integration of AI in baggage handling at Heathrow? Or perhaps develop innovative software solutions that improve the customer experience, opening up exciting new markets? Picture yourself influencing the technology roadmap that will shape our airline’s digital transformation over the next 20 years. Your placements and experiences will expose you to the breadth and depth of challenges only an airline our size can provide. This will give you big-picture understanding and foresight of what it takes to begin introducing innovations and leading positive change. You’ll also gain the essential and transferable skills needed to be a high performing leader.",
+    "source": "Bristishariways-grads"
+  },
+  {
+    "web-scraper-order": "1753277455-7",
+    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
+    "role-title": "Finance",
+    "role-duration": "Duration: 3 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject (either achieved or expected).\nSalary: £33,500\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
+    "role-about": "About the scheme:\nYou’ll make the most of your three years via three rotating placements, experiencing different ideas and projects across the business – all while building your network along the way and business partnering critical areas of the British Airways business. You could be influencing investment decisions on our onboard products, analysing commercial decisions on network growth opportunities, or negotiating with our vast supplier network to maintain cost competitiveness. We have influential Finance teams sitting in every department. You’ll quickly become an invaluable asset within any team, experiencing the breadth and depth of opportunities that only one of the world's biggest and best-known airlines can provide. We’ll also sponsor and support you to gain your preferred professional finance qualification – CIMA, ACCA or ACA (ICAEW).",
+    "source": "Bristishariways-grads"
+  },
+  {
+    "web-scraper-order": "1753277455-8",
+    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
+    "role-title": "Future Leaders",
+    "role-duration": "Duration: 3 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject (either achieved or expected).\nSalary: £33,000\nApplications: Opening in 2025",
+    "role-about": "About the scheme:\nThrough a series of placements, you will get stuck in to the day-to-day tasks of running our business, as well as contributing to our long-term strategic vision and success. This is a hands-on programme in which you'll step out of your comfort zone, constructively challenge others and make your ideas reality.  Imagine leading a group of 75 cabin crew, or escorting the media on overseas trips as a PR Manager. How would it sound to run the ground staff at Heathrow? How about developing sales strategies for exciting new markets, or even influencing what our fleet should look like in 20 years’ time?",
+    "source": "Bristishariways-grads"
+  },
+  {
+    "web-scraper-order": "1753277455-9",
+    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
+    "role-title": "Operations Planning",
+    "role-duration": "Duration: 2 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject (either achieved or expected).\nSalary: £33,000\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
+    "role-about": "About the scheme:\nAcross the programme you will have the opportunity to experience different aspects of the planning and resource functions for our global airline. You will work in a directorate that has a direct impact on the British Airways operation. You will learn and apply new skills in Workforce planning and deployment, Post operational analysis, Stakeholder relationship management, People and change management and Continuous improvement. These placements will develop your ability to work with a range of people from different business areas, using a variety of technologies, methods, and measures to meet changing business needs.",
+    "source": "Bristishariways-grads"
+  },
+  {
+    "web-scraper-order": "1753277455-10",
+    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
+    "role-title": "Engineering Technical",
+    "role-duration": "Duration: 2 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in a discipline involving mechanical or aeronautical engineering (either achieved or expected).\nSalary: £35,200\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
+    "role-about": "About the scheme:\nBeing part of our technical team in engineering means one thing: you’ll be at the heart of ensuring our aircraft are safe and reliable. With a fleet of over 250 aircraft, you’ll find yourself tackling a mix of new and old technology on our aircraft. You could be influencing the roll out of our new business class seats; inspecting a new aircraft after delivery; or being part of our largest cabin design for the new Boeing 777-X. You will apply your technical knowledge to make a tangible impact on the airline as your recommendations will drive key business decisions and your projects will deliver reliable aircraft that is leading edge to keep our aircraft flying for the longest timespan.",
+    "source": "Bristishariways-grads"
+  },
+  {
+    "web-scraper-order": "1753277455-11",
+    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
+    "role-title": "Engineering Planning & Supply Chain",
+    "role-duration": "Duration: 2 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject (either achieved or expected).\nSalary: £35,200\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
+    "role-about": "About the scheme:\nThrough a series of placements, you’ll get under the skin of the strategic planning that makes our engineering function tick. With a large fleet of over 250 aircraft, you’ll have a breadth of exposure to our incredible operation. A big challenge of the role is managing the huge volumes of suppliers we work with to ensure we have the right parts in the right place at the right time, anywhere in the world enabling the smooth running of our operation. You could be organising the maintenance schedules for both our short haul and long haul aircraft; developing the long term strategy of maintenance considering efficiency, cost, time and quality of how we do things; or delivering projects around which aircraft we are entering and exiting in the business.",
+    "source": "Bristishariways-grads"
+  },
+  {
+    "web-scraper-order": "1753277454-1",
+    "web-scraper-start-url": "https://careers.db.com/students-graduates/Search-Programmes/#/graduate/results/?program=10",
+    "programme-page": "",
+    "programme-page-href": "",
+    "name": "",
+    "location": "",
+    "description": "",
+    "apply-link": "",
+    "apply-link-href": "",
+    "source": "DEUTSCHE-BANK-GRADS"
+  },
+  {
     "web-scraper-order": "1753266748-1",
     "web-scraper-start-url": "https://careers.db.com/students-graduates/graduate-programme/index",
     "role-name": "Graduate Programme",
@@ -715,19 +981,7 @@
     "source": "capgemini-grads"
   },
   {
-    "web-scraper-order": "1753191239-1",
-    "web-scraper-start-url": "https://bloomberg.avature.net/careers/SearchJobs/?1686=%5B55478%5D&1686_format=2312&listFilterMode=1&jobRecordsPerPage=12&_gl=1*14gxoe3*_gcl_au*NTE1NTUyNzAuMTc0Nzc1NDIzOQ..*_ga*NTcyMTc5NjE4LjE3NDc3NTQyMzk.*_ga_F61D775DS4*czE3NDc3NTQyMzkkbzEkZzEkdDE3NDc3NTQyNTEkajQ4JGwwJGgwJGRIV1JMdkN6MkZhakYyU1Z5c25MLVBucWRWN0x5SFpYZWhn#",
-    "role-page": "2025 Analytics & Sales - German Speakers",
-    "role-page-href": "https://bloomberg.avature.net/careers/JobDetail/2025-Analytics-Sales-German-Speakers-Updated/6308",
-    "role-name": "2025 Analytics & Sales - German Speakers",
-    "role-location": "London",
-    "role-description": "2025 Analytics & Sales - German Speakers\n                                                                                    \n                                    \n                                                                                    \n                    \n                \n                    \n                        \n                        \n                        \n            \n            \n            \n                            \n                                        \n                    \n                        \n                                                                                                \n                                                                                    \n                                                Location\n                                            \n                                        \n                                        \n                                                                                            London\n                                                                                    \n                                    \n                                                                                                                                \n                                                                                    \n                                                Business Area\n                                            \n                                        \n                                        \n                                                                                            Sales and Client Service\n                                                                                    \n                                    \n                                                                                                                                \n                                                                                    \n                                                Ref #\n                                            \n                                        \n                                        \n                                                                                            10038161\n                                                                                    \n                                    \n                                                                                    \n                    \n                \n                    \n                        \n                        \n                        \n            \n            \n            \n                            \n                                                                        \n        \n            \n                \n                    \n                    Description & Requirements\n                \n\n                            \n\n                    \n    \n                    \n                    \n                        \n                                                                                                \n                                        \n                                        \n                                                                                            The Analytics and Sales program is a unique opportunity to develop a comprehensive understanding of our Bloomberg products and clients in the wider context of financial markets. Following our comprehensive training program, you will apply your knowledge by assisting our clients in the Analytics department.\nIn our Analytics business, you will provide 24/7 support for Bloomberg Professional Service users all over the world and across multiple industries. Reaching us via our Helpdesk using the 'Instant Bloomberg' chat system, clients access unparalleled customer service where we answer their questions and help them maximize the value of Bloomberg's products. On any given day we respond to over 12,000 queries in more than 15 languages. From- educating a portfolio manager on Bloomberg’s risk management solutions to helping a trader use our functionality to discover new sources of market liquidity – the variety of problems we solve is immense.\nBloomberg is constantly innovating, and Analytics plays a key role in ensuring clients are educated on new products and enhancements by proactively working closely to upskill them through technology and delivering on-site training and seminars. We also work in conjunction with Sales to deliver strategic initiatives, supporting product roll-out and onboarding clients. We want to ensure our clients are making the most of our service and using tools and features that allow them to work smarter.\nAs you deepen your knowledge, you will have the opportunity to enter our sales department. In Sales, we are the face of Bloomberg for our clients. Consultative and entrepreneurial, we manage client relationships, whilst striving to continually grow our revenue by identifying new business opportunities. We spend our time with our clients, understanding their business goals and outpacing their expectations. Guided by curiosity and purpose, we work to understand their workflows and present them with the most appropriate solutions across our range of enterprise offerings.\nWhat’s in it for you?\nYou will start by completing our comprehensive Analytics & Sales training program, covering all aspects of the financial markets: industry principles, market players and asset classes - while teaching you all there is to know about the functionality and analytical tools Bloomberg has to offer!\nYou will join one of our Analytics teams, delivering exceptional customer support to our clients by providing fast and accurate solutions to their queries, while continuing to develop your knowledge through asset class and workflow specialist training.\nThere are multiple opportunities to further your career across the department or the company, with most Analytics representatives progressing towards opportunities in Sales. You may also develop into a specialized support role in our Advanced Team and in time take on a leadership role.\nWho you are?\nYou understand the drivers behind market moving stories and events. You are a solution-finder, with a real passion for providing exceptional customer service in a fast-paced environment and a desire to build a career in a client-facing role, you understand the importance of credibility and building relationships! \n\n You’ll need to have:\nFluency in German, in addition to English (written and verbal)A Bachelor’s degree (or above) or relevant work experience  Ability to multitask and resolve client inquiries while also proactively identifying sustainable workflow solutions for our clients Demonstrated interest in the financial markets and the aspiration to work in the financial services industry Strong critical-thinking and problem-solving skills The desire to learn and adapt quickly in a dynamic training and client facing environment  The ability to demonstrate resilience and agility in a fast-paced environment  A commitment to achieve the highest levels of efficiency and effectiveness  Ambition to pursue a client-facing career, with a strong interest in relationship management and sales  Outstanding communication skills (both written and verbal)  Willing and able to travel around EMEA to meet the business needs of our clients Flexibility to occasionally work weekends or on a bank holiday (weekday off in lieu) \n We’d love to see:\nDemonstrated exposure to Python or other coding languages preferable Previous experience engaging with clients in a relationship management capacity Beginner to intermediate experience with excel and/or VBA \nIf this sounds like you: \n\n Apply if you think we're a good match. We'll get in touch to let you know what the next steps are, but in the meantime feel free to have a look at: [1] https://www.bloomberg.com/company/. \n\n\n                                                                                    \n                                    \n                                                                                    \n                    \n                \n                        \n\n\n                                                                                        \n                                Apply Now\n                            \n                                                            \n                                                        \n                        \n                            \n                                Back to Job Search",
-    "apply-button": "Apply Now",
-    "apply-button-href": "https://bloomberg.avature.net/careers/Login?jobId=6308&source=&tags=&user=&formValues=",
-    "source": "bloomberg-grads"
-  },
-  {
-    "web-scraper-order": "1753191242-2",
+    "web-scraper-order": "1753277621-1",
     "web-scraper-start-url": "https://bloomberg.avature.net/careers/SearchJobs/?1686=%5B55478%5D&1686_format=2312&listFilterMode=1&jobRecordsPerPage=12&_gl=1*14gxoe3*_gcl_au*NTE1NTUyNzAuMTc0Nzc1NDIzOQ..*_ga*NTcyMTc5NjE4LjE3NDc3NTQyMzk.*_ga_F61D775DS4*czE3NDc3NTQyMzkkbzEkZzEkdDE3NDc3NTQyNTEkajQ4JGwwJGgwJGRIV1JMdkN6MkZhakYyU1Z5c25MLVBucWRWN0x5SFpYZWhn#",
     "role-page": "2025 Bloomberg Customer Support Representative (Japanese Speaker) - Tokyo",
     "role-page-href": "https://bloomberg.avature.net/careers/JobDetail/2025-Bloomberg-Customer-Support-Representative-Japanese-Speaker-Tokyo/7495",
@@ -739,7 +993,19 @@
     "source": "bloomberg-grads"
   },
   {
-    "web-scraper-order": "1753191247-3",
+    "web-scraper-order": "1753277627-2",
+    "web-scraper-start-url": "https://bloomberg.avature.net/careers/SearchJobs/?1686=%5B55478%5D&1686_format=2312&listFilterMode=1&jobRecordsPerPage=12&_gl=1*14gxoe3*_gcl_au*NTE1NTUyNzAuMTc0Nzc1NDIzOQ..*_ga*NTcyMTc5NjE4LjE3NDc3NTQyMzk.*_ga_F61D775DS4*czE3NDc3NTQyMzkkbzEkZzEkdDE3NDc3NTQyNTEkajQ4JGwwJGgwJGRIV1JMdkN6MkZhakYyU1Z5c25MLVBucWRWN0x5SFpYZWhn#",
+    "role-page": "2025 Bloomberg Customer Support - Japanese Speakers - November Start",
+    "role-page-href": "https://bloomberg.avature.net/careers/JobDetail/2025-EMEA-Bloomberg-Customer-Support-Japanese-Speaker-Updated/13146",
+    "role-name": "2025 Bloomberg Customer Support - Japanese Speakers - November Start",
+    "role-location": "London",
+    "role-description": "2025 Bloomberg Customer Support - Japanese Speakers - November Start\n                                                                                    \n                                    \n                                                                                    \n                    \n                \n                    \n                        \n                        \n                        \n            \n            \n            \n                            \n                                        \n                    \n                        \n                                                                                                \n                                                                                    \n                                                Location\n                                            \n                                        \n                                        \n                                                                                            London\n                                                                                    \n                                    \n                                                                                                                                \n                                                                                    \n                                                Business Area\n                                            \n                                        \n                                        \n                                                                                            Technology Support\n                                                                                    \n                                    \n                                                                                                                                \n                                                                                    \n                                                Ref #\n                                            \n                                        \n                                        \n                                                                                            10044973\n                                                                                    \n                                    \n                                                                                    \n                    \n                \n                    \n                        \n                        \n                        \n            \n            \n            \n                            \n                                                                        \n        \n            \n                \n                    \n                    Description & Requirements\n                \n\n                            \n\n                    \n    \n                    \n                    \n                        \n                                                                                                \n                                        \n                                        \n                                                                                            The Company:\nBloomberg ignites the power of information and technology to bring clarity to a sophisticated world. A global financial information and news leader that provides influential decision makers a critical edge by connecting them to a dynamic network of information, people and ideas. The company delivers data, news and analytics through innovative technology and provides real time financial information to more than 325,000 subscribers globally.In a career at Bloomberg, you will play a vital role in making it all happen. You will be joining a team of solution-finders, with a real passion for providing superb customer service in a fast-paced environment. Exciting. Surprising. Purposeful. Life at Bloomberg is many things, but it is never dull. We are a truly global business with a truly diverse workforce. We pride ourselves on being open, inclusive and collaborative — and in providing a work environment that encourages our employees to be their best.\nWhat’s the Role?\nAre you passionate about working in financial markets and by the prospect of providing technical support for the world's leading financial professionals? If so, join the Bloomberg Customer Support team, which is a key part of our Technology Services & Solutions business.\nAs a Bloomberg Customer Support professional, you have two critical focus areas: to provide superb customer service to a broad range of clients, and ensure the fast and effective management of various client workflows and hardware/software issues.You will be responsible for the installation, connection, hardware management and workflow support of terminal clients over the phone and via Bloomberg Instant Messaging. The position includes assisting fast-paced clients operating in Capital Markets, Asset Management and Financial Services by installing the Bloomberg software and configuring proprietary hardware, such as keyboards and biometrics. Moreover, as automation continues to grow in the industry, we are adapting to understand our clients’ technological needs. We tackle our clients’ software issues, and we understand how it relates to their workflows and asset-class needs. Working with critical information and highly sophisticated tools, we ensure the security of our clients’ accounts and data.\nSecondly, you will connect with our clients, including CEOs and executive managers with access to proprietary data and information. We set-up, train, and connect our clients to the various Bloomberg products and platforms they subscribe to. You will work as part of our 500 strong distributed team, supporting our clients collectively in more than 18 languages.\nWho you are:\nYou come to work with a purpose, understand what vitality means to a trader, are curious and take pride in being customer service driven. You love being part of a team where clients count on you every day, and you challenge and support your colleagues to innovate, learn and deliver the best service possible.\nWhat's in it for you?\nWe provide all new hires an 8-week long training program, which covers aspects such as an introduction to Bloomberg products and services, our clients, a broader insight into global financial markets, general daily inquiries, product setup and hardware, and troubleshooting.\nYou'll never stop learning... we'll invest in your career, and coupled with our unrivaled approach to career development, we will help you expand your skills and opportunities in this role through project involvements. Our Bloomberg Technology Client Services specialists have the opportunity to be involved in mentoring, recruiting, quality control and idea generation.\nYou will have the opportunity to champion your career across the company or further develop your technical skills within the Technology Services and Solutions Business. Our alumni have a diversity of successful career paths to: Analytics & Sales, Enterprise Technology Services, Data, Compliance, Finance, Engineering as well as Advanced IT roles and Client Financial Services.\nYou’ll need to have:Bachelor's degree or equivalent experienceFluency in Japanese in addition to English (written and verbal)Ability to provide outstanding customer service to clients through live, interactive media (e.g. phone, messaging, etc.)A demonstrated interest in Finance and / or TechnologyDesire to develop skills and experience in customer service in a fast-moving FinTech environmentWillingness to learn new technologies and ability to retain informationMulti-tasking and problem solving skills as well as an ability to work independently and as part of a larger global teamAn interest in progressing a career within Bloomberg\nWe’d love to see:Work experience in a client/customer facing roleCuriosity to identify, research, and resolve customer technology, software and hardware issuesAwareness of data management, privacy and information securityAptitude to work within highly connected and software-based systemYou'll need to be able to:\nStart a full time role in November 2025Occasionally work weekends or on a bank holiday (weekday off in lieu)We are committed to hiring the best and brightest talent at Bloomberg and we do provide visa sponsorship for this role. However, each case is reviewed on an individual basis.\nIf this sounds like you:\nApply if you think we're a good match. We'll get in touch to let you know what the next steps are, but in the meantime feel free to have a look at this: https://www.bloomberg.com/company/\n                                                                                    \n                                    \n                                                                                    \n                    \n                \n                        \n\n\n                                                                                        \n                                Apply Now\n                            \n                                                            \n                                                        \n                        \n                            \n                                Back to Job Search",
+    "apply-button": "Apply Now",
+    "apply-button-href": "https://bloomberg.avature.net/careers/Login?jobId=13146&source=&tags=&user=&formValues=",
+    "source": "bloomberg-grads"
+  },
+  {
+    "web-scraper-order": "1753277630-3",
     "web-scraper-start-url": "https://bloomberg.avature.net/careers/SearchJobs/?1686=%5B55478%5D&1686_format=2312&listFilterMode=1&jobRecordsPerPage=12&_gl=1*14gxoe3*_gcl_au*NTE1NTUyNzAuMTc0Nzc1NDIzOQ..*_ga*NTcyMTc5NjE4LjE3NDc3NTQyMzk.*_ga_F61D775DS4*czE3NDc3NTQyMzkkbzEkZzEkdDE3NDc3NTQyNTEkajQ4JGwwJGgwJGRIV1JMdkN6MkZhakYyU1Z5c25MLVBucWRWN0x5SFpYZWhn#",
     "role-page": "2025 Bloomberg Customer Support Representative (Korean Speaker) - Hong Kong",
     "role-page-href": "https://bloomberg.avature.net/careers/JobDetail/BCS-2025-Hong-Kong-Graduate-Korean-Speaker-Req/12766",
@@ -751,7 +1017,7 @@
     "source": "bloomberg-grads"
   },
   {
-    "web-scraper-order": "1753191250-4",
+    "web-scraper-order": "1753277634-4",
     "web-scraper-start-url": "https://bloomberg.avature.net/careers/SearchJobs/?1686=%5B55478%5D&1686_format=2312&listFilterMode=1&jobRecordsPerPage=12&_gl=1*14gxoe3*_gcl_au*NTE1NTUyNzAuMTc0Nzc1NDIzOQ..*_ga*NTcyMTc5NjE4LjE3NDc3NTQyMzk.*_ga_F61D775DS4*czE3NDc3NTQyMzkkbzEkZzEkdDE3NDc3NTQyNTEkajQ4JGwwJGgwJGRIV1JMdkN6MkZhakYyU1Z5c25MLVBucWRWN0x5SFpYZWhn#",
     "role-page": "2025 Bloomberg Customer Support Representative (Mandarin Speaker) - Hong Kong",
     "role-page-href": "https://bloomberg.avature.net/careers/JobDetail/BCS-2025-Hong-Kong-Graduate-Mandarin-Speaker-Req/12767",
@@ -763,7 +1029,7 @@
     "source": "bloomberg-grads"
   },
   {
-    "web-scraper-order": "1753191253-5",
+    "web-scraper-order": "1753277638-5",
     "web-scraper-start-url": "https://bloomberg.avature.net/careers/SearchJobs/?1686=%5B55478%5D&1686_format=2312&listFilterMode=1&jobRecordsPerPage=12&_gl=1*14gxoe3*_gcl_au*NTE1NTUyNzAuMTc0Nzc1NDIzOQ..*_ga*NTcyMTc5NjE4LjE3NDc3NTQyMzk.*_ga_F61D775DS4*czE3NDc3NTQyMzkkbzEkZzEkdDE3NDc3NTQyNTEkajQ4JGwwJGgwJGRIV1JMdkN6MkZhakYyU1Z5c25MLVBucWRWN0x5SFpYZWhn#",
     "role-page": "2025 Analytics and Sales (Japanese speakers), Tokyo",
     "role-page-href": "https://bloomberg.avature.net/careers/JobDetail/2025-ADSK-TOKYO-FTE/11156",
@@ -775,31 +1041,7 @@
     "source": "bloomberg-grads"
   },
   {
-    "web-scraper-order": "1753191257-6",
-    "web-scraper-start-url": "https://bloomberg.avature.net/careers/SearchJobs/?1686=%5B55478%5D&1686_format=2312&listFilterMode=1&jobRecordsPerPage=12&_gl=1*14gxoe3*_gcl_au*NTE1NTUyNzAuMTc0Nzc1NDIzOQ..*_ga*NTcyMTc5NjE4LjE3NDc3NTQyMzk.*_ga_F61D775DS4*czE3NDc3NTQyMzkkbzEkZzEkdDE3NDc3NTQyNTEkajQ4JGwwJGgwJGRIV1JMdkN6MkZhakYyU1Z5c25MLVBucWRWN0x5SFpYZWhn#",
-    "role-page": "2026 Bloomberg Customer Support Representative (Japanese Speaker) - Tokyo",
-    "role-page-href": "https://bloomberg.avature.net/careers/JobDetail/2026-Bloomberg-Customer-Support-Representative-Japanese-Speaker-Tokyo/6504",
-    "role-name": "2026 Bloomberg Customer Support Representative (Japanese Speaker) - Tokyo",
-    "role-location": "Tokyo",
-    "role-description": "2026 Bloomberg Customer Support Representative (Japanese Speaker) - Tokyo\n                                                                                    \n                                    \n                                                                                    \n                    \n                \n                    \n                        \n                        \n                        \n            \n            \n            \n                            \n                                        \n                    \n                        \n                                                                                                \n                                                                                    \n                                                Location\n                                            \n                                        \n                                        \n                                                                                            Tokyo\n                                                                                    \n                                    \n                                                                                                                                \n                                                                                    \n                                                Business Area\n                                            \n                                        \n                                        \n                                                                                            Technology Support\n                                                                                    \n                                    \n                                                                                                                                \n                                                                                    \n                                                Ref #\n                                            \n                                        \n                                        \n                                                                                            10038357\n                                                                                    \n                                    \n                                                                                    \n                    \n                \n                    \n                        \n                        \n                        \n            \n            \n            \n                            \n                                                                        \n        \n            \n                \n                    \n                    Description & Requirements\n                \n\n                            \n\n                    \n    \n                    \n                    \n                        \n                                                                                                \n                                        \n                                        \n                                                                                            The Company:Bloomberg ignites the power of information and technology to bring clarity to a sophisticated world. A global financial information and news leader that provides influential decision makers a critical edge by connecting them to a dynamic network of information, people and ideas. The company delivers data, news and analytics through innovative technology and provides real time financial information to more than 325,000 subscribers globally.\nIn a career at Bloomberg, you will play a vital role in making it all happen. You will be joining a team of solution-finders, with a real passion for providing superb customer service in a fast-paced environment. Exciting. Surprising. Purposeful. Life at Bloomberg is many things, but it is never dull. We are a truly global business with a truly diverse workforce. We pride ourselves on being open, inclusive and collaborative — and in providing a work environment that encourages our employees to be their best.\nWhat’s The Role?Are you passionate about working in financial markets and by the prospect of providing technical support for the world's leading financial professionals? If so, join the Bloomberg Customer Support team, which is a key part of our User Support business.\nAs a Bloomberg Customer Support professional, you have two critical focus areas: to provide superb customer service to a broad range of clients, and ensure the fast and effective management of various client workflows and hardware/software issues.\nYou will be responsible for the installation and setup of Bloomberg software, license, and logins, configuration of proprietary hardware (such as biometric authentication device and keyboards), and other technical & login support for our mobile and desktop applications, over the phone, email and via Bloomberg Instant Messaging. We also conduct proactive outreach to clients for licenses, hardware, and software setups, to ensure our clients are able to access our products promptly, seamlessly and securely. You will also be collaborating with internal teams at different levels and across regions to resolve complex issues while maintaining effective communication and ensuring consistent adherence to company standard.  \nSecondly, you will connect with our clients, including CEOs and executive managers with access to proprietary data and information, and provide them with technical training on the Bloomberg Terminal, as well as connect them to various internal teams depending on the Bloomberg products and platforms they subscribe to. You will have the opportunity to work as part of our 500 strong distributed team, supporting our clients collectively in more than 15 languages.\n\nWho you are:You come to work with a purpose, understand the fast paced environment our clients work in, are curious and take pride in being customer service driven.\nWhat's in it for you?We provide all new hires an 8 week long training program, which covers aspects such as an introduction to Bloomberg products and services, our clients, a broader insight into global financial markets, general daily inquiries, product setup and hardware, and troubleshooting.\nYou'll never stop learning...we'll invest in your career, and coupled with our unrivaled approach to career development, we will help you expand your skills and opportunities in this role through project involvements. Our Bloomberg Technology Client Services specialists have the opportunity to be involved in mentoring, recruiting, quality control and idea generation.\nYou will have the opportunity to champion your career across the company. Our alumni have a diversity of successful career paths to: Analytics & Sales, Data, Technical Support, Finance, Enterprise Services and Corporate Admins.\nYou’ll need to have:Bachelor's degree or equivalent experienceFluency in Japanese and English (written and verbal)Ability to provide outstanding customer service to clients through live, interactive media (e.g. phone, messaging, etc.)A demonstrated interest in Finance and / or TechnologyDesire to develop skills and experience in customer service in a fast-moving FinTech environmentWillingness to learn new technologies and ability to retain informationCareful attention to detail, with an aptitude for working quickly and accurately Multi-tasking and problem solving skills as well as an ability to work independently and as part of a larger global teamAn interest in progressing a career within Bloomberg\nWe’d love to see:Work experience in a client/customer facing roleCuriosity to identify, research, and resolve customer technology, software and hardware issuesAwareness of data management, privacy and information securityAptitude to work within highly connected and software-based systems\nYou'll need to be able to:Start full time work in 2026Occasionally work weekends or on a bank holiday (weekday off in lieu)\nIf this sounds like you:Apply if you think we're a good match. We'll get in touch to let you know what the next steps are, but in the meantime feel free to have a look at this: https://www.bloomberg.com/company/\nPlease note this is a two stage application process. Following the submission of your main application, you will receive an email with directions to complete an online assessment. Completing this assessment is a necessary step to be considered for the role.\n\n                                                                                    \n                                    \n                                                                                    \n                    \n                \n                        \n\n\n                                                                                        \n                                Apply Now\n                            \n                                                            \n                                                        \n                        \n                            \n                                Back to Job Search",
-    "apply-button": "Apply Now",
-    "apply-button-href": "https://bloomberg.avature.net/careers/Login?jobId=6504&source=&tags=&user=&formValues=",
-    "source": "bloomberg-grads"
-  },
-  {
-    "web-scraper-order": "1753191260-7",
-    "web-scraper-start-url": "https://bloomberg.avature.net/careers/SearchJobs/?1686=%5B55478%5D&1686_format=2312&listFilterMode=1&jobRecordsPerPage=12&_gl=1*14gxoe3*_gcl_au*NTE1NTUyNzAuMTc0Nzc1NDIzOQ..*_ga*NTcyMTc5NjE4LjE3NDc3NTQyMzk.*_ga_F61D775DS4*czE3NDc3NTQyMzkkbzEkZzEkdDE3NDc3NTQyNTEkajQ4JGwwJGgwJGRIV1JMdkN6MkZhakYyU1Z5c25MLVBucWRWN0x5SFpYZWhn#",
-    "role-page": "2025 Bloomberg Customer Support Representative (Japanese Speaker) - Hong Kong",
-    "role-page-href": "https://bloomberg.avature.net/careers/JobDetail/BCS-2025-Hong-Kong-Graduate-Japanese-Speaker-Req/12310",
-    "role-name": "2025 Bloomberg Customer Support Representative (Japanese Speaker) - Hong Kong",
-    "role-location": "Hong Kong",
-    "role-description": "2025 Bloomberg Customer Support Representative (Japanese Speaker) - Hong Kong\n                                                                                    \n                                    \n                                                                                    \n                    \n                \n                    \n                        \n                        \n                        \n            \n            \n            \n                            \n                                        \n                    \n                        \n                                                                                                \n                                                                                    \n                                                Location\n                                            \n                                        \n                                        \n                                                                                            Hong Kong\n                                                                                    \n                                    \n                                                                                                                                \n                                                                                    \n                                                Business Area\n                                            \n                                        \n                                        \n                                                                                            Technology Support\n                                                                                    \n                                    \n                                                                                                                                \n                                                                                    \n                                                Ref #\n                                            \n                                        \n                                        \n                                                                                            10044142\n                                                                                    \n                                    \n                                                                                    \n                    \n                \n                    \n                        \n                        \n                        \n            \n            \n            \n                            \n                                                                        \n        \n            \n                \n                    \n                    Description & Requirements\n                \n\n                            \n\n                    \n    \n                    \n                    \n                        \n                                                                                                \n                                        \n                                        \n                                                                                            The Company:\nBloomberg ignites the power of information and technology to bring clarity to a sophisticated world. A global financial information and news leader that provides influential decision makers a critical edge by connecting them to a dynamic network of information, people and ideas. The company delivers data, news and analytics through innovative technology and provides real time financial information to more than 325,000 subscribers globally.\nIn a career at Bloomberg, you will play a vital role in making it all happen. You will be joining a team of solution-finders, with a real passion for providing superb customer service in a fast-paced environment. Exciting. Surprising. Purposeful. Life at Bloomberg is many things, but it is never dull. We are a truly global business with a truly diverse workforce. We pride ourselves on being open, inclusive and collaborative — and in providing a work environment that encourages our employees to be their best.\nWhat’s The Role?\nAre you passionate about working in financial markets and by the prospect of providing technical support for the world's leading financial professionals? If so, join the Bloomberg Customer Support team, which is a key part of our User Support business.\nAs a Bloomberg Customer Support professional, you have two critical focus areas: to provide excellent customer service to a broad range of clients, and ensure fast and effective management of various client workflows and Bloomberg terminal-related hardware/software issues.\nYou will be responsible for the installation and setup of Bloomberg software, license, and logins, configuration of proprietary hardware (such as biometric authentication device and keyboards), and other technical & login support for our mobile and desktop applications, over the phone, email and via Bloomberg Instant Messaging. We also conduct proactive outreach to clients for licenses, hardware, and software setups, to ensure our clients are able to access our products promptly, seamlessly and securely. You will also be collaborating with internal teams at different levels and across regions to resolve complex issues while maintaining effective communication and ensuring consistent adherence to company standard.\nSecondly, you will connect with our clients, including CEOs and executive managers with access to proprietary data and information, and provide them with technical training on the Bloomberg Terminal, as well as connect them to various internal teams depending on the Bloomberg products and platforms they subscribe to. You will have the opportunity to work as part of our 500 strong distributed team, supporting our clients collectively in more than 15 languages.\nWho you are:\nYou come to work with a purpose, understand the fast paced environment our clients work in, are curious and take pride in being customer service driven.\nWhat's in it for you?\nWe provide all new hires an 8 week long training program, which covers aspects such as an introduction to Bloomberg products and services, our clients, a broader insight into global financial markets, general daily inquiries, product setup and hardware, and troubleshooting.\nYou'll never stop learning...we'll invest in your career, and coupled with our unrivaled approach to career development, we will help you expand your skills and opportunities in this role through project involvements. Our Bloomberg Customer Support Representatives have the opportunity to be involved in mentoring, recruiting, quality control and idea generation.\nYou will have the opportunity to champion your career across the company. Our alumni have a diversity of successful career paths to: Analytics & Sales, Data, Technical Support, Finance, Enterprise Services and Corporate Admins.\nThis is an entry level role where you'll need to have:\n- A Bachelor’s degree (or above) and the ability to join a 2025 December training class - Business proficiency and fluency in English and Japanese to manage respective clients- Ability to provide outstanding customer service to clients through live, interactive media (e.g. phone, messaging, etc.)- A demonstrable interest in financial markets or technology and aspiration to work in the financial/fintech services industry (example: course of degree or work/internship experience or extracurricular activities)- Exposure in customer support/managing stakeholders from various profile through school, work, internship or extracurricular activities- Willingness to learn new technologies and ability to retain information- Careful attention to detail, with an aptitude for working quickly and accurately- Multi-tasking and problem solving skills as well as an ability to work independently and as part of a larger global team- An interest in progressing a career within Bloomberg\nWe’d love to see:- Curiosity to identify, research, and resolve customer technology, software and hardware issues- Awareness of data management, privacy and information security- Aptitude to work within highly connected and software-based systems\nYou'll need to be able to:- Occasionally work weekends or on a bank holiday (weekday off in lieu)\nPlease note this is a two stage application process. Following the submission of your main application, you will receive an email with directions to complete an online assessment. Completing this assessment is a necessary step to be considered for the role.\nIf this sounds like you:Apply if you think we're a good match. We'll get in touch to let you know what the next steps are, but in the meantime feel free to have a look at this: https://www.bloomberg.com/company/\n                                                                                    \n                                    \n                                                                                    \n                    \n                \n                        \n\n\n                                                                                        \n                                Apply Now\n                            \n                                                            \n                                                        \n                        \n                            \n                                Back to Job Search",
-    "apply-button": "Apply Now",
-    "apply-button-href": "https://bloomberg.avature.net/careers/Login?jobId=12310&source=&tags=&user=&formValues=",
-    "source": "bloomberg-grads"
-  },
-  {
-    "web-scraper-order": "1753191263-8",
+    "web-scraper-order": "1753277642-6",
     "web-scraper-start-url": "https://bloomberg.avature.net/careers/SearchJobs/?1686=%5B55478%5D&1686_format=2312&listFilterMode=1&jobRecordsPerPage=12&_gl=1*14gxoe3*_gcl_au*NTE1NTUyNzAuMTc0Nzc1NDIzOQ..*_ga*NTcyMTc5NjE4LjE3NDc3NTQyMzk.*_ga_F61D775DS4*czE3NDc3NTQyMzkkbzEkZzEkdDE3NDc3NTQyNTEkajQ4JGwwJGgwJGRIV1JMdkN6MkZhakYyU1Z5c25MLVBucWRWN0x5SFpYZWhn#",
     "role-page": "2025 Bloomberg Customer Support Representative (Cantonese Speaker) - Hong Kong",
     "role-page-href": "https://bloomberg.avature.net/careers/JobDetail/BCS-2025-Hong-Kong-Graduate-Cantonese-Speaker-Req/5900",
@@ -811,7 +1053,7 @@
     "source": "bloomberg-grads"
   },
   {
-    "web-scraper-order": "1753191266-9",
+    "web-scraper-order": "1753277646-7",
     "web-scraper-start-url": "https://bloomberg.avature.net/careers/SearchJobs/?1686=%5B55478%5D&1686_format=2312&listFilterMode=1&jobRecordsPerPage=12&_gl=1*14gxoe3*_gcl_au*NTE1NTUyNzAuMTc0Nzc1NDIzOQ..*_ga*NTcyMTc5NjE4LjE3NDc3NTQyMzk.*_ga_F61D775DS4*czE3NDc3NTQyMzkkbzEkZzEkdDE3NDc3NTQyNTEkajQ4JGwwJGgwJGRIV1JMdkN6MkZhakYyU1Z5c25MLVBucWRWN0x5SFpYZWhn#",
     "role-page": "2025 Bloomberg Customer Support - Mandarin Speakers - November Start",
     "role-page-href": "https://bloomberg.avature.net/careers/JobDetail/2025-Bloomberg-Customer-Support-Mandarin-Speakers-Updated/11573",
@@ -823,7 +1065,19 @@
     "source": "bloomberg-grads"
   },
   {
-    "web-scraper-order": "1753191270-10",
+    "web-scraper-order": "1753277650-8",
+    "web-scraper-start-url": "https://bloomberg.avature.net/careers/SearchJobs/?1686=%5B55478%5D&1686_format=2312&listFilterMode=1&jobRecordsPerPage=12&_gl=1*14gxoe3*_gcl_au*NTE1NTUyNzAuMTc0Nzc1NDIzOQ..*_ga*NTcyMTc5NjE4LjE3NDc3NTQyMzk.*_ga_F61D775DS4*czE3NDc3NTQyMzkkbzEkZzEkdDE3NDc3NTQyNTEkajQ4JGwwJGgwJGRIV1JMdkN6MkZhakYyU1Z5c25MLVBucWRWN0x5SFpYZWhn#",
+    "role-page": "2026 Analytics and Sales (Japanese speakers), Tokyo",
+    "role-page-href": "https://bloomberg.avature.net/careers/JobDetail/2026-ADSK-TO-FTE/11157",
+    "role-name": "2026 Analytics and Sales (Japanese speakers), Tokyo",
+    "role-location": "Tokyo",
+    "role-description": "2026 Analytics and Sales (Japanese speakers), Tokyo\n                                                                                    \n                                    \n                                                                                    \n                    \n                \n                    \n                        \n                        \n                        \n            \n            \n            \n                            \n                                        \n                    \n                        \n                                                                                                \n                                                                                    \n                                                Location\n                                            \n                                        \n                                        \n                                                                                            Tokyo\n                                                                                    \n                                    \n                                                                                                                                \n                                                                                    \n                                                Business Area\n                                            \n                                        \n                                        \n                                                                                            Sales and Client Service\n                                                                                    \n                                    \n                                                                                                                                \n                                                                                    \n                                                Ref #\n                                            \n                                        \n                                        \n                                                                                            10042990\n                                                                                    \n                                    \n                                                                                    \n                    \n                \n                    \n                        \n                        \n                        \n            \n            \n            \n                            \n                                                                        \n        \n            \n                \n                    \n                    Description & Requirements\n                \n\n                            \n\n                    \n    \n                    \n                    \n                        \n                                                                                                \n                                        \n                                        \n                                                                                            The Analytics and Sales program is a unique opportunity to develop a comprehensive understanding of our Bloomberg products and clients in the wider context of financial markets. Following our comprehensive training program, you will apply your knowledge by assisting our clients in the Analytics department. In our Analytics business, you will provide 24/7 support for Bloomberg Professional Service users all over the world and across multiple industries. Reaching us via our Helpdesk using the 'Instant Bloomberg' chat system, clients access unparalleled customer service where we answer their questions and help them maximize the value of Bloomberg's products. On any given day we respond to over 12,000 queries in more than 15 languages. From- educating a portfolio manager on Bloomberg’s risk management solutions to helping a trader use our functionality to discover new sources of market liquidity – the variety of problems we solve is immense. Bloomberg is constantly innovating, and Analytics plays a key role in ensuring clients are educated on new products and enhancements by proactively working closely to upskill them through technology and delivering on-site training and seminars. We also work in conjunction with Sales to deliver strategic initiatives, supporting product roll-out and onboarding clients. We want to ensure our clients are making the most of our service and using tools and features that allow them to work smarter. As you deepen your knowledge, you will have the opportunity to enter our sales department. In Sales, we are the face of Bloomberg for our clients. Consultative and entrepreneurial, we manage client relationships, whilst striving to continually grow our revenue by identifying new business opportunities. We spend our time with our clients, understanding their business goals and outpacing their expectations. Guided by curiosity and purpose, we work to understand their workflows and present them with the most appropriate solutions across our range of enterprise offerings.  What’s in it for you? You will start by completing our comprehensive Analytics & Sales training program, covering all aspects of the financial markets: industry principles, market players and asset classes - while teaching you all there is to know about the functionality and analytical tools Bloomberg has to offer! You will join one of our Analytics teams, delivering exceptional customer support to our clients by providing fast and accurate solutions to their queries, while continuing to develop your knowledge through asset class and workflow specialist training. There are multiple opportunities to further your career across the department or the company, with most Analytics representatives progressing towards opportunities in Sales. You may also develop into a specialized support role in our Advanced Team and in time take on a leadership role.   Who you are? You understand the drivers behind market moving stories and events. You are a solution-finder, with a real passion for providing exceptional customer service in a fast-paced environment and a desire to build a career in a client-facing role, you understand the importance of credibility and building relationships!   You’ll need to have:A Bachelor’s degree (or above) or relevant work experienceDemonstrated interest in the financial markets and the aspiration to work in the financial services industry Strong multitasking abilities, critical thinking and problem-solving skills The ability to learn and adapt quickly in a fast-paced dynamic environment Ambition for a client-facing career with focus on relationship management and sales Interest in innovative technologies and their potential to enhance workflows and efficiencies Exceptional communication skills (both written and verbal) Fluency in Japanese, in addition to English (written and verbal) Able to start a full-time role in 2026 Flexibility to occasionally work weekends or on bank/public/federal holiday (weekday off in lieu) \nWe’d love to see: Demonstrated practical exposure to Python or other coding languages preferable \nPrevious experience in client relationship management Beginner to intermediate experience with Excel and/or VBA  \nIf this sounds like you: Apply if you think we're a good match. We'll get in touch to let you know what the next steps are, but in the meantime feel free to have a look at: https://www.bloomberg.com/company/. \n\n                                                                                    \n                                    \n                                                                                    \n                    \n                \n                        \n\n\n                                                                                        \n                                Apply Now\n                            \n                                                            \n                                                        \n                        \n                            \n                                Back to Job Search",
+    "apply-button": "Apply Now",
+    "apply-button-href": "https://bloomberg.avature.net/careers/Login?jobId=11157&source=&tags=&user=&formValues=",
+    "source": "bloomberg-grads"
+  },
+  {
+    "web-scraper-order": "1753277653-9",
     "web-scraper-start-url": "https://bloomberg.avature.net/careers/SearchJobs/?1686=%5B55478%5D&1686_format=2312&listFilterMode=1&jobRecordsPerPage=12&_gl=1*14gxoe3*_gcl_au*NTE1NTUyNzAuMTc0Nzc1NDIzOQ..*_ga*NTcyMTc5NjE4LjE3NDc3NTQyMzk.*_ga_F61D775DS4*czE3NDc3NTQyMzkkbzEkZzEkdDE3NDc3NTQyNTEkajQ4JGwwJGgwJGRIV1JMdkN6MkZhakYyU1Z5c25MLVBucWRWN0x5SFpYZWhn#",
     "role-page": "2025 Bloomberg Customer Support Representative Early Professional Program (Japanese Speaker) – Dec 2025",
     "role-page-href": "https://bloomberg.avature.net/careers/JobDetail/BCS-2025-Singapore-2nd-Jobber-Dec-Japanese-Speaker-Req/11364",
@@ -835,269 +1089,39 @@
     "source": "bloomberg-grads"
   },
   {
-    "web-scraper-order": "1753191085-1",
-    "web-scraper-start-url": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/",
-    "programme-link": "",
-    "programme-link-href": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/consumer-banking-graduate-scheme/",
-    "title": "Consumer Banking Graduate Scheme",
-    "description": "Analysing customer behaviours using cutting-edge digital and data tools to understand and improve our products and services.",
-    "duration": "2 Years",
-    "salary": "£42,000 + fantastic benefits",
-    "Location": "This role is based across UK locations including London, the\nSouth West, West Yorkshire, North West and Edinburgh. You’ll need to be flexible. Mix office and home working with our hybrid working policy.",
-    "status-text": "Applications for our Consumer Banking Graduate Scheme are currently closed.",
-    "source": "Lloyds-grads"
+    "web-scraper-order": "1753277657-10",
+    "web-scraper-start-url": "https://bloomberg.avature.net/careers/SearchJobs/?1686=%5B55478%5D&1686_format=2312&listFilterMode=1&jobRecordsPerPage=12&_gl=1*14gxoe3*_gcl_au*NTE1NTUyNzAuMTc0Nzc1NDIzOQ..*_ga*NTcyMTc5NjE4LjE3NDc3NTQyMzk.*_ga_F61D775DS4*czE3NDc3NTQyMzkkbzEkZzEkdDE3NDc3NTQyNTEkajQ4JGwwJGgwJGRIV1JMdkN6MkZhakYyU1Z5c25MLVBucWRWN0x5SFpYZWhn#",
+    "role-page": "2025 Analytics & Sales - German Speakers",
+    "role-page-href": "https://bloomberg.avature.net/careers/JobDetail/2025-Analytics-Sales-German-Speakers-Updated/6308",
+    "role-name": "2025 Analytics & Sales - German Speakers",
+    "role-location": "London",
+    "role-description": "2025 Analytics & Sales - German Speakers\n                                                                                    \n                                    \n                                                                                    \n                    \n                \n                    \n                        \n                        \n                        \n            \n            \n            \n                            \n                                        \n                    \n                        \n                                                                                                \n                                                                                    \n                                                Location\n                                            \n                                        \n                                        \n                                                                                            London\n                                                                                    \n                                    \n                                                                                                                                \n                                                                                    \n                                                Business Area\n                                            \n                                        \n                                        \n                                                                                            Sales and Client Service\n                                                                                    \n                                    \n                                                                                                                                \n                                                                                    \n                                                Ref #\n                                            \n                                        \n                                        \n                                                                                            10038161\n                                                                                    \n                                    \n                                                                                    \n                    \n                \n                    \n                        \n                        \n                        \n            \n            \n            \n                            \n                                                                        \n        \n            \n                \n                    \n                    Description & Requirements\n                \n\n                            \n\n                    \n    \n                    \n                    \n                        \n                                                                                                \n                                        \n                                        \n                                                                                            The Analytics and Sales program is a unique opportunity to develop a comprehensive understanding of our Bloomberg products and clients in the wider context of financial markets. Following our comprehensive training program, you will apply your knowledge by assisting our clients in the Analytics department.\nIn our Analytics business, you will provide 24/7 support for Bloomberg Professional Service users all over the world and across multiple industries. Reaching us via our Helpdesk using the 'Instant Bloomberg' chat system, clients access unparalleled customer service where we answer their questions and help them maximize the value of Bloomberg's products. On any given day we respond to over 12,000 queries in more than 15 languages. From- educating a portfolio manager on Bloomberg’s risk management solutions to helping a trader use our functionality to discover new sources of market liquidity – the variety of problems we solve is immense.\nBloomberg is constantly innovating, and Analytics plays a key role in ensuring clients are educated on new products and enhancements by proactively working closely to upskill them through technology and delivering on-site training and seminars. We also work in conjunction with Sales to deliver strategic initiatives, supporting product roll-out and onboarding clients. We want to ensure our clients are making the most of our service and using tools and features that allow them to work smarter.\nAs you deepen your knowledge, you will have the opportunity to enter our sales department. In Sales, we are the face of Bloomberg for our clients. Consultative and entrepreneurial, we manage client relationships, whilst striving to continually grow our revenue by identifying new business opportunities. We spend our time with our clients, understanding their business goals and outpacing their expectations. Guided by curiosity and purpose, we work to understand their workflows and present them with the most appropriate solutions across our range of enterprise offerings.\nWhat’s in it for you?\nYou will start by completing our comprehensive Analytics & Sales training program, covering all aspects of the financial markets: industry principles, market players and asset classes - while teaching you all there is to know about the functionality and analytical tools Bloomberg has to offer!\nYou will join one of our Analytics teams, delivering exceptional customer support to our clients by providing fast and accurate solutions to their queries, while continuing to develop your knowledge through asset class and workflow specialist training.\nThere are multiple opportunities to further your career across the department or the company, with most Analytics representatives progressing towards opportunities in Sales. You may also develop into a specialized support role in our Advanced Team and in time take on a leadership role.\nWho you are?\nYou understand the drivers behind market moving stories and events. You are a solution-finder, with a real passion for providing exceptional customer service in a fast-paced environment and a desire to build a career in a client-facing role, you understand the importance of credibility and building relationships! \n\n You’ll need to have:\nFluency in German, in addition to English (written and verbal)A Bachelor’s degree (or above) or relevant work experience  Ability to multitask and resolve client inquiries while also proactively identifying sustainable workflow solutions for our clients Demonstrated interest in the financial markets and the aspiration to work in the financial services industry Strong critical-thinking and problem-solving skills The desire to learn and adapt quickly in a dynamic training and client facing environment  The ability to demonstrate resilience and agility in a fast-paced environment  A commitment to achieve the highest levels of efficiency and effectiveness  Ambition to pursue a client-facing career, with a strong interest in relationship management and sales  Outstanding communication skills (both written and verbal)  Willing and able to travel around EMEA to meet the business needs of our clients Flexibility to occasionally work weekends or on a bank holiday (weekday off in lieu) \n We’d love to see:\nDemonstrated exposure to Python or other coding languages preferable Previous experience engaging with clients in a relationship management capacity Beginner to intermediate experience with excel and/or VBA \nIf this sounds like you: \n\n Apply if you think we're a good match. We'll get in touch to let you know what the next steps are, but in the meantime feel free to have a look at: [1] https://www.bloomberg.com/company/. \n\n\n                                                                                    \n                                    \n                                                                                    \n                    \n                \n                        \n\n\n                                                                                        \n                                Apply Now\n                            \n                                                            \n                                                        \n                        \n                            \n                                Back to Job Search",
+    "apply-button": "Apply Now",
+    "apply-button-href": "https://bloomberg.avature.net/careers/Login?jobId=6308&source=&tags=&user=&formValues=",
+    "source": "bloomberg-grads"
   },
   {
-    "web-scraper-order": "1753191094-2",
-    "web-scraper-start-url": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/",
-    "programme-link": "",
-    "programme-link-href": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/technology-engineering-graduate-scheme/",
-    "title": "Technology Engineering Graduate Scheme",
-    "description": "Sharpening your coding skills with languages like JavaScript, Java, C#, Python, Swift and Kotlin.",
-    "duration": "2 Years",
-    "salary": "£45,000 + fantastic benefits",
-    "Location": "Edinburgh, Northwest (Manchester/Chester/Cheadle), Southwest (Bristol/Cardiff) and West Yorkshire (Leeds/Halifax). Mix office and home working with our hybrid working policy.",
-    "status-text": "Applications for the Technology Engineering Graduate Scheme are now closed.",
-    "source": "Lloyds-grads"
+    "web-scraper-order": "1753277660-11",
+    "web-scraper-start-url": "https://bloomberg.avature.net/careers/SearchJobs/?1686=%5B55478%5D&1686_format=2312&listFilterMode=1&jobRecordsPerPage=12&_gl=1*14gxoe3*_gcl_au*NTE1NTUyNzAuMTc0Nzc1NDIzOQ..*_ga*NTcyMTc5NjE4LjE3NDc3NTQyMzk.*_ga_F61D775DS4*czE3NDc3NTQyMzkkbzEkZzEkdDE3NDc3NTQyNTEkajQ4JGwwJGgwJGRIV1JMdkN6MkZhakYyU1Z5c25MLVBucWRWN0x5SFpYZWhn#",
+    "role-page": "2026 Bloomberg Customer Support Representative (Japanese Speaker) - Tokyo",
+    "role-page-href": "https://bloomberg.avature.net/careers/JobDetail/2026-Bloomberg-Customer-Support-Representative-Japanese-Speaker-Tokyo/6504",
+    "role-name": "2026 Bloomberg Customer Support Representative (Japanese Speaker) - Tokyo",
+    "role-location": "Tokyo",
+    "role-description": "2026 Bloomberg Customer Support Representative (Japanese Speaker) - Tokyo\n                                                                                    \n                                    \n                                                                                    \n                    \n                \n                    \n                        \n                        \n                        \n            \n            \n            \n                            \n                                        \n                    \n                        \n                                                                                                \n                                                                                    \n                                                Location\n                                            \n                                        \n                                        \n                                                                                            Tokyo\n                                                                                    \n                                    \n                                                                                                                                \n                                                                                    \n                                                Business Area\n                                            \n                                        \n                                        \n                                                                                            Technology Support\n                                                                                    \n                                    \n                                                                                                                                \n                                                                                    \n                                                Ref #\n                                            \n                                        \n                                        \n                                                                                            10038357\n                                                                                    \n                                    \n                                                                                    \n                    \n                \n                    \n                        \n                        \n                        \n            \n            \n            \n                            \n                                                                        \n        \n            \n                \n                    \n                    Description & Requirements\n                \n\n                            \n\n                    \n    \n                    \n                    \n                        \n                                                                                                \n                                        \n                                        \n                                                                                            The Company:Bloomberg ignites the power of information and technology to bring clarity to a sophisticated world. A global financial information and news leader that provides influential decision makers a critical edge by connecting them to a dynamic network of information, people and ideas. The company delivers data, news and analytics through innovative technology and provides real time financial information to more than 325,000 subscribers globally.\nIn a career at Bloomberg, you will play a vital role in making it all happen. You will be joining a team of solution-finders, with a real passion for providing superb customer service in a fast-paced environment. Exciting. Surprising. Purposeful. Life at Bloomberg is many things, but it is never dull. We are a truly global business with a truly diverse workforce. We pride ourselves on being open, inclusive and collaborative — and in providing a work environment that encourages our employees to be their best.\nWhat’s The Role?Are you passionate about working in financial markets and by the prospect of providing technical support for the world's leading financial professionals? If so, join the Bloomberg Customer Support team, which is a key part of our User Support business.\nAs a Bloomberg Customer Support professional, you have two critical focus areas: to provide superb customer service to a broad range of clients, and ensure the fast and effective management of various client workflows and hardware/software issues.\nYou will be responsible for the installation and setup of Bloomberg software, license, and logins, configuration of proprietary hardware (such as biometric authentication device and keyboards), and other technical & login support for our mobile and desktop applications, over the phone, email and via Bloomberg Instant Messaging. We also conduct proactive outreach to clients for licenses, hardware, and software setups, to ensure our clients are able to access our products promptly, seamlessly and securely. You will also be collaborating with internal teams at different levels and across regions to resolve complex issues while maintaining effective communication and ensuring consistent adherence to company standard.  \nSecondly, you will connect with our clients, including CEOs and executive managers with access to proprietary data and information, and provide them with technical training on the Bloomberg Terminal, as well as connect them to various internal teams depending on the Bloomberg products and platforms they subscribe to. You will have the opportunity to work as part of our 500 strong distributed team, supporting our clients collectively in more than 15 languages.\n\nWho you are:You come to work with a purpose, understand the fast paced environment our clients work in, are curious and take pride in being customer service driven.\nWhat's in it for you?We provide all new hires an 8 week long training program, which covers aspects such as an introduction to Bloomberg products and services, our clients, a broader insight into global financial markets, general daily inquiries, product setup and hardware, and troubleshooting.\nYou'll never stop learning...we'll invest in your career, and coupled with our unrivaled approach to career development, we will help you expand your skills and opportunities in this role through project involvements. Our Bloomberg Technology Client Services specialists have the opportunity to be involved in mentoring, recruiting, quality control and idea generation.\nYou will have the opportunity to champion your career across the company. Our alumni have a diversity of successful career paths to: Analytics & Sales, Data, Technical Support, Finance, Enterprise Services and Corporate Admins.\nYou’ll need to have:Bachelor's degree or equivalent experienceFluency in Japanese and English (written and verbal)Ability to provide outstanding customer service to clients through live, interactive media (e.g. phone, messaging, etc.)A demonstrated interest in Finance and / or TechnologyDesire to develop skills and experience in customer service in a fast-moving FinTech environmentWillingness to learn new technologies and ability to retain informationCareful attention to detail, with an aptitude for working quickly and accurately Multi-tasking and problem solving skills as well as an ability to work independently and as part of a larger global teamAn interest in progressing a career within Bloomberg\nWe’d love to see:Work experience in a client/customer facing roleCuriosity to identify, research, and resolve customer technology, software and hardware issuesAwareness of data management, privacy and information securityAptitude to work within highly connected and software-based systems\nYou'll need to be able to:Start full time work in 2026Occasionally work weekends or on a bank holiday (weekday off in lieu)\nIf this sounds like you:Apply if you think we're a good match. We'll get in touch to let you know what the next steps are, but in the meantime feel free to have a look at this: https://www.bloomberg.com/company/\nPlease note this is a two stage application process. Following the submission of your main application, you will receive an email with directions to complete an online assessment. Completing this assessment is a necessary step to be considered for the role.\n\n                                                                                    \n                                    \n                                                                                    \n                    \n                \n                        \n\n\n                                                                                        \n                                Apply Now\n                            \n                                                            \n                                                        \n                        \n                            \n                                Back to Job Search",
+    "apply-button": "Apply Now",
+    "apply-button-href": "https://bloomberg.avature.net/careers/Login?jobId=6504&source=&tags=&user=&formValues=",
+    "source": "bloomberg-grads"
   },
   {
-    "web-scraper-order": "1753191103-3",
-    "web-scraper-start-url": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/",
-    "programme-link": "",
-    "programme-link-href": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/data-science-and-analytics-graduate-scheme/",
-    "title": "Data Science and Analytics Graduate Scheme",
-    "description": "Design and build machine learning algorithms and cutting-edge AI solutions. Combine coding, stats, and business savvy to change the way we do things.",
-    "duration": "2 Years",
-    "salary": "£45,000 + fantastic benefits",
-    "Location": "Edinburgh, West Yorkshire (Leeds and Halifax), North West (Chester, Cheadle, Manchester), London, South West (Bristol and Cardiff).  Mix office and home working with our hybrid working policy.",
-    "status-text": "Applications for our Data Science & Analytics Graduate Scheme are currently closed.",
-    "source": "Lloyds-grads"
-  },
-  {
-    "web-scraper-order": "1753191112-4",
-    "web-scraper-start-url": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/",
-    "programme-link": "",
-    "programme-link-href": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/sustainable-financial-wellbeing-graduate-scheme/",
-    "title": "Sustainable Financial Wellbeing Graduate Scheme",
-    "description": "Get to know our customers and business inside out by collaborating across departments.",
-    "duration": "2 Years",
-    "salary": "£42,000 + fantastic benefits",
-    "Location": "Edinburgh, Bristol, Leeds. Mix office and home working with our hybrid working policy.",
-    "status-text": "Applications for our Sustainable Financial Wellbeing Graduate Scheme are now closed.",
-    "source": "Lloyds-grads"
-  },
-  {
-    "web-scraper-order": "1753191121-5",
-    "web-scraper-start-url": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/",
-    "programme-link": "",
-    "programme-link-href": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/corporate-banking-and-markets-graduate-scheme/",
-    "title": "Corporate Banking and Markets Graduate Scheme",
-    "description": "Meeting clients to understand their needs and offer tailored solutions, using data analytics for deeper insights.",
-    "duration": "2 Years",
-    "salary": "£45,000 + fantastic benefits",
-    "Location": "Rotational Programme across key business hubs of London, Birmingham, and Edinburgh.",
-    "status-text": "Applications for our Corporate Banking and Markets Graduate Scheme are currently closed.",
-    "source": "Lloyds-grads"
-  },
-  {
-    "web-scraper-order": "1753191130-6",
-    "web-scraper-start-url": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/",
-    "programme-link": "",
-    "programme-link-href": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/data-management-and-strategy-graduate-scheme/",
-    "title": "Data Management and Strategy Graduate Scheme",
-    "description": "Strategic thinking and problem-solving skills",
-    "duration": "2 Years",
-    "salary": "£42,000 + fantastic benefits",
-    "Location": "Edinburgh, South West and West Yorkshire.  Mix office and home working with our hybrid working policy.",
-    "status-text": "Applications for our Data Management & Strategy Graduate Scheme are currently closed.",
-    "source": "Lloyds-grads"
-  },
-  {
-    "web-scraper-order": "1753191139-7",
-    "web-scraper-start-url": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/",
-    "programme-link": "",
-    "programme-link-href": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/risk-graduate-scheme/",
-    "title": "Risk Graduate Scheme",
-    "description": "analyse and assess risk to forecast performance.",
-    "duration": "2 Years",
-    "salary": "£42,000 + fantastic benefits",
-    "Location": "Leeds, Edinburgh, Bristol, Birmingham.  Mix office and home working with our hybrid working policy.",
-    "status-text": "Applications for Risk Graduate Scheme are now closed.",
-    "source": "Lloyds-grads"
-  },
-  {
-    "web-scraper-order": "1753191148-8",
-    "web-scraper-start-url": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/",
-    "programme-link": "",
-    "programme-link-href": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/actuarial-graduate-scheme/",
-    "title": "Actuarial Graduate Scheme",
-    "description": "Coding complex insurance models.",
-    "duration": "4 Years",
-    "salary": "£42,000 + fantastic benefits",
-    "Location": "Edinburgh, Bristol.",
-    "status-text": "Applications for our Actuarial Graduate Scheme are currently closed.\nOur graduate schemes may close early if we receive a high number of applications, so it’s best to apply as soon as you can.",
-    "source": "Lloyds-grads"
-  },
-  {
-    "web-scraper-order": "1753191157-9",
-    "web-scraper-start-url": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/",
-    "programme-link": "",
-    "programme-link-href": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/human-resources-graduate-scheme/",
-    "title": "Human Resources Graduate Scheme",
-    "description": "Collaborate with HR and senior teams to craft data-driven people plans.",
-    "duration": "2 Years",
-    "salary": "£42,000 + fantastic benefits",
-    "Location": "Bristol, Leeds, Edinburgh.  Mix office and home working with our hybrid working policy.",
-    "status-text": "Applications for our Human Resources Graduate Scheme are currently closed.",
-    "source": "Lloyds-grads"
-  },
-  {
-    "web-scraper-order": "1753191166-10",
-    "web-scraper-start-url": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/",
-    "programme-link": "",
-    "programme-link-href": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/business-and-commercial-banking-graduate-scheme/",
-    "title": "Business and Commercial Banking Graduate Scheme",
-    "description": "Meeting clients to understand their needs and how we can support them.",
-    "duration": "2 Years",
-    "salary": "£45,000 + fantastic benefits",
-    "Location": "Rotational Programme across key business hubs of Birmingham, Bristol, Edinburgh, Glasgow, Leeds and Manchester.",
-    "status-text": "Applications for our Business & Commercial Banking Graduate Scheme are now closed.",
-    "source": "Lloyds-grads"
-  },
-  {
-    "web-scraper-order": "1753191175-11",
-    "web-scraper-start-url": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/",
-    "programme-link": "",
-    "programme-link-href": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/occupational-psychology-graduate-scheme/",
-    "title": "Occupational Psychology Graduate Scheme",
-    "description": "Leading the development of a people product, from early design to implementation.",
-    "duration": "2 Years",
-    "salary": "£42,000 + fantastic benefits",
-    "Location": "Bristol or Leeds.  Mix office and home working with our hybrid working policy.",
-    "status-text": "Applications for our Occupational Psychology Graduate Scheme are currently closed.",
-    "source": "Lloyds-grads"
-  },
-  {
-    "web-scraper-order": "1753191184-12",
-    "web-scraper-start-url": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/",
-    "programme-link": "",
-    "programme-link-href": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/finance-graduate-scheme/",
-    "title": "Finance Graduate Scheme",
-    "description": "Understand the Finance function with tasks like monthly reporting and budgeting.",
-    "duration": "3 Years",
-    "salary": "£42,000 + fantastic benefits",
-    "Location": "Leeds, Edinburgh and Bristol. Mix office and home working with our hybrid working policy.",
-    "status-text": "Applications for our Finance Graduate Scheme are now closed.",
-    "source": "Lloyds-grads"
-  },
-  {
-    "web-scraper-order": "1753191104-1",
-    "web-scraper-start-url": "https://www.airbus.com/en/careers/students-and-graduates/graduates",
-    "role-name": "",
-    "role-description": "The Airbus Global Graduate Programme (AGGP) seeks graduates to join teams around the world.",
-    "role-status": "Applications for AGGP are now closed, reopening in September 2025",
-    "apply-button": "Browse all open positions",
-    "apply-button-href": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus",
-    "source": "airbus-grads"
-  },
-  {
-    "web-scraper-order": "1753191079-1",
-    "web-scraper-start-url": "https://careers.db.com/students-graduates/Search-Programmes/#/graduate/results/?program=10",
-    "programme-page": "Deutsche Bank Graduate Programme -Technology, Data and Innovation - Bucharest 2025Location: Bucharest",
-    "programme-page-href": "https://db.recsolu.com/external/requisitions/h5DkdAbfSdh0CsoIekVyjQ",
-    "name": "Deutsche Bank Graduate Programme -Technology, Data and Innovation - Bucharest 2025",
-    "location": "Bucharest",
-    "description": "About the programme: The Deutsche Bank Graduate Programme is a year-long comprehensive programme designed to provide you with exposure to a range of fascinating projects and ongoing professional and technical training to develop the skills you need to grow your career. You’ll feel supported by a network of peers and mentors and benefit from our global wellbeing programme.About the division:Our Technology, Data and Innovation (TDI) strategy is strengthening our engineering expertise, introducing an agile delivery model, and is modernizing the bank's IT infrastructure with long-term investments and taking advantage of cloud computing.We are building a team of visionary technology talent that will ensure that we thrive in this period of unprecedented change for the industry. That means hiring the right people and giving them the training, freedom and opportunity, they need to do pioneering work.About the role:We offer a structured entry-level rotational programme that will equip you with the foundational knowledge and skills necessary to build a long-term career as a technology professional at Deutsche Bank.You will develop and deliver solutions to help modernize technology solutions, to reduce complexity and risk, and to drive business growth. Depending on your rotation you will gain expertise in:Designing & delivering engineering solutions for our businesses and customers;Providing production engineering services to ensure the safety and reliability of our technology;Analyzing business data within DB to inform plans and deliveries;Using standard design patterns for strategic DB frameworks like Fabric, Autobahn, GLUE.What we look for:We recruit students and graduates who are intelligent and adaptable with excellent communication skills. They have degrees in many different disciplines. Even though good levels of numeracy are important for some roles, you won’t necessarily need a formal mathematical or financial background. Our comprehensive training programmes will give you all the technical knowledge you’ll need to build a career with us.To be eligible for the 2025 Graduate Programme you must:Be student in the final year of Bachelor’s studies or above;Be able to start full time work in July 2025, subject to local working legislation and visa requirements;Possess no more than 12 months full-time, relevant work experience.Benefits and wellbeing:Feeling healthy, engaged and well-supported, enables us to do our best work and get the most out of life outside of the office. That’s why Deutsche Bank is committed to providing benefits and programmes centered around wellbeing. Benefits & Wellbeing – Deutsche Bank Careers (db.com)About us and our teams: Our values define the working environment we strive to create – where our people have a sense of belonging and everyone feels welcomed, respected and can contribute and grow. We know that high-performing teams have different skills, backgrounds, and experiences. We collaborate, encourage and enable open dialogue and diversity of views. We build talented and diverse teams to drive business results and encourage our people to develop to their full potential. Talk to us about flexible work arrangements and other initiatives we offer.We promote good working relationships and encourage high standards of conduct and work performance. We welcome applications from talented people from all cultures, countries, races, genders, sexual orientations, disabilities, beliefs and generations and are committed to providing a working environment free from harassment, discrimination and retaliation.\n\nVisit Inside Deutsche Bank to discover more about the culture of Deutsche Bank including Diversity, Equity & Inclusion, Leadership, Learning, Future of Work and more besides.How to apply: Whether you're fresh out of school or already have some experience, you'll find a wealth of helpful tools and information on our Employability Hub that will support you with your application, prepare for the assessment processes and adapt to a new working environment.Please visit Yello (recsolu.com) to apply.A notice on Recruitment Scams#LI-EC1",
-    "apply-link": "Apply",
-    "apply-link-href": "https://db.recsolu.com/external/requisitions/h5DkdAbfSdh0CsoIekVyjQ/apply",
-    "source": "DEUTSCHE-BANK-GRADS"
-  },
-  {
-    "web-scraper-order": "1753191055-1",
-    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
-    "role-title": "Summer Internships",
-    "role-duration": "Duration: 10-Weeks\nLocation: London Heathrow\nRequirement: First or second year student when completing the internship. Minimum predicted 2:2 degree, or equivalent in any subject.\nSalary: £24,200 Pro Rata\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
-    "role-about": "About the scheme:\nIt may only last the summer, but we’ll pack plenty in. Take on responsibility in one of a variety of placements in our head office departments and beyond. You’ll complete projects, business as usual tasks and activities that make a real difference to our business, all while working alongside knowledgeable colleagues who’ll guide and support you. You’ll have plenty of opportunities to build your network with the Graduate community and learn about other areas of the airline too. We’ve always been interested in different perspectives and viewpoints. Fresh thinking and new ideas. So we encourage applicants from any degree discipline.",
-    "source": "Bristishariways-grads"
-  },
-  {
-    "web-scraper-order": "1753191055-2",
-    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
-    "role-title": "Future Leader Business Placements",
-    "role-duration": "Duration: 11-Months\nLocation: London Heathrow and Barry, Wales\nRequirements: Second-year student for third-year Industrial Placement, sandwich degree.\nSalary: £22,400 - £24,200 Pro Rata, depending on location.\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
-    "role-about": "About the scheme:\nOver the course of this 11-month placement, you’ll develop an enviable set of skills through exposure to different business areas across the airline, in our head office and beyond, and involvement on various significant projects. We’re open to your fresh ideas and different perspectives. You’ll be asked to challenge our current thinking and look for ways to improve on existing processes – you could genuinely make us work faster, and smarter.",
-    "source": "Bristishariways-grads"
-  },
-  {
-    "web-scraper-order": "1753191055-3",
-    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
-    "role-title": "Commercial Business",
-    "role-duration": "Duration: 3 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject (either achieved or expected).\nSalary: £33,600\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
-    "role-about": "About the scheme:\nOver 3 years, you’ll complete 3 very different and unique roles across our Commercial departments with the aim of developing you to become a commercial expert and leader of the future.",
-    "source": "Bristishariways-grads"
-  },
-  {
-    "web-scraper-order": "1753191055-4",
-    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
-    "role-title": "Commercial Analytics",
-    "role-duration": "Duration: 2 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject but ideally involving numbers and analysis (either achieved or expected).\nSalary: £33,600\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
-    "role-about": "About the scheme:\nYou’ll be responsible for change that you'll be able to see in our airports, with our aircraft and to when and where we fly. Or with our marketing communications, on our customer website, in our supplier and partner relationships and in our passenger numbers. Ultimately, in the exemplary customer experience, you help us to deliver. The placements you may experience in our area include Commercial Analytics where you’ll be working hand in hand with our front-line Global Sales team, so we can improve revenue and market share and understanding how we get our products in front of our customers and how our customers pay for them, or our Network Analytics team where you’ll plan our network, schedules, fleet, airport slot portfolio and more.",
-    "source": "Bristishariways-grads"
-  },
-  {
-    "web-scraper-order": "1753191055-5",
-    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
-    "role-title": "Data Science",
-    "role-duration": "Duration: 2 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in a subject with significant Numerical / Data Science / Advanced Analytics / Applied Statistics / Computer Science content (either achieved or expected), and a minimum of grade B at A-Level Maths or equivalent.\nSalary: £35,200\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
-    "role-about": "About the scheme:\nAirlines are complex, everchanging and data rich, which means that the industry provides one of the most varied and interesting places for data and analytics professionals to work. Problems like determining the optimal mix of aircraft to buy for the next 20 years, or how to improve overbooking set up, requires a creative approach identifying and exploiting value from current and new data sources, applying advanced analytical techniques and visualisations.  You will provide the analytics, recommendations, tools and models to input into key business projects which cover all aspects of the airline. You’ll have a big impact on the profitability, sustainability and customer satisfaction of our company by increasing revenue, reducing costs, helping to manage risks and optimising our customer experience.",
-    "source": "Bristishariways-grads"
-  },
-  {
-    "web-scraper-order": "1753191055-6",
-    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
-    "role-title": "Digital",
-    "role-duration": "Duration: 2 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject (either achieved or expected).\nSalary: £35,000\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
-    "role-about": "About the scheme:\nImagine leading a team of engineers, driving the future of airline technology, or managing cutting-edge digital systems that keep our global operations seamless. How would it sound to oversee the integration of AI in baggage handling at Heathrow? Or perhaps develop innovative software solutions that improve the customer experience, opening up exciting new markets? Picture yourself influencing the technology roadmap that will shape our airline’s digital transformation over the next 20 years. Your placements and experiences will expose you to the breadth and depth of challenges only an airline our size can provide. This will give you big-picture understanding and foresight of what it takes to begin introducing innovations and leading positive change. You’ll also gain the essential and transferable skills needed to be a high performing leader.",
-    "source": "Bristishariways-grads"
-  },
-  {
-    "web-scraper-order": "1753191055-7",
-    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
-    "role-title": "Finance",
-    "role-duration": "Duration: 3 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject (either achieved or expected).\nSalary: £33,500\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
-    "role-about": "About the scheme:\nYou’ll make the most of your three years via three rotating placements, experiencing different ideas and projects across the business – all while building your network along the way and business partnering critical areas of the British Airways business. You could be influencing investment decisions on our onboard products, analysing commercial decisions on network growth opportunities, or negotiating with our vast supplier network to maintain cost competitiveness. We have influential Finance teams sitting in every department. You’ll quickly become an invaluable asset within any team, experiencing the breadth and depth of opportunities that only one of the world's biggest and best-known airlines can provide. We’ll also sponsor and support you to gain your preferred professional finance qualification – CIMA, ACCA or ACA (ICAEW).",
-    "source": "Bristishariways-grads"
-  },
-  {
-    "web-scraper-order": "1753191055-8",
-    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
-    "role-title": "Future Leaders",
-    "role-duration": "Duration: 3 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject (either achieved or expected).\nSalary: £33,000\nApplications: Opening in 2025",
-    "role-about": "About the scheme:\nThrough a series of placements, you will get stuck in to the day-to-day tasks of running our business, as well as contributing to our long-term strategic vision and success. This is a hands-on programme in which you'll step out of your comfort zone, constructively challenge others and make your ideas reality.  Imagine leading a group of 75 cabin crew, or escorting the media on overseas trips as a PR Manager. How would it sound to run the ground staff at Heathrow? How about developing sales strategies for exciting new markets, or even influencing what our fleet should look like in 20 years’ time?",
-    "source": "Bristishariways-grads"
-  },
-  {
-    "web-scraper-order": "1753191055-9",
-    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
-    "role-title": "Operations Planning",
-    "role-duration": "Duration: 2 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject (either achieved or expected).\nSalary: £33,000\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
-    "role-about": "About the scheme:\nAcross the programme you will have the opportunity to experience different aspects of the planning and resource functions for our global airline. You will work in a directorate that has a direct impact on the British Airways operation. You will learn and apply new skills in Workforce planning and deployment, Post operational analysis, Stakeholder relationship management, People and change management and Continuous improvement. These placements will develop your ability to work with a range of people from different business areas, using a variety of technologies, methods, and measures to meet changing business needs.",
-    "source": "Bristishariways-grads"
-  },
-  {
-    "web-scraper-order": "1753191055-10",
-    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
-    "role-title": "Engineering Technical",
-    "role-duration": "Duration: 2 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in a discipline involving mechanical or aeronautical engineering (either achieved or expected).\nSalary: £35,200\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
-    "role-about": "About the scheme:\nBeing part of our technical team in engineering means one thing: you’ll be at the heart of ensuring our aircraft are safe and reliable. With a fleet of over 250 aircraft, you’ll find yourself tackling a mix of new and old technology on our aircraft. You could be influencing the roll out of our new business class seats; inspecting a new aircraft after delivery; or being part of our largest cabin design for the new Boeing 777-X. You will apply your technical knowledge to make a tangible impact on the airline as your recommendations will drive key business decisions and your projects will deliver reliable aircraft that is leading edge to keep our aircraft flying for the longest timespan.",
-    "source": "Bristishariways-grads"
-  },
-  {
-    "web-scraper-order": "1753191055-11",
-    "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
-    "role-title": "Engineering Planning & Supply Chain",
-    "role-duration": "Duration: 2 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject (either achieved or expected).\nSalary: £35,200\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
-    "role-about": "About the scheme:\nThrough a series of placements, you’ll get under the skin of the strategic planning that makes our engineering function tick. With a large fleet of over 250 aircraft, you’ll have a breadth of exposure to our incredible operation. A big challenge of the role is managing the huge volumes of suppliers we work with to ensure we have the right parts in the right place at the right time, anywhere in the world enabling the smooth running of our operation. You could be organising the maintenance schedules for both our short haul and long haul aircraft; developing the long term strategy of maintenance considering efficiency, cost, time and quality of how we do things; or delivering projects around which aircraft we are entering and exiting in the business.",
-    "source": "Bristishariways-grads"
+    "web-scraper-order": "1753277664-12",
+    "web-scraper-start-url": "https://bloomberg.avature.net/careers/SearchJobs/?1686=%5B55478%5D&1686_format=2312&listFilterMode=1&jobRecordsPerPage=12&_gl=1*14gxoe3*_gcl_au*NTE1NTUyNzAuMTc0Nzc1NDIzOQ..*_ga*NTcyMTc5NjE4LjE3NDc3NTQyMzk.*_ga_F61D775DS4*czE3NDc3NTQyMzkkbzEkZzEkdDE3NDc3NTQyNTEkajQ4JGwwJGgwJGRIV1JMdkN6MkZhakYyU1Z5c25MLVBucWRWN0x5SFpYZWhn#",
+    "role-page": "2025 Bloomberg Customer Support Representative (Japanese Speaker) - Hong Kong",
+    "role-page-href": "https://bloomberg.avature.net/careers/JobDetail/BCS-2025-Hong-Kong-Graduate-Japanese-Speaker-Req/12310",
+    "role-name": "2025 Bloomberg Customer Support Representative (Japanese Speaker) - Hong Kong",
+    "role-location": "Hong Kong",
+    "role-description": "2025 Bloomberg Customer Support Representative (Japanese Speaker) - Hong Kong\n                                                                                    \n                                    \n                                                                                    \n                    \n                \n                    \n                        \n                        \n                        \n            \n            \n            \n                            \n                                        \n                    \n                        \n                                                                                                \n                                                                                    \n                                                Location\n                                            \n                                        \n                                        \n                                                                                            Hong Kong\n                                                                                    \n                                    \n                                                                                                                                \n                                                                                    \n                                                Business Area\n                                            \n                                        \n                                        \n                                                                                            Technology Support\n                                                                                    \n                                    \n                                                                                                                                \n                                                                                    \n                                                Ref #\n                                            \n                                        \n                                        \n                                                                                            10044142\n                                                                                    \n                                    \n                                                                                    \n                    \n                \n                    \n                        \n                        \n                        \n            \n            \n            \n                            \n                                                                        \n        \n            \n                \n                    \n                    Description & Requirements\n                \n\n                            \n\n                    \n    \n                    \n                    \n                        \n                                                                                                \n                                        \n                                        \n                                                                                            The Company:\nBloomberg ignites the power of information and technology to bring clarity to a sophisticated world. A global financial information and news leader that provides influential decision makers a critical edge by connecting them to a dynamic network of information, people and ideas. The company delivers data, news and analytics through innovative technology and provides real time financial information to more than 325,000 subscribers globally.\nIn a career at Bloomberg, you will play a vital role in making it all happen. You will be joining a team of solution-finders, with a real passion for providing superb customer service in a fast-paced environment. Exciting. Surprising. Purposeful. Life at Bloomberg is many things, but it is never dull. We are a truly global business with a truly diverse workforce. We pride ourselves on being open, inclusive and collaborative — and in providing a work environment that encourages our employees to be their best.\nWhat’s The Role?\nAre you passionate about working in financial markets and by the prospect of providing technical support for the world's leading financial professionals? If so, join the Bloomberg Customer Support team, which is a key part of our User Support business.\nAs a Bloomberg Customer Support professional, you have two critical focus areas: to provide excellent customer service to a broad range of clients, and ensure fast and effective management of various client workflows and Bloomberg terminal-related hardware/software issues.\nYou will be responsible for the installation and setup of Bloomberg software, license, and logins, configuration of proprietary hardware (such as biometric authentication device and keyboards), and other technical & login support for our mobile and desktop applications, over the phone, email and via Bloomberg Instant Messaging. We also conduct proactive outreach to clients for licenses, hardware, and software setups, to ensure our clients are able to access our products promptly, seamlessly and securely. You will also be collaborating with internal teams at different levels and across regions to resolve complex issues while maintaining effective communication and ensuring consistent adherence to company standard.\nSecondly, you will connect with our clients, including CEOs and executive managers with access to proprietary data and information, and provide them with technical training on the Bloomberg Terminal, as well as connect them to various internal teams depending on the Bloomberg products and platforms they subscribe to. You will have the opportunity to work as part of our 500 strong distributed team, supporting our clients collectively in more than 15 languages.\nWho you are:\nYou come to work with a purpose, understand the fast paced environment our clients work in, are curious and take pride in being customer service driven.\nWhat's in it for you?\nWe provide all new hires an 8 week long training program, which covers aspects such as an introduction to Bloomberg products and services, our clients, a broader insight into global financial markets, general daily inquiries, product setup and hardware, and troubleshooting.\nYou'll never stop learning...we'll invest in your career, and coupled with our unrivaled approach to career development, we will help you expand your skills and opportunities in this role through project involvements. Our Bloomberg Customer Support Representatives have the opportunity to be involved in mentoring, recruiting, quality control and idea generation.\nYou will have the opportunity to champion your career across the company. Our alumni have a diversity of successful career paths to: Analytics & Sales, Data, Technical Support, Finance, Enterprise Services and Corporate Admins.\nThis is an entry level role where you'll need to have:\n- A Bachelor’s degree (or above) and the ability to join a 2025 December training class - Business proficiency and fluency in English and Japanese to manage respective clients- Ability to provide outstanding customer service to clients through live, interactive media (e.g. phone, messaging, etc.)- A demonstrable interest in financial markets or technology and aspiration to work in the financial/fintech services industry (example: course of degree or work/internship experience or extracurricular activities)- Exposure in customer support/managing stakeholders from various profile through school, work, internship or extracurricular activities- Willingness to learn new technologies and ability to retain information- Careful attention to detail, with an aptitude for working quickly and accurately- Multi-tasking and problem solving skills as well as an ability to work independently and as part of a larger global team- An interest in progressing a career within Bloomberg\nWe’d love to see:- Curiosity to identify, research, and resolve customer technology, software and hardware issues- Awareness of data management, privacy and information security- Aptitude to work within highly connected and software-based systems\nYou'll need to be able to:- Occasionally work weekends or on a bank holiday (weekday off in lieu)\nPlease note this is a two stage application process. Following the submission of your main application, you will receive an email with directions to complete an online assessment. Completing this assessment is a necessary step to be considered for the role.\nIf this sounds like you:Apply if you think we're a good match. We'll get in touch to let you know what the next steps are, but in the meantime feel free to have a look at this: https://www.bloomberg.com/company/\n                                                                                    \n                                    \n                                                                                    \n                    \n                \n                        \n\n\n                                                                                        \n                                Apply Now\n                            \n                                                            \n                                                        \n                        \n                            \n                                Back to Job Search",
+    "apply-button": "Apply Now",
+    "apply-button-href": "https://bloomberg.avature.net/careers/Login?jobId=12310&source=&tags=&user=&formValues=",
+    "source": "bloomberg-grads"
   }
 ]
