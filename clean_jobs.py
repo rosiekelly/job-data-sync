@@ -17,7 +17,7 @@ LINK_FIELDS = [
     "url",
     "programme-link-href",
     "apply-link-href",
-    "programme-page-href"  # <- added backup
+    "programme-page-href"
 ]
 LOCATION_FIELDS = ["location", "office-location", "job-location", "city"]
 DESCRIPTION_FIELDS = ["description", "job-description", "role-description"]
@@ -27,6 +27,17 @@ def get_first_existing_field(job, fields):
         if field in job and job[field] and str(job[field]).strip():
             return job[field]
     return None
+
+def infer_company_from_source(source):
+    if not source:
+        return None
+    # Remove "-grads" and capitalize each word
+    name = source.replace("-grads", "")\
+                 .replace("-graduates", "")\
+                 .replace("-jobs", "")\
+                 .replace("-", " ")\
+                 .strip()
+    return name.title()
 
 for job in all_jobs:
     cleaned = {}
@@ -56,7 +67,6 @@ for job in all_jobs:
     location = get_first_existing_field(job, LOCATION_FIELDS)
     description = get_first_existing_field(job, DESCRIPTION_FIELDS)
 
-    # Assemble cleaned job
     cleaned["title"] = title.strip()
     cleaned["link"] = link.strip()
     if location:
@@ -65,6 +75,9 @@ for job in all_jobs:
         cleaned["description"] = description.strip()
     if "source" in job:
         cleaned["source"] = job["source"]
+        cleaned["company"] = infer_company_from_source(job["source"])
+    else:
+        cleaned["company"] = None
 
     cleaned_jobs.append(cleaned)
 
