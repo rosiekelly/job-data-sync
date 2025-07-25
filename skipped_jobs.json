@@ -3,21 +3,7 @@
     "title": null,
     "reason": "missing title",
     "raw": {
-      "web-scraper-order": "1753364095-6",
-      "web-scraper-start-url": "https://www.capgemini.com/gb-en/careers/join-us/?page=1&size=11&experience_level=Students%2FGraduates%E2%80%8B&country_code=gb-en",
-      "programme-link": "Junior Systems EngineerBristol, BathProducts & Systems EngineeringPermanentStudents/Graduates​",
-      "programme-link-href": "https://www.capgemini.com/gb-en/jobs/213825-en_GB+sap_btp",
-      "role-name": "",
-      "role-location": "",
-      "role-description": "",
-      "source": "capgemini-grads"
-    }
-  },
-  {
-    "title": null,
-    "reason": "missing title",
-    "raw": {
-      "web-scraper-order": "1753363895-1",
+      "web-scraper-order": "1753450295-1",
       "web-scraper-start-url": "https://www.airbus.com/en/careers/students-and-graduates/graduates",
       "role-name": "",
       "role-description": "The Airbus Global Graduate Programme (AGGP) seeks graduates to join teams around the world.",
@@ -31,7 +17,7 @@
     "title": "Summer Internships",
     "reason": "missing link",
     "raw": {
-      "web-scraper-order": "1753363867-1",
+      "web-scraper-order": "1753450242-1",
       "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
       "role-title": "Summer Internships",
       "role-duration": "Duration: 10-Weeks\nLocation: London Heathrow\nRequirement: First or second year student when completing the internship. Minimum predicted 2:2 degree, or equivalent in any subject.\nSalary: £24,200 Pro Rata\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
@@ -43,7 +29,7 @@
     "title": "Future Leader Business Placements",
     "reason": "missing link",
     "raw": {
-      "web-scraper-order": "1753363867-2",
+      "web-scraper-order": "1753450242-2",
       "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
       "role-title": "Future Leader Business Placements",
       "role-duration": "Duration: 11-Months\nLocation: London Heathrow and Barry, Wales\nRequirements: Second-year student for third-year Industrial Placement, sandwich degree.\nSalary: £22,400 - £24,200 Pro Rata, depending on location.\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
@@ -55,7 +41,7 @@
     "title": "Commercial Business",
     "reason": "missing link",
     "raw": {
-      "web-scraper-order": "1753363867-3",
+      "web-scraper-order": "1753450242-3",
       "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
       "role-title": "Commercial Business",
       "role-duration": "Duration: 3 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject (either achieved or expected).\nSalary: £33,600\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
@@ -67,7 +53,7 @@
     "title": "Commercial Analytics",
     "reason": "missing link",
     "raw": {
-      "web-scraper-order": "1753363867-4",
+      "web-scraper-order": "1753450242-4",
       "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
       "role-title": "Commercial Analytics",
       "role-duration": "Duration: 2 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject but ideally involving numbers and analysis (either achieved or expected).\nSalary: £33,600\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
@@ -79,7 +65,7 @@
     "title": "Data Science",
     "reason": "missing link",
     "raw": {
-      "web-scraper-order": "1753363867-5",
+      "web-scraper-order": "1753450242-5",
       "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
       "role-title": "Data Science",
       "role-duration": "Duration: 2 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in a subject with significant Numerical / Data Science / Advanced Analytics / Applied Statistics / Computer Science content (either achieved or expected), and a minimum of grade B at A-Level Maths or equivalent.\nSalary: £35,200\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
@@ -91,7 +77,7 @@
     "title": "Digital",
     "reason": "missing link",
     "raw": {
-      "web-scraper-order": "1753363867-6",
+      "web-scraper-order": "1753450242-6",
       "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
       "role-title": "Digital",
       "role-duration": "Duration: 2 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject (either achieved or expected).\nSalary: £35,000\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
@@ -103,7 +89,7 @@
     "title": "Finance",
     "reason": "missing link",
     "raw": {
-      "web-scraper-order": "1753363867-7",
+      "web-scraper-order": "1753450242-7",
       "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
       "role-title": "Finance",
       "role-duration": "Duration: 3 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject (either achieved or expected).\nSalary: £33,500\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
@@ -115,7 +101,7 @@
     "title": "Future Leaders",
     "reason": "missing link",
     "raw": {
-      "web-scraper-order": "1753363867-8",
+      "web-scraper-order": "1753450242-8",
       "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
       "role-title": "Future Leaders",
       "role-duration": "Duration: 3 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject (either achieved or expected).\nSalary: £33,000\nApplications: Opening in 2025",
@@ -127,7 +113,7 @@
     "title": "Operations Planning",
     "reason": "missing link",
     "raw": {
-      "web-scraper-order": "1753363867-9",
+      "web-scraper-order": "1753450242-9",
       "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
       "role-title": "Operations Planning",
       "role-duration": "Duration: 2 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject (either achieved or expected).\nSalary: £33,000\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
@@ -139,7 +125,7 @@
     "title": "Engineering Technical",
     "reason": "missing link",
     "raw": {
-      "web-scraper-order": "1753363867-10",
+      "web-scraper-order": "1753450242-10",
       "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
       "role-title": "Engineering Technical",
       "role-duration": "Duration: 2 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in a discipline involving mechanical or aeronautical engineering (either achieved or expected).\nSalary: £35,200\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
@@ -151,7 +137,7 @@
     "title": "Engineering Planning & Supply Chain",
     "reason": "missing link",
     "raw": {
-      "web-scraper-order": "1753363867-11",
+      "web-scraper-order": "1753450242-11",
       "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
       "role-title": "Engineering Planning & Supply Chain",
       "role-duration": "Duration: 2 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject (either achieved or expected).\nSalary: £35,200\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
@@ -163,23 +149,7 @@
     "title": null,
     "reason": "missing title",
     "raw": {
-      "web-scraper-order": "1753363860-1",
-      "web-scraper-start-url": "https://careers.db.com/students-graduates/Search-Programmes/#/graduate/results/?program=10",
-      "programme-page": "",
-      "programme-page-href": "",
-      "name": "",
-      "location": "",
-      "description": "",
-      "apply-link": "",
-      "apply-link-href": "",
-      "source": "DEUTSCHE-BANK-GRADS"
-    }
-  },
-  {
-    "title": null,
-    "reason": "missing title",
-    "raw": {
-      "web-scraper-order": "1753353064-1",
+      "web-scraper-order": "1753439466-1",
       "web-scraper-start-url": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/",
       "programme-area": "Business operations",
       "programme-area-href": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/business-operations/",
@@ -190,7 +160,7 @@
     "title": null,
     "reason": "missing title",
     "raw": {
-      "web-scraper-order": "1753353064-2",
+      "web-scraper-order": "1753439466-2",
       "web-scraper-start-url": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/",
       "programme-area": "Engineering",
       "programme-area-href": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/engineering/",
@@ -201,7 +171,7 @@
     "title": null,
     "reason": "missing title",
     "raw": {
-      "web-scraper-order": "1753353064-3",
+      "web-scraper-order": "1753439466-3",
       "web-scraper-start-url": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/",
       "programme-area": "Manufacturing operations, Quality and Supply chain",
       "programme-area-href": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/manufacturing-operations-quality-supply-chain-environment-health-safety/",
@@ -212,7 +182,7 @@
     "title": null,
     "reason": "missing title",
     "raw": {
-      "web-scraper-order": "1753353064-4",
+      "web-scraper-order": "1753439466-4",
       "web-scraper-start-url": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/",
       "programme-area": "Commercial",
       "programme-area-href": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/commercial/",
@@ -223,7 +193,7 @@
     "title": null,
     "reason": "missing title",
     "raw": {
-      "web-scraper-order": "1753353064-5",
+      "web-scraper-order": "1753439466-5",
       "web-scraper-start-url": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/",
       "programme-area": "Research & development",
       "programme-area-href": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/research-development/",
@@ -234,7 +204,7 @@
     "title": null,
     "reason": "missing title",
     "raw": {
-      "web-scraper-order": "1753353064-6",
+      "web-scraper-order": "1753439466-6",
       "web-scraper-start-url": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/",
       "programme-area": "Digital & tech",
       "programme-area-href": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/digital-tech/",
@@ -245,7 +215,7 @@
     "title": null,
     "reason": "missing title",
     "raw": {
-      "web-scraper-order": "1753353064-7",
+      "web-scraper-order": "1753439466-7",
       "web-scraper-start-url": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/",
       "programme-area": "Manufacturing sciences & technology",
       "programme-area-href": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/manufacturing-sciences-technology/",
@@ -256,7 +226,7 @@
     "title": "Aldi Area Manager Graduate Programme",
     "reason": "missing link",
     "raw": {
-      "web-scraper-order": "1753346304-1",
+      "web-scraper-order": "1753432736-1",
       "web-scraper-start-url": "https://www.aldirecruitment.co.uk/early-careers/graduate-programme",
       "role-title": "Aldi Area Manager Graduate Programme",
       "role-requirements": "96 UCAS POINTS OR 63 SCOTTISH HIGHERS (OR EQUIVALENT ON THE OLD TARIFF) FROM YOUR TOP 3 A-LEVELS/SCOTTISH HIGHERS (OR THE EQUIVALENT FROM OTHER RELEVANT QUALIFICATIONS)\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\nA 2:1 DEGREE IN ANY DISCIPLINE\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\nA DRIVING LICENCE\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\nTHE RIGHT TO WORK IN THE UK",
