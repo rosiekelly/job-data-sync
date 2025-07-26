@@ -8,16 +8,13 @@ with open("all-jobs.json", "r", encoding="utf-8") as f:
 cleaned_jobs = []
 skipped_jobs = []
 
-# Priority fields for extracting data
 TITLE_FIELDS = ["role-title", "role-name", "title", "name"]
-LINK_FIELDS = [
-    "link",
-    "apply-button-href",
-    "apply_link",
-    "url",
-    "programme-link-href",
-    "apply-link-href",
-    "programme-page-href"
+PROGRAMME_LINK_FIELDS = [
+    "programme-page", "programme-link", "programme-list",
+    "programme-page-href", "role-page", "role-page-href"
+]
+APPLY_LINK_FIELDS = [
+    "apply-link", "apply-link-href", "apply-button", "apply-button-href"
 ]
 LOCATION_FIELDS = ["location", "office-location", "job-location", "city"]
 DESCRIPTION_FIELDS = ["description", "job-description", "role-description"]
@@ -28,10 +25,14 @@ def get_first_existing_field(job, fields):
             return job[field]
     return None
 
+def is_url(val):
+    return isinstance(val, str) and (
+        val.startswith("http://") or val.startswith("https://")
+    )
+
 def infer_company_from_source(source):
     if not source:
         return None
-    # Remove "-grads" and capitalize each word
     name = source.replace("-grads", "")\
                  .replace("-graduates", "")\
                  .replace("-jobs", "")\
@@ -53,12 +54,35 @@ for job in all_jobs:
         })
         continue
 
-    # Extract link
-    link = get_first_existing_field(job, LINK_FIELDS)
+    # Step 1: Try all programme fields and pick the first that is a URL
+    link = None
+    for field in PROGRAMME_LINK_FIELDS:
+        val = job.get(field)
+        if is_url(val):
+            link = val.strip()
+            break
+
+    # Step 2: If no valid programme-page url, try apply fields (prefer URL)
     if not link:
+        button_val = job.get("apply-button")
+        button_href = job.get("apply-button-href")
+        if is_url(button_href):
+            link = button_href.strip()
+        elif is_url(button_val):
+            link = button_val.strip()
+        else:
+            # Try all apply fields in order
+            for field in APPLY_LINK_FIELDS:
+                val = job.get(field)
+                if is_url(val):
+                    link = val.strip()
+                    break
+
+    # Step 3: Validate link
+    if not is_url(link):
         skipped_jobs.append({
             "title": title,
-            "reason": "missing link",
+            "reason": "missing valid link",
             "raw": raw
         })
         continue
@@ -68,7 +92,7 @@ for job in all_jobs:
     description = get_first_existing_field(job, DESCRIPTION_FIELDS)
 
     cleaned["title"] = title.strip()
-    cleaned["link"] = link.strip()
+    cleaned["link"] = link
     if location:
         cleaned["location"] = location.strip()
     if description:
