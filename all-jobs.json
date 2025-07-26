@@ -2846,40 +2846,53 @@
     "source": "blackrock-grads"
   },
   {
-    "web-scraper-order": "1753519155-1",
-    "web-scraper-start-url": "https://www.amazon.jobs/en/search?offset=0&result_limit=10&sort=relevant&country%5B%5D=GBR&distanceType=Mi&radius=24km&industry_experience=less_than_1_year&latitude=&longitude=&loc_group_id=&loc_query=&base_query=graduate&city=&country=&region=&county=&query_options=&",
-    "programme-page": "Graduate Devops Engineer, AWS",
-    "programme-page-href": "https://www.amazon.jobs/en/jobs/2709979/graduate-devops-engineer-aws",
-    "role-title": "Graduate Devops Engineer, AWS",
-    "role-location": "GBR, POST-BER, Thames Valley",
-    "role-description": "Graduate Devops Engineer, AWSJob ID: 2709979 | AWS EMEA SARL (UK Branch)",
-    "apply-button": "Apply now",
-    "apply-button-href": "https://www.amazon.jobs/applicant/jobs/2709979/apply",
-    "source": "amazon-grads"
+    "web-scraper-order": "1753525850-1",
+    "web-scraper-start-url": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/",
+    "programme-area": "Business operations",
+    "programme-area-href": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/business-operations/",
+    "source": "GSK-grads"
   },
   {
-    "web-scraper-order": "1753519157-2",
-    "web-scraper-start-url": "https://www.amazon.jobs/en/search?offset=0&result_limit=10&sort=relevant&country%5B%5D=GBR&distanceType=Mi&radius=24km&industry_experience=less_than_1_year&latitude=&longitude=&loc_group_id=&loc_query=&base_query=graduate&city=&country=&region=&county=&query_options=&",
-    "programme-page": "Graduate Cloud Support Associate, Support Engineering",
-    "programme-page-href": "https://www.amazon.jobs/en/jobs/3029359/graduate-cloud-support-associate-support-engineering",
-    "role-title": "Graduate Cloud Support Associate, Support Engineering",
-    "role-location": "GBR, POST-BER, Thames Valley",
-    "role-description": "Graduate Cloud Support Associate, Support EngineeringJob ID: 3029359 | AWS EMEA SARL (UK Branch)",
-    "apply-button": "Apply now",
-    "apply-button-href": "https://www.amazon.jobs/applicant/jobs/3029359/apply",
-    "source": "amazon-grads"
+    "web-scraper-order": "1753525850-2",
+    "web-scraper-start-url": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/",
+    "programme-area": "Engineering",
+    "programme-area-href": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/engineering/",
+    "source": "GSK-grads"
   },
   {
-    "web-scraper-order": "1753519163-3",
-    "web-scraper-start-url": "https://www.amazon.jobs/en/search?offset=0&result_limit=10&sort=relevant&country%5B%5D=GBR&distanceType=Mi&radius=24km&industry_experience=less_than_1_year&latitude=&longitude=&loc_group_id=&loc_query=&base_query=graduate&city=&country=&region=&county=&query_options=&",
-    "programme-page": "2025 Graduate Software Dev Engineer",
-    "programme-page-href": "https://www.amazon.jobs/en/jobs/2804113/2025-graduate-software-dev-engineer",
-    "role-title": "2025 Graduate Software Dev Engineer",
-    "role-location": "GBR, BST, Bristol",
-    "role-description": "2025 Graduate Software Dev Engineer Job ID: 2804113 | Amazon UK Services Ltd.",
-    "apply-button": "Apply now",
-    "apply-button-href": "https://www.amazon.jobs/applicant/jobs/2804113/apply",
-    "source": "amazon-grads"
+    "web-scraper-order": "1753525850-3",
+    "web-scraper-start-url": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/",
+    "programme-area": "Manufacturing operations, Quality and Supply chain",
+    "programme-area-href": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/manufacturing-operations-quality-supply-chain-environment-health-safety/",
+    "source": "GSK-grads"
+  },
+  {
+    "web-scraper-order": "1753525850-4",
+    "web-scraper-start-url": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/",
+    "programme-area": "Commercial",
+    "programme-area-href": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/commercial/",
+    "source": "GSK-grads"
+  },
+  {
+    "web-scraper-order": "1753525850-5",
+    "web-scraper-start-url": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/",
+    "programme-area": "Research & development",
+    "programme-area-href": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/research-development/",
+    "source": "GSK-grads"
+  },
+  {
+    "web-scraper-order": "1753525850-6",
+    "web-scraper-start-url": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/",
+    "programme-area": "Digital & tech",
+    "programme-area-href": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/digital-tech/",
+    "source": "GSK-grads"
+  },
+  {
+    "web-scraper-order": "1753525850-7",
+    "web-scraper-start-url": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/",
+    "programme-area": "Manufacturing sciences & technology",
+    "programme-area-href": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/manufacturing-sciences-technology/",
+    "source": "GSK-grads"
   },
   {
     "web-scraper-order": "1753472092-1",
