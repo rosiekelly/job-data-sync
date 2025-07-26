@@ -13,11 +13,11 @@ TITLE_FIELDS = ["role-title", "role-name", "title", "name"]
 LINK_FIELDS = [
     "link",
     "apply-button-href",
-    "apply_button",
-    "apply-link",
+    "apply_link",
     "url",
     "programme-link-href",
-    "apply-link-href"
+    "apply-link-href",
+    "programme-page-href"
 ]
 LOCATION_FIELDS = ["location", "office-location", "job-location", "city"]
 DESCRIPTION_FIELDS = ["description", "job-description", "role-description"]
@@ -53,10 +53,8 @@ for job in all_jobs:
         })
         continue
 
-    # Extract link, fallback to programme-page-href or programme-page
+    # Extract link
     link = get_first_existing_field(job, LINK_FIELDS)
-    if not link:
-        link = job.get("programme-page-href") or job.get("programme-page")
     if not link:
         skipped_jobs.append({
             "title": title,
