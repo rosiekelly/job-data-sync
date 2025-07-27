@@ -3004,5 +3004,41 @@
     "apply-button": "Apply",
     "apply-button-href": "https://english-careers-aon.icims.com/jobs/88028/login",
     "source": "AON-grads"
+  },
+  {
+    "web-scraper-order": "1753519155-1",
+    "web-scraper-start-url": "https://www.amazon.jobs/en/search?offset=0&result_limit=10&sort=relevant&country%5B%5D=GBR&distanceType=Mi&radius=24km&industry_experience=less_than_1_year&latitude=&longitude=&loc_group_id=&loc_query=&base_query=graduate&city=&country=&region=&county=&query_options=&",
+    "programme-page": "Graduate Devops Engineer, AWS",
+    "programme-page-href": "https://www.amazon.jobs/en/jobs/2709979/graduate-devops-engineer-aws",
+    "role-title": "Graduate Devops Engineer, AWS",
+    "role-location": "GBR, POST-BER, Thames Valley",
+    "role-description": "Graduate Devops Engineer, AWSJob ID: 2709979 | AWS EMEA SARL (UK Branch)",
+    "apply-button": "Apply now",
+    "apply-button-href": "https://www.amazon.jobs/applicant/jobs/2709979/apply",
+    "source": "amazon-grads"
+  },
+  {
+    "web-scraper-order": "1753519157-2",
+    "web-scraper-start-url": "https://www.amazon.jobs/en/search?offset=0&result_limit=10&sort=relevant&country%5B%5D=GBR&distanceType=Mi&radius=24km&industry_experience=less_than_1_year&latitude=&longitude=&loc_group_id=&loc_query=&base_query=graduate&city=&country=&region=&county=&query_options=&",
+    "programme-page": "Graduate Cloud Support Associate, Support Engineering",
+    "programme-page-href": "https://www.amazon.jobs/en/jobs/3029359/graduate-cloud-support-associate-support-engineering",
+    "role-title": "Graduate Cloud Support Associate, Support Engineering",
+    "role-location": "GBR, POST-BER, Thames Valley",
+    "role-description": "Graduate Cloud Support Associate, Support EngineeringJob ID: 3029359 | AWS EMEA SARL (UK Branch)",
+    "apply-button": "Apply now",
+    "apply-button-href": "https://www.amazon.jobs/applicant/jobs/3029359/apply",
+    "source": "amazon-grads"
+  },
+  {
+    "web-scraper-order": "1753519163-3",
+    "web-scraper-start-url": "https://www.amazon.jobs/en/search?offset=0&result_limit=10&sort=relevant&country%5B%5D=GBR&distanceType=Mi&radius=24km&industry_experience=less_than_1_year&latitude=&longitude=&loc_group_id=&loc_query=&base_query=graduate&city=&country=&region=&county=&query_options=&",
+    "programme-page": "2025 Graduate Software Dev Engineer",
+    "programme-page-href": "https://www.amazon.jobs/en/jobs/2804113/2025-graduate-software-dev-engineer",
+    "role-title": "2025 Graduate Software Dev Engineer",
+    "role-location": "GBR, BST, Bristol",
+    "role-description": "2025 Graduate Software Dev Engineer Job ID: 2804113 | Amazon UK Services Ltd.",
+    "apply-button": "Apply now",
+    "apply-button-href": "https://www.amazon.jobs/applicant/jobs/2804113/apply",
+    "source": "amazon-grads"
   }
 ]
