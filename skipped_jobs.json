@@ -1,9 +1,230 @@
 [
   {
+    "title": "Wholesale Lending",
+    "reason": "missing valid link",
+    "raw": {
+      "web-scraper-order": "1753624372-1",
+      "web-scraper-start-url": "https://search.jobs.barclays/graduates",
+      "job-page": "Find out more",
+      "job-page-href": "https://search.jobs.barclays/graduates-wholesale-lending",
+      "role-name": "Wholesale Lending",
+      "role-description": "In our Wholesale Lending Graduate Programme, you'll be part of an international team that plays a vital role in relationship lending across Barclays’ Corporate and Investment Bank. Our team is responsible for product management, structuring, and executing tailored lending solutions for clients worldwide. This programme offers a unique opportunity to gain hands-on experience with Barclays’ core lending products, credit analysis, and the full transaction life cycle.",
+      "source": "Barclays-expert-grads2"
+    }
+  },
+  {
+    "title": "Internal Audit",
+    "reason": "missing valid link",
+    "raw": {
+      "web-scraper-order": "1753624374-2",
+      "web-scraper-start-url": "https://search.jobs.barclays/graduates",
+      "job-page": "Find out more",
+      "job-page-href": "https://search.jobs.barclays/graduates-internal-audit",
+      "role-name": "Internal Audit",
+      "role-description": "At Barclays, our reputation is our most valuable asset, and our Internal Audit team is key to protecting it. The Internal Audit Graduate Programme offers you the chance to make a significant impact by providing independent, insightful, and timely assurance on the effectiveness of our governance, risk management, and controls. You’ll start with intensive training and then rotate through various audit teams, gaining a comprehensive understanding of our business and its risks.",
+      "source": "Barclays-expert-grads2"
+    }
+  },
+  {
+    "title": "Investment Banking",
+    "reason": "missing valid link",
+    "raw": {
+      "web-scraper-order": "1753624377-3",
+      "web-scraper-start-url": "https://search.jobs.barclays/graduates",
+      "job-page": "Find out more",
+      "job-page-href": "https://search.jobs.barclays/graduates-investment-banking",
+      "role-name": "Investment Banking",
+      "role-description": "In Investment Banking, we help some of the world’s biggest, most innovative organisations, to achieve their short and long-term goals. The challenges in this part of our business come in all shapes and sizes. They range from acquisitions, financings, divestitures, and restructurings to leveraged buyouts, exclusive sales and takeover defence. No matter which group you join, you’ll have the flexibility to find your passion and develop in a host of different directions.",
+      "source": "Barclays-expert-grads2"
+    }
+  },
+  {
+    "title": "Markets",
+    "reason": "missing valid link",
+    "raw": {
+      "web-scraper-order": "1753624379-4",
+      "web-scraper-start-url": "https://search.jobs.barclays/graduates",
+      "job-page": "Find out more",
+      "job-page-href": "https://search.jobs.barclays/graduates-markets",
+      "role-name": "Markets",
+      "role-description": "Markets is the financial barometer of world events at Barclays. So every day is different and it’s a challenging, fascinating place to build a career. We help institutional investors to identify market opportunities, manage risk and generate returns for their portfolios. Our teams provide market insights, execution services and tailored risk management and financing solutions to our clients; we help them protect their capital and make the most of their assets. And, as one of the largest investment banks in the world, we offer a full range of products and services across every type of investment market.",
+      "source": "Barclays-expert-grads2"
+    }
+  },
+  {
+    "title": "International Corporate Banking",
+    "reason": "missing valid link",
+    "raw": {
+      "web-scraper-order": "1753624382-5",
+      "web-scraper-start-url": "https://search.jobs.barclays/graduates",
+      "job-page": "Find out more",
+      "job-page-href": "https://search.jobs.barclays/graduates-international-corporate-bank",
+      "role-name": "International Corporate Banking",
+      "role-description": "Barclays is one of the world’s biggest full-service banks. With a growing international footprint and a significant investment banking presence in both the UK and the US, we hold a unique place in the banking world. At ICB, we connect some of the most interesting and influential organisations to the global power of one Barclays. We act as the relationship anchor, offering clients access to the largest capital markets and biggest growth opportunities in the world. We focus on building long-term relationships, developing deep understanding and delivering great outcomes. By acting as true partners to our stellar client list, we bring the power of one Barclays to life.",
+      "source": "Barclays-expert-grads2"
+    }
+  },
+  {
+    "title": "Research",
+    "reason": "missing valid link",
+    "raw": {
+      "web-scraper-order": "1753624385-6",
+      "web-scraper-start-url": "https://search.jobs.barclays/graduates",
+      "job-page": "Find out more",
+      "job-page-href": "https://search.jobs.barclays/graduates-research",
+      "role-name": "Research",
+      "role-description": "Research is an ideas factory. We dig deep into the underlying factors that affect the world’s financial markets and provide insights that empower our clients to take key strategic and investment decisions. Research is a centre of subject-matter expertise on the companies, markets and securities that we cover, delivering real-time intelligence and long-term vision. It’s vital to the performance of our global investment bank.",
+      "source": "Barclays-expert-grads2"
+    }
+  },
+  {
+    "title": "Quantitative Finance",
+    "reason": "missing valid link",
+    "raw": {
+      "web-scraper-order": "1753624388-7",
+      "web-scraper-start-url": "https://search.jobs.barclays/graduates",
+      "job-page": "Find out more",
+      "job-page-href": "https://search.jobs.barclays/graduates-quantitative-analytics",
+      "role-name": "Quantitative Finance",
+      "role-description": "We provide quantitative and algorithmic solutions with direct business application in trading, risk management and data science.\n\nYour role as a graduate recruit will provide you with an insight into how these solutions are created and furnish you with the skills and experience needed for a successful career in quantitative finance.",
+      "source": "Barclays-expert-grads2"
+    }
+  },
+  {
+    "title": "Data and Analytics",
+    "reason": "missing valid link",
+    "raw": {
+      "web-scraper-order": "1753624390-8",
+      "web-scraper-start-url": "https://search.jobs.barclays/graduates",
+      "job-page": "Find out more",
+      "job-page-href": "https://search.jobs.barclays/graduates-data-analytics",
+      "role-name": "Data and Analytics",
+      "role-description": "Join our Expert Programme, and we’ll develop you into a data and decisions sciences specialist, embedded within either Barclays UK, which serves our personal and SME customers and clients, or Barclays Payments which provides payment products and services to our Corporate clients.",
+      "source": "Barclays-expert-grads2"
+    }
+  },
+  {
+    "title": "Developer",
+    "reason": "missing valid link",
+    "raw": {
+      "web-scraper-order": "1753624393-9",
+      "web-scraper-start-url": "https://search.jobs.barclays/graduates",
+      "job-page": "Find out more",
+      "job-page-href": "https://search.jobs.barclays/graduates-aspiring-developer",
+      "role-name": "Developer",
+      "role-description": "Code enables everything we do. The way we live, learn and grow. When you learn to code, you’re not only learning the language of technology, you’re learning how to enable the future. So ask yourself this: what kind of future do you want to live in? Now imagine being able to use technology to shape that future, even if you’ve never coded before. It's happening here.",
+      "source": "Barclays-expert-grads2"
+    }
+  },
+  {
+    "title": "Global Transaction Banking",
+    "reason": "missing valid link",
+    "raw": {
+      "web-scraper-order": "1753624314-1",
+      "web-scraper-start-url": "https://search.jobs.barclays/graduates",
+      "job-page": "Find out more",
+      "job-page-href": "https://search.jobs.barclays/graduates-transaction-banking",
+      "role-name": "Global Transaction Banking",
+      "role-description": "At its heart, Global Transaction Banking helps businesses manage their working capital, and is one of the most significant elements of global corporate finance. We provide the working capital for the corporations and enterprises that drive the global economy. The products and solutions that we develop and deliver underpin the supply chain, manufacturing, production, trade and payments cycles of the world’s biggest businesses.",
+      "source": "barclays-explorer-grads2"
+    }
+  },
+  {
+    "title": "Developer",
+    "reason": "missing valid link",
+    "raw": {
+      "web-scraper-order": "1753624317-2",
+      "web-scraper-start-url": "https://search.jobs.barclays/graduates",
+      "job-page": "Find out more",
+      "job-page-href": "https://search.jobs.barclays/graduates-developer",
+      "role-name": "Developer",
+      "role-description": "We have a long, proud history of tech innovation in banking and we’re continuing to develop world-class applications at a rapid pace, investing significantly in the technology that powers every aspect of our operations. From consumer experience to big data, from cyber security to infrastructure, we’re using the very best tech today and developing innovative and world leading tech for tomorrow. Developers are critical to all of this. If you have coding skills, this could be the ideal route for you. But this isn’t just about being fluent in programming languages. If you want to create a new and better banking experience for clients, customers and colleagues, our Developer Explorer programme is the place to start. It's happening here.",
+      "source": "barclays-explorer-grads2"
+    }
+  },
+  {
+    "title": "Private Banking & Wealth Management",
+    "reason": "missing valid link",
+    "raw": {
+      "web-scraper-order": "1753624320-3",
+      "web-scraper-start-url": "https://search.jobs.barclays/graduates",
+      "job-page": "Find out more",
+      "job-page-href": "https://search.jobs.barclays/graduates-private-bank",
+      "role-name": "Private Banking & Wealth Management",
+      "role-description": "Barclays Private Banking and Wealth Management works closely with high-net-worth clients and their advisors who have complex banking and investment needs, both in the UK and across the world. We are here to understand their situation and their aspirations, so we can help them to reach their goals. We harness a global network of knowledge, expertise and professional partners to meet our clients’ unique requirements. Whatever they want to achieve, our Private Bankers and specialists create the personalised solutions that will help them achieve it.",
+      "source": "barclays-explorer-grads2"
+    }
+  },
+  {
+    "title": "Enabling Functions",
+    "reason": "missing valid link",
+    "raw": {
+      "web-scraper-order": "1753624323-4",
+      "web-scraper-start-url": "https://search.jobs.barclays/graduates",
+      "job-page": "Find out more",
+      "job-page-href": "https://search.jobs.barclays/graduates-enabling-functions",
+      "role-name": "Enabling Functions",
+      "role-description": "Our Enabling Functions are there behind every deal, change, or transformation. They keep every area of our business running smoothly, helping us operate efficiently and sharpening our edge in a fiercely competitive industry. This is your opportunity to build an extraordinary depth and breadth of experience through a deep dive into one of eight areas within Enabling Functions at Barclays. You’ll work across geographic and divisional boundaries, discovering how one of the world’s biggest banks operates and delivers across multiple regions. You’ll learn from experts as you experience and influence every part of the business. The Explorer Programme will enable you to get your career off to a great start.",
+      "source": "barclays-explorer-grads2"
+    }
+  },
+  {
+    "title": "Consumer and Retail Banking",
+    "reason": "missing valid link",
+    "raw": {
+      "web-scraper-order": "1753624326-5",
+      "web-scraper-start-url": "https://search.jobs.barclays/graduates",
+      "job-page": "Find out more",
+      "job-page-href": "https://search.jobs.barclays/graduates-consumer-retail-banking",
+      "role-name": "Consumer and Retail Banking",
+      "role-description": "At Barclays, we are working together to build a better bank, a more efficient bank that is safe, intuitive and that will support people and businesses responsibly and sustainably. A bank that knows its customers and clients, champions innovation and thinks digital first, offers trusted money management guidance and support, and provides personalised advice to match customer and client life goals. The Explorer Programme builds an extraordinary depth and breadth of experience through a deep dive into a chosen business area. By the end of your programme you’ll have gained all the understanding and skills you need to move into a fulfilling permanent role.",
+      "source": "barclays-explorer-grads2"
+    }
+  },
+  {
+    "title": "US Consumer Bank",
+    "reason": "missing valid link",
+    "raw": {
+      "web-scraper-order": "1753624329-6",
+      "web-scraper-start-url": "https://search.jobs.barclays/graduates",
+      "job-page": "Find out more",
+      "job-page-href": "https://search.jobs.barclays/graduates-us-consumer-bank",
+      "role-name": "US Consumer Bank",
+      "role-description": "Our US Consumer Banking programme is your gateway to joining one of America’s top ten credit card issuers. At Barclays US Consumer Bank, we partner with some of the country’s most recognizable brands, such as American Airlines, Gap, and JetBlue, to deliver credit cards, loans, and deposit products. We’re a partner-centric bank, committed to providing exceptional customer experiences with a human touch. Here, you’ll have the chance to work on strategic, digital, product, and analytical projects that directly impact our partners and customers.",
+      "source": "barclays-explorer-grads2"
+    }
+  },
+  {
+    "title": "UK Corporate Banking",
+    "reason": "missing valid link",
+    "raw": {
+      "web-scraper-order": "1753624332-7",
+      "web-scraper-start-url": "https://search.jobs.barclays/graduates",
+      "job-page": "Find out more",
+      "job-page-href": "https://search.jobs.barclays/graduates-uk-corporate-bank",
+      "role-name": "UK Corporate Banking",
+      "role-description": "On the UK Corporate Banking programme, you’ll work with some of the largest and most influential businesses within the UK, addressing their diverse banking needs. Our industry-specialised approach sets us apart, ensuring that you and all our colleagues are experts in their respective markets. Join us, and you'll play a crucial role in supporting strategic clients, ranging from daily banking needs to complex mergers, acquisitions, and ESG planning.",
+      "source": "barclays-explorer-grads2"
+    }
+  },
+  {
+    "title": "Operations and Technology",
+    "reason": "missing valid link",
+    "raw": {
+      "web-scraper-order": "1753624334-8",
+      "web-scraper-start-url": "https://search.jobs.barclays/graduates",
+      "job-page": "Find out more",
+      "job-page-href": "https://search.jobs.barclays/graduates-operations-technology",
+      "role-name": "Operations and Technology",
+      "role-description": "Our Operations and Technology teams are at the heart of every innovation at Barclays, from driving and optimising smooth transaction processing for millions of customers and clients around the world to building and deploying ground-breaking platforms propelling our business forward. Join one of our teams and you’ll hone your technical skills and project management expertise in an ever-evolving environment.\n\nThe Chief Security Office exists to protect the bank and its clients, customers and colleagues. We are here to shield the bank from external and internal threats, and every day presents new challenges. These range from cyber-crime, terrorism, viruses, world events and protesters, to the effects of adverse weather conditions and even upheaval in the external economic climate. We protect people, property and technology. As the world around us changes, we are prepared and ready to respond – our work might not always be visible, but we are always there, always vigilant. This makes our work endlessly interesting, meaningful and challenging. We keep the bank, customers, clients and colleagues safe, secure and always on.",
+      "source": "barclays-explorer-grads2"
+    }
+  },
+  {
     "title": null,
     "reason": "missing title",
     "raw": {
-      "web-scraper-order": "1753472224-1",
+      "web-scraper-order": "1753623705-1",
       "web-scraper-start-url": "https://www.civil-service-careers.gov.uk/fast-stream/fs-all-schemes/",
       "programme-page": "Explore the Diplomatic and Development scheme",
       "programme-page-href": "https://www.civil-service-careers.gov.uk/fast-stream/fs-all-schemes/fs-diplomatic-development/",
@@ -20,7 +241,7 @@
     "title": null,
     "reason": "missing title",
     "raw": {
-      "web-scraper-order": "1753472228-2",
+      "web-scraper-order": "1753623709-2",
       "web-scraper-start-url": "https://www.civil-service-careers.gov.uk/fast-stream/fs-all-schemes/",
       "programme-page": "Explore the Operational Delivery scheme",
       "programme-page-href": "https://www.civil-service-careers.gov.uk/fast-stream/fs-all-schemes/fs-operational-delivery-scheme/",
@@ -37,7 +258,7 @@
     "title": null,
     "reason": "missing title",
     "raw": {
-      "web-scraper-order": "1753472232-3",
+      "web-scraper-order": "1753623711-3",
       "web-scraper-start-url": "https://www.civil-service-careers.gov.uk/fast-stream/fs-all-schemes/",
       "programme-page": "Explore the Finance scheme",
       "programme-page-href": "https://www.civil-service-careers.gov.uk/fast-stream/fs-all-schemes/fs-finance-scheme/",
@@ -54,7 +275,7 @@
     "title": null,
     "reason": "missing title",
     "raw": {
-      "web-scraper-order": "1753472236-4",
+      "web-scraper-order": "1753623714-4",
       "web-scraper-start-url": "https://www.civil-service-careers.gov.uk/fast-stream/fs-all-schemes/",
       "programme-page": "Explore the Cyber Security scheme",
       "programme-page-href": "https://www.civil-service-careers.gov.uk/fast-stream/fs-all-schemes/fs-cyber-security-scheme/",
@@ -71,7 +292,7 @@
     "title": null,
     "reason": "missing title",
     "raw": {
-      "web-scraper-order": "1753472240-5",
+      "web-scraper-order": "1753623717-5",
       "web-scraper-start-url": "https://www.civil-service-careers.gov.uk/fast-stream/fs-all-schemes/",
       "programme-page": "Explore the Government Social Research scheme",
       "programme-page-href": "https://www.civil-service-careers.gov.uk/fast-stream/fs-all-schemes/fs-government-social-research/",
@@ -88,7 +309,7 @@
     "title": null,
     "reason": "missing title",
     "raw": {
-      "web-scraper-order": "1753472244-6",
+      "web-scraper-order": "1753623720-6",
       "web-scraper-start-url": "https://www.civil-service-careers.gov.uk/fast-stream/fs-all-schemes/",
       "programme-page": "Explore the Government Policy scheme",
       "programme-page-href": "https://www.civil-service-careers.gov.uk/fast-stream/fs-all-schemes/fs-government-policy-scheme/",
@@ -105,7 +326,7 @@
     "title": null,
     "reason": "missing title",
     "raw": {
-      "web-scraper-order": "1753472247-7",
+      "web-scraper-order": "1753623724-7",
       "web-scraper-start-url": "https://www.civil-service-careers.gov.uk/fast-stream/fs-all-schemes/",
       "programme-page": "Explore the Property scheme",
       "programme-page-href": "https://www.civil-service-careers.gov.uk/fast-stream/fs-all-schemes/fs-property-scheme/",
@@ -122,7 +343,7 @@
     "title": null,
     "reason": "missing title",
     "raw": {
-      "web-scraper-order": "1753472251-8",
+      "web-scraper-order": "1753623727-8",
       "web-scraper-start-url": "https://www.civil-service-careers.gov.uk/fast-stream/fs-all-schemes/",
       "programme-page": "Explore the Diplomatic and Development Economics scheme",
       "programme-page-href": "https://www.civil-service-careers.gov.uk/fast-stream/fs-all-schemes/fs-diplomatic-development-economics-scheme/",
@@ -139,7 +360,7 @@
     "title": null,
     "reason": "missing title",
     "raw": {
-      "web-scraper-order": "1753472255-9",
+      "web-scraper-order": "1753623729-9",
       "web-scraper-start-url": "https://www.civil-service-careers.gov.uk/fast-stream/fs-all-schemes/",
       "programme-page": "Explore the Government Economics Service scheme",
       "programme-page-href": "https://www.civil-service-careers.gov.uk/fast-stream/fs-all-schemes/fs-government-economics-service-scheme/",
@@ -156,7 +377,7 @@
     "title": null,
     "reason": "missing title",
     "raw": {
-      "web-scraper-order": "1753472258-10",
+      "web-scraper-order": "1753623731-10",
       "web-scraper-start-url": "https://www.civil-service-careers.gov.uk/fast-stream/fs-all-schemes/",
       "programme-page": "Explore the Human Resources scheme",
       "programme-page-href": "https://www.civil-service-careers.gov.uk/fast-stream/fs-all-schemes/fs-human-resources-scheme/",
@@ -173,7 +394,7 @@
     "title": null,
     "reason": "missing title",
     "raw": {
-      "web-scraper-order": "1753472262-11",
+      "web-scraper-order": "1753623735-11",
       "web-scraper-start-url": "https://www.civil-service-careers.gov.uk/fast-stream/fs-all-schemes/",
       "programme-page": "Explore the Government Statistical Service scheme",
       "programme-page-href": "https://www.civil-service-careers.gov.uk/fast-stream/fs-all-schemes/fs-government-statistical-service-scheme/",
@@ -190,7 +411,7 @@
     "title": null,
     "reason": "missing title",
     "raw": {
-      "web-scraper-order": "1753472266-12",
+      "web-scraper-order": "1753623737-12",
       "web-scraper-start-url": "https://www.civil-service-careers.gov.uk/fast-stream/fs-all-schemes/",
       "programme-page": "Explore the Government Operational Research Service scheme",
       "programme-page-href": "https://www.civil-service-careers.gov.uk/fast-stream/fs-all-schemes/fs-government-operational-research-service-scheme/",
@@ -207,7 +428,7 @@
     "title": null,
     "reason": "missing title",
     "raw": {
-      "web-scraper-order": "1753472269-13",
+      "web-scraper-order": "1753623740-13",
       "web-scraper-start-url": "https://www.civil-service-careers.gov.uk/fast-stream/fs-all-schemes/",
       "programme-page": "Explore the Commercial scheme",
       "programme-page-href": "https://www.civil-service-careers.gov.uk/fast-stream/fs-all-schemes/fs-commercial-scheme/",
@@ -224,7 +445,7 @@
     "title": null,
     "reason": "missing title",
     "raw": {
-      "web-scraper-order": "1753472273-14",
+      "web-scraper-order": "1753623742-14",
       "web-scraper-start-url": "https://www.civil-service-careers.gov.uk/fast-stream/fs-all-schemes/",
       "programme-page": "Explore the Project Delivery scheme",
       "programme-page-href": "https://www.civil-service-careers.gov.uk/fast-stream/fs-all-schemes/fs-project-delivery-scheme/",
@@ -241,7 +462,7 @@
     "title": null,
     "reason": "missing title",
     "raw": {
-      "web-scraper-order": "1753472277-15",
+      "web-scraper-order": "1753623746-15",
       "web-scraper-start-url": "https://www.civil-service-careers.gov.uk/fast-stream/fs-all-schemes/",
       "programme-page": "Explore the Risk Management scheme",
       "programme-page-href": "https://www.civil-service-careers.gov.uk/fast-stream/fs-all-schemes/fs-risk-management-scheme/",
@@ -258,7 +479,7 @@
     "title": null,
     "reason": "missing title",
     "raw": {
-      "web-scraper-order": "1753472280-16",
+      "web-scraper-order": "1753623748-16",
       "web-scraper-start-url": "https://www.civil-service-careers.gov.uk/fast-stream/fs-all-schemes/",
       "programme-page": "Explore the Science and Engineering scheme",
       "programme-page-href": "https://www.civil-service-careers.gov.uk/fast-stream/fs-all-schemes/fs-science-engineering-scheme/",
@@ -275,7 +496,7 @@
     "title": null,
     "reason": "missing title",
     "raw": {
-      "web-scraper-order": "1753472284-17",
+      "web-scraper-order": "1753623751-17",
       "web-scraper-start-url": "https://www.civil-service-careers.gov.uk/fast-stream/fs-all-schemes/",
       "programme-page": "Explore the Digital scheme",
       "programme-page-href": "https://www.civil-service-careers.gov.uk/fast-stream/fs-all-schemes/fs-digital-scheme/",
@@ -292,7 +513,7 @@
     "title": "Junior Software Engineer",
     "reason": "missing valid link",
     "raw": {
-      "web-scraper-order": "1753450482-1",
+      "web-scraper-order": "1753623293-1",
       "web-scraper-start-url": "https://www.capgemini.com/gb-en/careers/join-us/?page=1&size=11&experience_level=Students%2FGraduates%E2%80%8B&country_code=gb-en",
       "programme-link": "Junior Software EngineerBathSoftware EngineeringPermanentStudents/Graduates​",
       "programme-link-href": "https://www.capgemini.com/gb-en/jobs/240647-en_GB+sap_btp",
@@ -306,7 +527,7 @@
     "title": "Defence Systems Consultant",
     "reason": "missing valid link",
     "raw": {
-      "web-scraper-order": "1753450485-2",
+      "web-scraper-order": "1753623296-2",
       "web-scraper-start-url": "https://www.capgemini.com/gb-en/careers/join-us/?page=1&size=11&experience_level=Students%2FGraduates%E2%80%8B&country_code=gb-en",
       "programme-link": "Defence Systems ConsultantStevenage, BristolProducts & Systems EngineeringPermanentExperienced Professionals",
       "programme-link-href": "https://www.capgemini.com/gb-en/jobs/141010-en_GB+sap_btp",
@@ -320,7 +541,7 @@
     "title": "PLM Lead",
     "reason": "missing valid link",
     "raw": {
-      "web-scraper-order": "1753450488-3",
+      "web-scraper-order": "1753623300-3",
       "web-scraper-start-url": "https://www.capgemini.com/gb-en/careers/join-us/?page=1&size=11&experience_level=Students%2FGraduates%E2%80%8B&country_code=gb-en",
       "programme-link": "PLM LeadNewburyManufacturing & Operations EngineeringPermanentExperienced Professionals",
       "programme-link-href": "https://www.capgemini.com/gb-en/jobs/227959-en_GB+sap_btp",
@@ -334,7 +555,7 @@
     "title": "Senior OT Solutions Architect",
     "reason": "missing valid link",
     "raw": {
-      "web-scraper-order": "1753450492-4",
+      "web-scraper-order": "1753623304-4",
       "web-scraper-start-url": "https://www.capgemini.com/gb-en/careers/join-us/?page=1&size=11&experience_level=Students%2FGraduates%E2%80%8B&country_code=gb-en",
       "programme-link": "Senior OT Solutions ArchitectUndefined UK, BirminghamManufacturing & Operations EngineeringPermanentExperienced Professionals",
       "programme-link-href": "https://www.capgemini.com/gb-en/jobs/272811-en_GB+sap_btp",
@@ -345,16 +566,16 @@
     }
   },
   {
-    "title": "Java Full Stack Engineer - Consultant - Digital Excellence",
-    "reason": "missing valid link",
+    "title": null,
+    "reason": "missing title",
     "raw": {
-      "web-scraper-order": "1753450495-5",
+      "web-scraper-order": "1753623307-5",
       "web-scraper-start-url": "https://www.capgemini.com/gb-en/careers/join-us/?page=1&size=11&experience_level=Students%2FGraduates%E2%80%8B&country_code=gb-en",
       "programme-link": "Java Full Stack Engineer - Consultant - Digital ExcellenceNewcastle, Glasgow, Manchester, LondonStrategy & TransformationPermanentExperienced Professionals",
       "programme-link-href": "https://www.capgemini.com/gb-en/jobs/198216-en_GB+sap_btp",
-      "role-name": "Java Full Stack Engineer - Consultant - Digital Excellence",
-      "role-location": "Newcastle, Glasgow, Manchester, London",
-      "role-description": "At Capgemini Invent, we believe difference drives change. As inventive transformation consultants, we blend our strategic, creative and scientific capabilities, collaborating closely with clients to deliver cutting-edge solutions. Join us to drive transformation tailored to our client's challenges of today and tomorrow. Informed and validated by science and data. Superpowered by creativity and design. All underpinned by technology created with purpose.",
+      "role-name": "",
+      "role-location": "",
+      "role-description": "",
       "source": "capgemini-grads"
     }
   },
@@ -362,7 +583,7 @@
     "title": "Junior Systems Engineer",
     "reason": "missing valid link",
     "raw": {
-      "web-scraper-order": "1753450499-6",
+      "web-scraper-order": "1753623311-6",
       "web-scraper-start-url": "https://www.capgemini.com/gb-en/careers/join-us/?page=1&size=11&experience_level=Students%2FGraduates%E2%80%8B&country_code=gb-en",
       "programme-link": "Junior Systems EngineerBristol, BathProducts & Systems EngineeringPermanentStudents/Graduates​",
       "programme-link-href": "https://www.capgemini.com/gb-en/jobs/213825-en_GB+sap_btp",
@@ -376,7 +597,7 @@
     "title": "Flight Analyst",
     "reason": "missing valid link",
     "raw": {
-      "web-scraper-order": "1753450502-7",
+      "web-scraper-order": "1753623315-7",
       "web-scraper-start-url": "https://www.capgemini.com/gb-en/careers/join-us/?page=1&size=11&experience_level=Students%2FGraduates%E2%80%8B&country_code=gb-en",
       "programme-link": "Flight AnalystAbingdonProducts & Systems EngineeringPermanentStudents/Graduates​",
       "programme-link-href": "https://www.capgemini.com/gb-en/jobs/241404-en_GB+sap_btp",
@@ -390,7 +611,7 @@
     "title": "WebMethods Software Engineer",
     "reason": "missing valid link",
     "raw": {
-      "web-scraper-order": "1753450505-8",
+      "web-scraper-order": "1753623318-8",
       "web-scraper-start-url": "https://www.capgemini.com/gb-en/careers/join-us/?page=1&size=11&experience_level=Students%2FGraduates%E2%80%8B&country_code=gb-en",
       "programme-link": "WebMethods Software EngineerLondonArchitecturePermanentExperienced Professionals",
       "programme-link-href": "https://www.capgemini.com/gb-en/jobs/274775-en_GB+sap_btp",
@@ -401,16 +622,16 @@
     }
   },
   {
-    "title": "Managing Consultant - Insurance Consulting",
-    "reason": "missing valid link",
+    "title": null,
+    "reason": "missing title",
     "raw": {
-      "web-scraper-order": "1753450509-9",
+      "web-scraper-order": "1753623322-9",
       "web-scraper-start-url": "https://www.capgemini.com/gb-en/careers/join-us/?page=1&size=11&experience_level=Students%2FGraduates%E2%80%8B&country_code=gb-en",
       "programme-link": "Managing Consultant - Insurance ConsultingGlasgow, Manchester, LondonStrategy & TransformationPermanentExperienced Professionals",
       "programme-link-href": "https://www.capgemini.com/gb-en/jobs/186512-en_GB+sap_btp",
-      "role-name": "Managing Consultant - Insurance Consulting",
-      "role-location": "Glasgow, Manchester, London",
-      "role-description": "At Capgemini Invent, we believe difference drives change. As inventive transformation consultants, we blend our strategic, creative and scientific capabilities, collaborating closely with clients to deliver cutting-edge solutions. Join us to drive transformation tailored to our client's challenges of today and tomorrow. Informed and validated by science and data. Superpowered by creativity and design. All underpinned by technology created with purpose.",
+      "role-name": "",
+      "role-location": "",
+      "role-description": "",
       "source": "capgemini-grads"
     }
   },
@@ -418,7 +639,7 @@
     "title": "Consumer Banking Graduate Scheme",
     "reason": "missing valid link",
     "raw": {
-      "web-scraper-order": "1753450279-1",
+      "web-scraper-order": "1753623097-1",
       "web-scraper-start-url": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/",
       "programme-link": "",
       "programme-link-href": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/consumer-banking-graduate-scheme/",
@@ -435,7 +656,7 @@
     "title": "Technology Engineering Graduate Scheme",
     "reason": "missing valid link",
     "raw": {
-      "web-scraper-order": "1753450288-2",
+      "web-scraper-order": "1753623107-2",
       "web-scraper-start-url": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/",
       "programme-link": "",
       "programme-link-href": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/technology-engineering-graduate-scheme/",
@@ -452,7 +673,7 @@
     "title": "Data Science and Analytics Graduate Scheme",
     "reason": "missing valid link",
     "raw": {
-      "web-scraper-order": "1753450297-3",
+      "web-scraper-order": "1753623116-3",
       "web-scraper-start-url": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/",
       "programme-link": "",
       "programme-link-href": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/data-science-and-analytics-graduate-scheme/",
@@ -469,7 +690,7 @@
     "title": "Sustainable Financial Wellbeing Graduate Scheme",
     "reason": "missing valid link",
     "raw": {
-      "web-scraper-order": "1753450306-4",
+      "web-scraper-order": "1753623126-4",
       "web-scraper-start-url": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/",
       "programme-link": "",
       "programme-link-href": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/sustainable-financial-wellbeing-graduate-scheme/",
@@ -486,7 +707,7 @@
     "title": "Corporate Banking and Markets Graduate Scheme",
     "reason": "missing valid link",
     "raw": {
-      "web-scraper-order": "1753450315-5",
+      "web-scraper-order": "1753623136-5",
       "web-scraper-start-url": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/",
       "programme-link": "",
       "programme-link-href": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/corporate-banking-and-markets-graduate-scheme/",
@@ -503,7 +724,7 @@
     "title": "Data Management and Strategy Graduate Scheme",
     "reason": "missing valid link",
     "raw": {
-      "web-scraper-order": "1753450325-6",
+      "web-scraper-order": "1753623146-6",
       "web-scraper-start-url": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/",
       "programme-link": "",
       "programme-link-href": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/data-management-and-strategy-graduate-scheme/",
@@ -520,7 +741,7 @@
     "title": "Risk Graduate Scheme",
     "reason": "missing valid link",
     "raw": {
-      "web-scraper-order": "1753450334-7",
+      "web-scraper-order": "1753623156-7",
       "web-scraper-start-url": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/",
       "programme-link": "",
       "programme-link-href": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/risk-graduate-scheme/",
@@ -537,7 +758,7 @@
     "title": "Actuarial Graduate Scheme",
     "reason": "missing valid link",
     "raw": {
-      "web-scraper-order": "1753450344-8",
+      "web-scraper-order": "1753623166-8",
       "web-scraper-start-url": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/",
       "programme-link": "",
       "programme-link-href": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/actuarial-graduate-scheme/",
@@ -554,7 +775,7 @@
     "title": "Human Resources Graduate Scheme",
     "reason": "missing valid link",
     "raw": {
-      "web-scraper-order": "1753450353-9",
+      "web-scraper-order": "1753623176-9",
       "web-scraper-start-url": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/",
       "programme-link": "",
       "programme-link-href": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/human-resources-graduate-scheme/",
@@ -571,7 +792,7 @@
     "title": "Business and Commercial Banking Graduate Scheme",
     "reason": "missing valid link",
     "raw": {
-      "web-scraper-order": "1753450363-10",
+      "web-scraper-order": "1753623186-10",
       "web-scraper-start-url": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/",
       "programme-link": "",
       "programme-link-href": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/business-and-commercial-banking-graduate-scheme/",
@@ -588,7 +809,7 @@
     "title": "Occupational Psychology Graduate Scheme",
     "reason": "missing valid link",
     "raw": {
-      "web-scraper-order": "1753450372-11",
+      "web-scraper-order": "1753623196-11",
       "web-scraper-start-url": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/",
       "programme-link": "",
       "programme-link-href": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/occupational-psychology-graduate-scheme/",
@@ -605,7 +826,7 @@
     "title": "Finance Graduate Scheme",
     "reason": "missing valid link",
     "raw": {
-      "web-scraper-order": "1753450381-12",
+      "web-scraper-order": "1753623206-12",
       "web-scraper-start-url": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/",
       "programme-link": "",
       "programme-link-href": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/finance-graduate-scheme/",
@@ -619,24 +840,10 @@
     }
   },
   {
-    "title": null,
-    "reason": "missing title",
-    "raw": {
-      "web-scraper-order": "1753450295-1",
-      "web-scraper-start-url": "https://www.airbus.com/en/careers/students-and-graduates/graduates",
-      "role-name": "",
-      "role-description": "The Airbus Global Graduate Programme (AGGP) seeks graduates to join teams around the world.",
-      "role-status": "Applications for AGGP are now closed, reopening in September 2025",
-      "apply-button": "Browse all open positions",
-      "apply-button-href": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus",
-      "source": "airbus-grads"
-    }
-  },
-  {
     "title": "Summer Internships",
     "reason": "missing valid link",
     "raw": {
-      "web-scraper-order": "1753450242-1",
+      "web-scraper-order": "1753623052-1",
       "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
       "role-title": "Summer Internships",
       "role-duration": "Duration: 10-Weeks\nLocation: London Heathrow\nRequirement: First or second year student when completing the internship. Minimum predicted 2:2 degree, or equivalent in any subject.\nSalary: £24,200 Pro Rata\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
@@ -648,7 +855,7 @@
     "title": "Future Leader Business Placements",
     "reason": "missing valid link",
     "raw": {
-      "web-scraper-order": "1753450242-2",
+      "web-scraper-order": "1753623052-2",
       "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
       "role-title": "Future Leader Business Placements",
       "role-duration": "Duration: 11-Months\nLocation: London Heathrow and Barry, Wales\nRequirements: Second-year student for third-year Industrial Placement, sandwich degree.\nSalary: £22,400 - £24,200 Pro Rata, depending on location.\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
@@ -660,7 +867,7 @@
     "title": "Commercial Business",
     "reason": "missing valid link",
     "raw": {
-      "web-scraper-order": "1753450242-3",
+      "web-scraper-order": "1753623052-3",
       "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
       "role-title": "Commercial Business",
       "role-duration": "Duration: 3 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject (either achieved or expected).\nSalary: £33,600\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
@@ -672,7 +879,7 @@
     "title": "Commercial Analytics",
     "reason": "missing valid link",
     "raw": {
-      "web-scraper-order": "1753450242-4",
+      "web-scraper-order": "1753623052-4",
       "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
       "role-title": "Commercial Analytics",
       "role-duration": "Duration: 2 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject but ideally involving numbers and analysis (either achieved or expected).\nSalary: £33,600\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
@@ -684,7 +891,7 @@
     "title": "Data Science",
     "reason": "missing valid link",
     "raw": {
-      "web-scraper-order": "1753450242-5",
+      "web-scraper-order": "1753623052-5",
       "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
       "role-title": "Data Science",
       "role-duration": "Duration: 2 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in a subject with significant Numerical / Data Science / Advanced Analytics / Applied Statistics / Computer Science content (either achieved or expected), and a minimum of grade B at A-Level Maths or equivalent.\nSalary: £35,200\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
@@ -696,7 +903,7 @@
     "title": "Digital",
     "reason": "missing valid link",
     "raw": {
-      "web-scraper-order": "1753450242-6",
+      "web-scraper-order": "1753623052-6",
       "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
       "role-title": "Digital",
       "role-duration": "Duration: 2 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject (either achieved or expected).\nSalary: £35,000\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
@@ -708,7 +915,7 @@
     "title": "Finance",
     "reason": "missing valid link",
     "raw": {
-      "web-scraper-order": "1753450242-7",
+      "web-scraper-order": "1753623052-7",
       "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
       "role-title": "Finance",
       "role-duration": "Duration: 3 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject (either achieved or expected).\nSalary: £33,500\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
@@ -720,7 +927,7 @@
     "title": "Future Leaders",
     "reason": "missing valid link",
     "raw": {
-      "web-scraper-order": "1753450242-8",
+      "web-scraper-order": "1753623052-8",
       "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
       "role-title": "Future Leaders",
       "role-duration": "Duration: 3 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject (either achieved or expected).\nSalary: £33,000\nApplications: Opening in 2025",
@@ -732,7 +939,7 @@
     "title": "Operations Planning",
     "reason": "missing valid link",
     "raw": {
-      "web-scraper-order": "1753450242-9",
+      "web-scraper-order": "1753623052-9",
       "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
       "role-title": "Operations Planning",
       "role-duration": "Duration: 2 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject (either achieved or expected).\nSalary: £33,000\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
@@ -744,7 +951,7 @@
     "title": "Engineering Technical",
     "reason": "missing valid link",
     "raw": {
-      "web-scraper-order": "1753450242-10",
+      "web-scraper-order": "1753623052-10",
       "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
       "role-title": "Engineering Technical",
       "role-duration": "Duration: 2 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in a discipline involving mechanical or aeronautical engineering (either achieved or expected).\nSalary: £35,200\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
@@ -756,7 +963,7 @@
     "title": "Engineering Planning & Supply Chain",
     "reason": "missing valid link",
     "raw": {
-      "web-scraper-order": "1753450242-11",
+      "web-scraper-order": "1753623052-11",
       "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
       "role-title": "Engineering Planning & Supply Chain",
       "role-duration": "Duration: 2 Years\nLocation: London Heathrow\nRequirements: Minimum 2:2 degree or equivalent, in any subject (either achieved or expected).\nSalary: £35,200\nApplications: Closed for 2024. Please revisit us in Autumn 2025.",
@@ -768,91 +975,30 @@
     "title": null,
     "reason": "missing title",
     "raw": {
-      "web-scraper-order": "1753439466-1",
-      "web-scraper-start-url": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/",
-      "programme-area": "Business operations",
-      "programme-area-href": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/business-operations/",
-      "source": "GSK-grads"
+      "web-scraper-order": "1753623084-1",
+      "web-scraper-start-url": "https://www.airbus.com/en/careers/students-and-graduates/graduates",
+      "role-name": "",
+      "role-description": "The Airbus Global Graduate Programme (AGGP) seeks graduates to join teams around the world.",
+      "role-status": "Applications for AGGP are now closed, reopening in September 2025",
+      "apply-button": "Browse all open positions",
+      "apply-button-href": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus",
+      "source": "airbus-grads"
     }
   },
   {
     "title": null,
     "reason": "missing title",
     "raw": {
-      "web-scraper-order": "1753439466-2",
-      "web-scraper-start-url": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/",
-      "programme-area": "Engineering",
-      "programme-area-href": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/engineering/",
-      "source": "GSK-grads"
-    }
-  },
-  {
-    "title": null,
-    "reason": "missing title",
-    "raw": {
-      "web-scraper-order": "1753439466-3",
-      "web-scraper-start-url": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/",
-      "programme-area": "Manufacturing operations, Quality and Supply chain",
-      "programme-area-href": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/manufacturing-operations-quality-supply-chain-environment-health-safety/",
-      "source": "GSK-grads"
-    }
-  },
-  {
-    "title": null,
-    "reason": "missing title",
-    "raw": {
-      "web-scraper-order": "1753439466-4",
-      "web-scraper-start-url": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/",
-      "programme-area": "Commercial",
-      "programme-area-href": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/commercial/",
-      "source": "GSK-grads"
-    }
-  },
-  {
-    "title": null,
-    "reason": "missing title",
-    "raw": {
-      "web-scraper-order": "1753439466-5",
-      "web-scraper-start-url": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/",
-      "programme-area": "Research & development",
-      "programme-area-href": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/research-development/",
-      "source": "GSK-grads"
-    }
-  },
-  {
-    "title": null,
-    "reason": "missing title",
-    "raw": {
-      "web-scraper-order": "1753439466-6",
-      "web-scraper-start-url": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/",
-      "programme-area": "Digital & tech",
-      "programme-area-href": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/digital-tech/",
-      "source": "GSK-grads"
-    }
-  },
-  {
-    "title": null,
-    "reason": "missing title",
-    "raw": {
-      "web-scraper-order": "1753439466-7",
-      "web-scraper-start-url": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/",
-      "programme-area": "Manufacturing sciences & technology",
-      "programme-area-href": "https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/manufacturing-sciences-technology/",
-      "source": "GSK-grads"
-    }
-  },
-  {
-    "title": "Aldi Area Manager Graduate Programme",
-    "reason": "missing valid link",
-    "raw": {
-      "web-scraper-order": "1753432736-1",
-      "web-scraper-start-url": "https://www.aldirecruitment.co.uk/early-careers/graduate-programme",
-      "role-title": "Aldi Area Manager Graduate Programme",
-      "role-requirements": "96 UCAS POINTS OR 63 SCOTTISH HIGHERS (OR EQUIVALENT ON THE OLD TARIFF) FROM YOUR TOP 3 A-LEVELS/SCOTTISH HIGHERS (OR THE EQUIVALENT FROM OTHER RELEVANT QUALIFICATIONS)\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\nA 2:1 DEGREE IN ANY DISCIPLINE\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\nA DRIVING LICENCE\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\nTHE RIGHT TO WORK IN THE UK",
-      "roledescription": "You’ve probably heard a lot about the Aldi Area Manager Graduate Programme by now - and if you’ve not then you’ve come to the right place. We want our graduates to bring the best version of themselves and in return we’ll reward them with a fantastic package - and the rumours are true, it includes a fully expensed car!\n\nIt requires dedication and determination but the results are so rewarding - whether that’s through your professional development, your growth as an individual or seeing your store teams thrive (and it’ll be your responsibility to inspire them!).\n\nThroughout the year, you’ll learn the ins and outs of store life, before discovering what it takes to lead a group of £multi-million businesses. Afterwards? Well, it could be just the start of an exciting career full of amazing opportunities.",
-      "role-salary": "£50,750 starting salary",
-      "role-status": "CLOSED",
-      "source": "aldi-grads"
+      "web-scraper-order": "1753623057-1",
+      "web-scraper-start-url": "https://careers.db.com/students-graduates/Search-Programmes/#/graduate/results/?program=10",
+      "programme-page": "",
+      "programme-page-href": "",
+      "name": "",
+      "location": "",
+      "description": "",
+      "apply-link": "",
+      "apply-link-href": "",
+      "source": "DEUTSCHE-BANK-GRADS"
     }
   }
 ]
