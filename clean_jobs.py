@@ -1,4 +1,9 @@
 import json
+import os
+
+# Load all scraped jobs
+with open("all-jobs.json", "r", encoding="utf-8") as f:
+    all_jobs = json.load(f)
 
 cleaned_jobs = []
 skipped_jobs = []
@@ -7,7 +12,6 @@ TITLE_FIELDS = ["role-title", "role-name", "title", "name"]
 PROGRAMME_LINK_FIELDS = [
     "programme-page", "programme-link", "programme-list",
     "programme-page-href", "role-page", "role-page-href"
-    # "job-page-href" is not included here by default!
 ]
 APPLY_LINK_FIELDS = [
     "apply-link", "apply-link-href", "apply-button", "apply-button-href"
@@ -36,7 +40,6 @@ def infer_company_from_source(source):
                  .strip()
     return name.title()
 
-# all_jobs should be loaded from your data source
 for job in all_jobs:
     cleaned = {}
     raw = job.copy()
@@ -110,3 +113,11 @@ with open("cleaned_jobs.json", "w", encoding="utf-8") as f:
 if skipped_jobs:
     with open("skipped_jobs.json", "w", encoding="utf-8") as f:
         json.dump(skipped_jobs, f, ensure_ascii=False, indent=2)
+
+# Output summary
+print(f"✅ Cleaned and normalized {len(cleaned_jobs)} job listings.")
+if skipped_jobs:
+    print(f"⚠️ Skipped {len(skipped_jobs)} jobs. See skipped_jobs.json for details.")
+    print("🟡 Skipped preview:")
+    for j in skipped_jobs[:5]:
+        print(f"• Reason: {j['reason']} | Title: {j['title']}")
