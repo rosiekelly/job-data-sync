@@ -1,4 +1,4 @@
-dimport json
+import json
 
 cleaned_jobs = []
 skipped_jobs = []
