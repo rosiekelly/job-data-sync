@@ -1,8 +1,4 @@
-import json
-
-# Load all_jobs from a JSON file
-with open("jobs.json", "r", encoding="utf-8") as f:
-    all_jobs = json.load(f)
+dimport json
 
 cleaned_jobs = []
 skipped_jobs = []
