@@ -11,7 +11,7 @@ skipped_jobs = []
 TITLE_FIELDS = ["role-title", "role-name", "title", "name"]
 PROGRAMME_LINK_FIELDS = [
     "programme-page", "programme-link", "programme-list",
-    "programme-page-href", "role-page", "role-page-href"
+    "programme-page-href", "role-page", "role-page-href","job-page-href"
 ]
 APPLY_LINK_FIELDS = [
     "apply-link", "apply-link-href", "apply-button", "apply-button-href"
