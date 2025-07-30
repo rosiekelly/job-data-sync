@@ -2889,5 +2889,116 @@
     "apply-button": "Browse all open positions",
     "apply-button-href": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus",
     "source": "airbus-grads"
+  },
+  {
+    "web-scraper-order": "1753795843-1",
+    "web-scraper-start-url": "https://careers.db.com/students-graduates/Search-Programmes/#/graduate/results/?program=10",
+    "programme-page": "",
+    "programme-page-href": "",
+    "name": "",
+    "location": "",
+    "description": "",
+    "apply-link": "",
+    "apply-link-href": "",
+    "source": "DEUTSCHE-BANK-GRADS"
+  },
+  {
+    "web-scraper-order": "1753519822-1",
+    "web-scraper-start-url": "https://search.jobs.barclays/graduates",
+    "job-page": "Find out more",
+    "job-page-href": "https://search.jobs.barclays/graduates-wholesale-lending",
+    "role-name": "Wholesale Lending",
+    "role-description": "In our Wholesale Lending Graduate Programme, you'll be part of an international team that plays a vital role in relationship lending across Barclays’ Corporate and Investment Bank. Our team is responsible for product management, structuring, and executing tailored lending solutions for clients worldwide. This programme offers a unique opportunity to gain hands-on experience with Barclays’ core lending products, credit analysis, and the full transaction life cycle.",
+    "apply-link": "Apply for a job",
+    "apply-link-href": "https://search.jobs.barclays/graduates-wholesale-lending-jobs",
+    "source": "Barclays-expert-grads"
+  },
+  {
+    "web-scraper-order": "1753519825-2",
+    "web-scraper-start-url": "https://search.jobs.barclays/graduates",
+    "job-page": "Find out more",
+    "job-page-href": "https://search.jobs.barclays/graduates-internal-audit",
+    "role-name": "Internal Audit",
+    "role-description": "At Barclays, our reputation is our most valuable asset, and our Internal Audit team is key to protecting it. The Internal Audit Graduate Programme offers you the chance to make a significant impact by providing independent, insightful, and timely assurance on the effectiveness of our governance, risk management, and controls. You’ll start with intensive training and then rotate through various audit teams, gaining a comprehensive understanding of our business and its risks.",
+    "apply-link": "Apply for a job",
+    "apply-link-href": "https://search.jobs.barclays/graduates-internal-audit-jobs",
+    "source": "Barclays-expert-grads"
+  },
+  {
+    "web-scraper-order": "1753519827-3",
+    "web-scraper-start-url": "https://search.jobs.barclays/graduates",
+    "job-page": "Find out more",
+    "job-page-href": "https://search.jobs.barclays/graduates-investment-banking",
+    "role-name": "Investment Banking",
+    "role-description": "In Investment Banking, we help some of the world’s biggest, most innovative organisations, to achieve their short and long-term goals. The challenges in this part of our business come in all shapes and sizes. They range from acquisitions, financings, divestitures, and restructurings to leveraged buyouts, exclusive sales and takeover defence. No matter which group you join, you’ll have the flexibility to find your passion and develop in a host of different directions.",
+    "apply-link": "Apply for a job",
+    "apply-link-href": "https://search.jobs.barclays/graduates-investment-banking-global-jobs",
+    "source": "Barclays-expert-grads"
+  },
+  {
+    "web-scraper-order": "1753519829-4",
+    "web-scraper-start-url": "https://search.jobs.barclays/graduates",
+    "job-page": "Find out more",
+    "job-page-href": "https://search.jobs.barclays/graduates-markets",
+    "role-name": "Markets",
+    "role-description": "Markets is the financial barometer of world events at Barclays. So every day is different and it’s a challenging, fascinating place to build a career. We help institutional investors to identify market opportunities, manage risk and generate returns for their portfolios. Our teams provide market insights, execution services and tailored risk management and financing solutions to our clients; we help them protect their capital and make the most of their assets. And, as one of the largest investment banks in the world, we offer a full range of products and services across every type of investment market.",
+    "apply-link": "Apply for a job",
+    "apply-link-href": "https://search.jobs.barclays/graduates-markets-jobs",
+    "source": "Barclays-expert-grads"
+  },
+  {
+    "web-scraper-order": "1753519832-5",
+    "web-scraper-start-url": "https://search.jobs.barclays/graduates",
+    "job-page": "Find out more",
+    "job-page-href": "https://search.jobs.barclays/graduates-international-corporate-bank",
+    "role-name": "International Corporate Banking",
+    "role-description": "Barclays is one of the world’s biggest full-service banks. With a growing international footprint and a significant investment banking presence in both the UK and the US, we hold a unique place in the banking world. At ICB, we connect some of the most interesting and influential organisations to the global power of one Barclays. We act as the relationship anchor, offering clients access to the largest capital markets and biggest growth opportunities in the world. We focus on building long-term relationships, developing deep understanding and delivering great outcomes. By acting as true partners to our stellar client list, we bring the power of one Barclays to life.",
+    "apply-link": "Apply for a job",
+    "apply-link-href": "https://search.jobs.barclays/graduate-international-corporate-bank-jobs",
+    "source": "Barclays-expert-grads"
+  },
+  {
+    "web-scraper-order": "1753519834-6",
+    "web-scraper-start-url": "https://search.jobs.barclays/graduates",
+    "job-page": "Find out more",
+    "job-page-href": "https://search.jobs.barclays/graduates-research",
+    "role-name": "Research",
+    "role-description": "Research is an ideas factory. We dig deep into the underlying factors that affect the world’s financial markets and provide insights that empower our clients to take key strategic and investment decisions. Research is a centre of subject-matter expertise on the companies, markets and securities that we cover, delivering real-time intelligence and long-term vision. It’s vital to the performance of our global investment bank.",
+    "apply-link": "Apply for a job",
+    "apply-link-href": "https://search.jobs.barclays/graduates-research-jobs",
+    "source": "Barclays-expert-grads"
+  },
+  {
+    "web-scraper-order": "1753519837-7",
+    "web-scraper-start-url": "https://search.jobs.barclays/graduates",
+    "job-page": "Find out more",
+    "job-page-href": "https://search.jobs.barclays/graduates-quantitative-analytics",
+    "role-name": "Quantitative Finance",
+    "role-description": "We provide quantitative and algorithmic solutions with direct business application in trading, risk management and data science.\n\nYour role as a graduate recruit will provide you with an insight into how these solutions are created and furnish you with the skills and experience needed for a successful career in quantitative finance.",
+    "apply-link": "Apply for a job",
+    "apply-link-href": "https://search.jobs.barclays/graduates-quantitative-analytics-global",
+    "source": "Barclays-expert-grads"
+  },
+  {
+    "web-scraper-order": "1753519839-8",
+    "web-scraper-start-url": "https://search.jobs.barclays/graduates",
+    "job-page": "Find out more",
+    "job-page-href": "https://search.jobs.barclays/graduates-data-analytics",
+    "role-name": "Data and Analytics",
+    "role-description": "Join our Expert Programme, and we’ll develop you into a data and decisions sciences specialist, embedded within either Barclays UK, which serves our personal and SME customers and clients, or Barclays Payments which provides payment products and services to our Corporate clients.",
+    "apply-link": "Apply for a job",
+    "apply-link-href": "https://search.jobs.barclays/retail-banking-data-and-analytics-graduate-programme-2024",
+    "source": "Barclays-expert-grads"
+  },
+  {
+    "web-scraper-order": "1753519842-9",
+    "web-scraper-start-url": "https://search.jobs.barclays/graduates",
+    "job-page": "Find out more",
+    "job-page-href": "https://search.jobs.barclays/graduates-aspiring-developer",
+    "role-name": "Developer",
+    "role-description": "Code enables everything we do. The way we live, learn and grow. When you learn to code, you’re not only learning the language of technology, you’re learning how to enable the future. So ask yourself this: what kind of future do you want to live in? Now imagine being able to use technology to shape that future, even if you’ve never coded before. It's happening here.",
+    "apply-link": "Apply for a job",
+    "apply-link-href": "https://search.jobs.barclays/Graduates-Aspiring-Developer-Worldwide",
+    "source": "Barclays-expert-grads"
   }
 ]
