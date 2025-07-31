@@ -2877,5 +2877,93 @@
     "role-salary": "£50,750 starting salary",
     "role-status": "CLOSED",
     "source": "aldi-grads"
+  },
+  {
+    "web-scraper-order": "1753472092-1",
+    "web-scraper-start-url": "https://search.jobs.barclays/graduates",
+    "job-page": "Find out more",
+    "job-page-href": "https://search.jobs.barclays/graduates-transaction-banking",
+    "role-name": "Global Transaction Banking",
+    "role-description": "At its heart, Global Transaction Banking helps businesses manage their working capital, and is one of the most significant elements of global corporate finance. We provide the working capital for the corporations and enterprises that drive the global economy. The products and solutions that we develop and deliver underpin the supply chain, manufacturing, production, trade and payments cycles of the world’s biggest businesses.",
+    "apply-link": "Apply for a job",
+    "apply-link-href": "https://search.jobs.barclays/graduates-transaction-banking-jobs",
+    "source": "barclays-explorer-grads"
+  },
+  {
+    "web-scraper-order": "1753472094-2",
+    "web-scraper-start-url": "https://search.jobs.barclays/graduates",
+    "job-page": "Find out more",
+    "job-page-href": "https://search.jobs.barclays/graduates-developer",
+    "role-name": "Developer",
+    "role-description": "We have a long, proud history of tech innovation in banking and we’re continuing to develop world-class applications at a rapid pace, investing significantly in the technology that powers every aspect of our operations. From consumer experience to big data, from cyber security to infrastructure, we’re using the very best tech today and developing innovative and world leading tech for tomorrow. Developers are critical to all of this. If you have coding skills, this could be the ideal route for you. But this isn’t just about being fluent in programming languages. If you want to create a new and better banking experience for clients, customers and colleagues, our Developer Explorer programme is the place to start. It's happening here.",
+    "apply-link": "Apply for a job",
+    "apply-link-href": "https://search.jobs.barclays/graduates-developer-global-roles",
+    "source": "barclays-explorer-grads"
+  },
+  {
+    "web-scraper-order": "1753472097-3",
+    "web-scraper-start-url": "https://search.jobs.barclays/graduates",
+    "job-page": "Find out more",
+    "job-page-href": "https://search.jobs.barclays/graduates-private-bank",
+    "role-name": "Private Banking & Wealth Management",
+    "role-description": "Barclays Private Banking and Wealth Management works closely with high-net-worth clients and their advisors who have complex banking and investment needs, both in the UK and across the world. We are here to understand their situation and their aspirations, so we can help them to reach their goals. We harness a global network of knowledge, expertise and professional partners to meet our clients’ unique requirements. Whatever they want to achieve, our Private Bankers and specialists create the personalised solutions that will help them achieve it.",
+    "apply-link": "Apply for a job",
+    "apply-link-href": "https://search.jobs.barclays/graduates-private-bank-jobs",
+    "source": "barclays-explorer-grads"
+  },
+  {
+    "web-scraper-order": "1753472099-4",
+    "web-scraper-start-url": "https://search.jobs.barclays/graduates",
+    "job-page": "Find out more",
+    "job-page-href": "https://search.jobs.barclays/graduates-enabling-functions",
+    "role-name": "Enabling Functions",
+    "role-description": "Our Enabling Functions are there behind every deal, change, or transformation. They keep every area of our business running smoothly, helping us operate efficiently and sharpening our edge in a fiercely competitive industry. This is your opportunity to build an extraordinary depth and breadth of experience through a deep dive into one of eight areas within Enabling Functions at Barclays. You’ll work across geographic and divisional boundaries, discovering how one of the world’s biggest banks operates and delivers across multiple regions. You’ll learn from experts as you experience and influence every part of the business. The Explorer Programme will enable you to get your career off to a great start.",
+    "apply-link": "Apply for a job",
+    "apply-link-href": "https://search.jobs.barclays/graduates-enabling-functions-global-roles",
+    "source": "barclays-explorer-grads"
+  },
+  {
+    "web-scraper-order": "1753472102-5",
+    "web-scraper-start-url": "https://search.jobs.barclays/graduates",
+    "job-page": "Find out more",
+    "job-page-href": "https://search.jobs.barclays/graduates-consumer-retail-banking",
+    "role-name": "Consumer and Retail Banking",
+    "role-description": "At Barclays, we are working together to build a better bank, a more efficient bank that is safe, intuitive and that will support people and businesses responsibly and sustainably. A bank that knows its customers and clients, champions innovation and thinks digital first, offers trusted money management guidance and support, and provides personalised advice to match customer and client life goals. The Explorer Programme builds an extraordinary depth and breadth of experience through a deep dive into a chosen business area. By the end of your programme you’ll have gained all the understanding and skills you need to move into a fulfilling permanent role.",
+    "apply-link": "Apply for a job",
+    "apply-link-href": "https://search.jobs.barclays/graduates-consumer-retail-banking-jobs",
+    "source": "barclays-explorer-grads"
+  },
+  {
+    "web-scraper-order": "1753472105-6",
+    "web-scraper-start-url": "https://search.jobs.barclays/graduates",
+    "job-page": "Find out more",
+    "job-page-href": "https://search.jobs.barclays/graduates-us-consumer-bank",
+    "role-name": "US Consumer Bank",
+    "role-description": "Our US Consumer Banking programme is your gateway to joining one of America’s top ten credit card issuers. At Barclays US Consumer Bank, we partner with some of the country’s most recognizable brands, such as American Airlines, Gap, and JetBlue, to deliver credit cards, loans, and deposit products. We’re a partner-centric bank, committed to providing exceptional customer experiences with a human touch. Here, you’ll have the chance to work on strategic, digital, product, and analytical projects that directly impact our partners and customers.",
+    "apply-link": "Apply for a job",
+    "apply-link-href": "https://search.jobs.barclays/graduates-us-consumer-bank-jobs",
+    "source": "barclays-explorer-grads"
+  },
+  {
+    "web-scraper-order": "1753472108-7",
+    "web-scraper-start-url": "https://search.jobs.barclays/graduates",
+    "job-page": "Find out more",
+    "job-page-href": "https://search.jobs.barclays/graduates-uk-corporate-bank",
+    "role-name": "UK Corporate Banking",
+    "role-description": "On the UK Corporate Banking programme, you’ll work with some of the largest and most influential businesses within the UK, addressing their diverse banking needs. Our industry-specialised approach sets us apart, ensuring that you and all our colleagues are experts in their respective markets. Join us, and you'll play a crucial role in supporting strategic clients, ranging from daily banking needs to complex mergers, acquisitions, and ESG planning.",
+    "apply-link": "Apply for a job",
+    "apply-link-href": "https://search.jobs.barclays/graduates-uk-corporate-bank-jobs",
+    "source": "barclays-explorer-grads"
+  },
+  {
+    "web-scraper-order": "1753472110-8",
+    "web-scraper-start-url": "https://search.jobs.barclays/graduates",
+    "job-page": "Find out more",
+    "job-page-href": "https://search.jobs.barclays/graduates-operations-technology",
+    "role-name": "Operations and Technology",
+    "role-description": "Our Operations and Technology teams are at the heart of every innovation at Barclays, from driving and optimising smooth transaction processing for millions of customers and clients around the world to building and deploying ground-breaking platforms propelling our business forward. Join one of our teams and you’ll hone your technical skills and project management expertise in an ever-evolving environment.\n\nThe Chief Security Office exists to protect the bank and its clients, customers and colleagues. We are here to shield the bank from external and internal threats, and every day presents new challenges. These range from cyber-crime, terrorism, viruses, world events and protesters, to the effects of adverse weather conditions and even upheaval in the external economic climate. We protect people, property and technology. As the world around us changes, we are prepared and ready to respond – our work might not always be visible, but we are always there, always vigilant. This makes our work endlessly interesting, meaningful and challenging. We keep the bank, customers, clients and colleagues safe, secure and always on.",
+    "apply-link": "Apply for a job",
+    "apply-link-href": "https://search.jobs.barclays/graduates-operations-technology-worldwide",
+    "source": "barclays-explorer-grads"
   }
 ]
