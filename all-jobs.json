@@ -2779,18 +2779,6 @@
     "source": "airbus-grads"
   },
   {
-    "web-scraper-order": "1753968673-1",
-    "web-scraper-start-url": "https://careers.db.com/students-graduates/Search-Programmes/#/graduate/results/?program=10",
-    "programme-page": "",
-    "programme-page-href": "",
-    "name": "",
-    "location": "",
-    "description": "",
-    "apply-link": "",
-    "apply-link-href": "",
-    "source": "DEUTSCHE-BANK-GRADS"
-  },
-  {
     "web-scraper-order": "1753968675-1",
     "web-scraper-start-url": "https://careers.ba.com/graduates-bps-and-interns",
     "role-title": "Summer Internships",
