@@ -1,45 +1,3 @@
-import json
-import os
-
-# Load all scraped jobs
-with open("all-jobs.json", "r", encoding="utf-8") as f:
-    all_jobs = json.load(f)
-
-cleaned_jobs = []
-skipped_jobs = []
-
-TITLE_FIELDS = ["role-title", "role-name", "title", "name"]
-PROGRAMME_LINK_FIELDS = [
-    "programme-page", "programme-link", "programme-list",
-    "programme-page-href", "role-page", "role-page-href","job-page-href"
-]
-APPLY_LINK_FIELDS = [
-    "apply-link", "apply-link-href", "apply-button", "apply-button-href"
-]
-LOCATION_FIELDS = ["location", "office-location", "job-location", "city"]
-DESCRIPTION_FIELDS = ["description", "job-description", "role-description"]
-
-def get_first_existing_field(job, fields):
-    for field in fields:
-        if field in job and job[field] and str(job[field]).strip():
-            return job[field]
-    return None
-
-def is_url(val):
-    return isinstance(val, str) and (
-        val.startswith("http://") or val.startswith("https://")
-    )
-
-def infer_company_from_source(source):
-    if not source:
-        return None
-    name = source.replace("-grads", "")\
-                 .replace("-graduates", "")\
-                 .replace("-jobs", "")\
-                 .replace("-", " ")\
-                 .strip()
-    return name.title()
-
 for job in all_jobs:
     cleaned = {}
     raw = job.copy()
@@ -54,31 +12,36 @@ for job in all_jobs:
         })
         continue
 
-    # Step 1: Try all programme fields and pick the first that is a URL
+    # Determine link depending on source
+    source = job.get("source", "")
     link = None
-    for field in PROGRAMME_LINK_FIELDS:
-        val = job.get(field)
+    if "brightnetwork-grads" in source:
+        # For brightnetwork-grads, use only "apply-button-href"
+        val = job.get("apply-button-href")
         if is_url(val):
             link = val.strip()
-            break
+    else:
+        # For all other sources, use original logic
+        for field in PROGRAMME_LINK_FIELDS:
+            val = job.get(field)
+            if is_url(val):
+                link = val.strip()
+                break
+        if not link:
+            button_val = job.get("apply-button")
+            button_href = job.get("apply-button-href")
+            if is_url(button_href):
+                link = button_href.strip()
+            elif is_url(button_val):
+                link = button_val.strip()
+            else:
+                for field in APPLY_LINK_FIELDS:
+                    val = job.get(field)
+                    if is_url(val):
+                        link = val.strip()
+                        break
 
-    # Step 2: If no valid programme-page url, try apply fields (prefer URL)
-    if not link:
-        button_val = job.get("apply-button")
-        button_href = job.get("apply-button-href")
-        if is_url(button_href):
-            link = button_href.strip()
-        elif is_url(button_val):
-            link = button_val.strip()
-        else:
-            # Try all apply fields in order
-            for field in APPLY_LINK_FIELDS:
-                val = job.get(field)
-                if is_url(val):
-                    link = val.strip()
-                    break
-
-    # Step 3: Validate link
+    # Validate link
     if not is_url(link):
         skipped_jobs.append({
             "title": title,
@@ -104,20 +67,3 @@ for job in all_jobs:
         cleaned["company"] = None
 
     cleaned_jobs.append(cleaned)
-
-# Write cleaned jobs to file
-with open("cleaned_jobs.json", "w", encoding="utf-8") as f:
-    json.dump(cleaned_jobs, f, ensure_ascii=False, indent=2)
-
-# Write skipped jobs to file
-if skipped_jobs:
-    with open("skipped_jobs.json", "w", encoding="utf-8") as f:
-        json.dump(skipped_jobs, f, ensure_ascii=False, indent=2)
-
-# Output summary
-print(f"✅ Cleaned and normalized {len(cleaned_jobs)} job listings.")
-if skipped_jobs:
-    print(f"⚠️ Skipped {len(skipped_jobs)} jobs. See skipped_jobs.json for details.")
-    print("🟡 Skipped preview:")
-    for j in skipped_jobs[:5]:
-        print(f"• Reason: {j['reason']} | Title: {j['title']}")
